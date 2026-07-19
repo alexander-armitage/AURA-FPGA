@@ -1,0 +1,244 @@
+(footprint "XT30PWM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XT30PW-M")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4a7b8206-480d-46a6-b257-610fdb8a9517")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XT30PWM"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0e32f74b-2d72-4c31-925e-8c5aad050e01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0201954-ff51-4afc-8bd4-77e8ebb25283")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd9b5f92-04aa-4e32-adb7-5ac3e3b28de6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.25 -8.188)
+		(end 7.25 -8.188)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2efc2dc4-b423-4b92-8fcf-c3b9ae4690e8")
+	)
+	(fp_line
+		(start -7.25 -2.5)
+		(end -7.25 -8.188)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a4c7ee8-391c-45e1-ad4c-00dddabb91e5")
+	)
+	(fp_line
+		(start -5.25 -2.5)
+		(end -7.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d45db4ba-b642-4c5a-a988-44f746cdc3ac")
+	)
+	(fp_line
+		(start -5.25 7.5)
+		(end -5.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8831f2a5-a532-4d90-89a5-ed33b44e60c0")
+	)
+	(fp_line
+		(start 5.25 -2.5)
+		(end 5.25 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3712a073-1b5a-430d-a8a3-ccf33d2e24c9")
+	)
+	(fp_line
+		(start 5.25 7.5)
+		(end -5.25 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7cb4cddb-2710-4999-81c9-ab3b60c3c7a0")
+	)
+	(fp_line
+		(start 7.25 -8.188)
+		(end 7.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffdfe73a-4b5e-4791-a2ed-55448f26da43")
+	)
+	(fp_line
+		(start 7.25 -2.5)
+		(end 5.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0dab0860-dc23-4a7f-b201-f75f8ffdd1a9")
+	)
+	(fp_line
+		(start -4.95 -7.25)
+		(end 4.95 -7.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5064bad9-e776-450e-9940-304ce7c36538")
+	)
+	(fp_line
+		(start -4.95 6.762)
+		(end -4.95 -7.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8ed6ec2-b1dc-421b-b3ba-656a03ab70a7")
+	)
+	(fp_line
+		(start 4.95 -7.25)
+		(end 4.95 6.762)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5124ec61-f7e7-473a-881e-43caf033ac5b")
+	)
+	(fp_line
+		(start 4.95 6.762)
+		(end -4.95 6.762)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "919df0b9-8ebe-4e81-a72b-81f0ee7f0c5a")
+	)
+	(fp_text user "PCB_EDGE"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "f6fe432e-47e0-4c75-a21c-ca8787e4da80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b2e28d74-f66f-4303-b9b6-8a7bc862167c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 6)
+		(size 2.65 2.65)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b814648-5a5c-44da-88c2-d86148c5e758")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 6)
+		(size 2.65 2.65)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de5bfac4-7cc5-4633-b18b-e0662ce65358")
+	)
+	(pad "3" thru_hole circle
+		(at 5.5 -4)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8b2104b-ebc0-45c0-8740-e4114e76603e")
+	)
+	(pad "4" thru_hole circle
+		(at -5.5 -4)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77f6a7f5-8875-4602-abf3-bb538e026c27")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/XT30PW-M.stp"
+		(offset
+			(xyz 0 -2 2.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

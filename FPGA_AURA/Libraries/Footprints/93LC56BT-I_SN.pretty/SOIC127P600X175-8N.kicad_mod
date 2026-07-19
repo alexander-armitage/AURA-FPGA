@@ -1,0 +1,768 @@
+(footprint "SOIC127P600X175-8N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U6"
+		(at 0.68689 -3.94328 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ee714e2f-8029-4057-a970-0438582f83aa")
+		(effects
+			(font
+				(size 1.642614 1.642614)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "93LC56BT-I_SN"
+		(at 13.20197 3.86647 0)
+		(layer "F.Fab")
+		(uuid "8a5b0af7-a44a-4c47-a07f-4ce1126861e3")
+		(effects
+			(font
+				(size 1.642409 1.642409)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76efc34a-7cb8-40aa-a938-bfbd970b41ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcaa8895-1960-4169-87ae-dca97dd4d2cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Microchip Technology"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f93446d7-2108-4c27-95ac-773b5513c6c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "2K, 128 X 16, SERIAL EE, IND8 SOIC 3.90mm(.150in) T/R | Microchip Technology Inc. 93LC56BT-I/SN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "651bc7a5-f6da-4cd4-9691-8ddd58209fbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "SOIC-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0051528a-a78b-436f-a234-bc209abccece")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "93LC56BT-I/SN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3579dca-d78f-40d4-ac23-a7f502addde2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76be333e-f716-4288-a2ac-b6ee7c03689b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SO-8 Microchip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a16acdbf-c618-42e9-b996-33ab28356890")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "OC_FARNELL" "9758240"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0654ccb8-c773-4b6a-a5e5-050fcaa4ab40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/93LC56BT-I/SN/Microchip+Technology/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f45f841f-48a7-40ed-a2d0-ad7cd9f587a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "93LC56BT-I/SN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fa7a8ee-ed8d-4d0d-b62e-f4a16bddfda8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5509585&manufacturer=Microchip Technology&part_name=93LC56BT-I/SN&search_term=93lc56bt-i/sn"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51a95dff-3247-4a7f-87f6-6a8d9f6c5a7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER" "MICROCHIP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11e4a1c6-c03d-494b-8c69-52510d5dc180")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "OC_NEWARK" "96K4109"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fdb4652-5577-4982-9169-a16bc1b25c9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13a7aa0b-9be0-419c-ac99-62c0765b90f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/93LC56BT-I/SN/Microchip+Technology/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a24be33-a60f-45ee-99f6-04ac4fbac352")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1684 2.4384)
+		(end 1.1684 2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bdd8c9e0-0329-43a1-9722-fa76d8465dc1")
+	)
+	(fp_line
+		(start -0.3048 -2.4384)
+		(end -1.1684 -2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fb268e9-c9b6-44e5-a5d0-dde3cdd2ed38")
+	)
+	(fp_line
+		(start 0.3048 -2.4384)
+		(end -0.3048 -2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1b81987-3528-484e-a1b0-518d08aae759")
+	)
+	(fp_line
+		(start 1.1684 -2.4384)
+		(end 0.3048 -2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e46ff3c-e9a8-4794-b63c-7a543ca90f07")
+	)
+	(fp_arc
+		(start 0.3048 -2.4384)
+		(mid 0 -2.1336)
+		(end -0.3048 -2.4384)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84231d28-6165-48d2-9a3a-d26e5131e0e9")
+	)
+	(fp_circle
+		(center -2.8 -2.6)
+		(end -2.6 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c8ad922d-aadb-49e6-bb69-7d7ef6444b48")
+	)
+	(fp_rect
+		(start -4 -3)
+		(end 4 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "761ea9b2-7798-47eb-9dbd-aa3288b01b92")
+	)
+	(fp_line
+		(start -2.9972 -2.159)
+		(end -2.9972 -1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28151d0b-3aa7-4e7c-a430-ba4371f841d5")
+	)
+	(fp_line
+		(start -2.9972 -1.651)
+		(end -1.9558 -1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4a75164-7e9a-4445-8176-2f5f9b624b32")
+	)
+	(fp_line
+		(start -2.9972 -0.889)
+		(end -2.9972 -0.381)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e58950c-6dd8-4870-a657-3526c4014eae")
+	)
+	(fp_line
+		(start -2.9972 -0.381)
+		(end -1.9558 -0.381)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bf1514b-3c90-440a-a20b-16a33794982e")
+	)
+	(fp_line
+		(start -2.9972 0.381)
+		(end -2.9972 0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02b8eb4b-b7a8-4ef1-94d7-71a3955343ac")
+	)
+	(fp_line
+		(start -2.9972 0.889)
+		(end -1.9558 0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5c07e9d-1997-4071-abca-fb77a64c60f0")
+	)
+	(fp_line
+		(start -2.9972 1.651)
+		(end -2.9972 2.159)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d256340-b4fc-4286-99e7-e852820006e6")
+	)
+	(fp_line
+		(start -2.9972 2.159)
+		(end -1.9558 2.159)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93a5335b-a69f-4a49-b14c-1252687891c3")
+	)
+	(fp_line
+		(start -1.9558 -2.4384)
+		(end -1.9558 2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01a9f638-0c9c-4ffa-b2c9-46ef98ce7152")
+	)
+	(fp_line
+		(start -1.9558 -2.159)
+		(end -2.9972 -2.159)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88259eb7-58e3-4334-9f63-ac84c958dfac")
+	)
+	(fp_line
+		(start -1.9558 -1.651)
+		(end -1.9558 -2.159)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f85f2a3d-6bcf-4eba-a165-9c74a0ebdfe3")
+	)
+	(fp_line
+		(start -1.9558 -0.889)
+		(end -2.9972 -0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4b5e573-81af-4d19-ae38-30dfc0e4045c")
+	)
+	(fp_line
+		(start -1.9558 -0.381)
+		(end -1.9558 -0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "752ab5a6-bd0c-4124-913d-28420ae56247")
+	)
+	(fp_line
+		(start -1.9558 0.381)
+		(end -2.9972 0.381)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c58475c7-e904-4ce0-8f15-10ecc3ed95cf")
+	)
+	(fp_line
+		(start -1.9558 0.889)
+		(end -1.9558 0.381)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc0c1915-0c39-43b7-869a-fe910ddf8f0d")
+	)
+	(fp_line
+		(start -1.9558 1.651)
+		(end -2.9972 1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "977058cc-7660-43dd-898e-3d204a10f890")
+	)
+	(fp_line
+		(start -1.9558 2.159)
+		(end -1.9558 1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57f36205-3b1e-48b3-8108-b860eb2b1a9d")
+	)
+	(fp_line
+		(start -1.9558 2.4384)
+		(end 1.9558 2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93fb02d4-8447-492e-8bd3-70ed0a78bd07")
+	)
+	(fp_line
+		(start -0.3048 -2.4384)
+		(end -1.9558 -2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06e8378b-be2f-4f8a-ae91-0b4964a1fc20")
+	)
+	(fp_line
+		(start 0.3048 -2.4384)
+		(end -0.3048 -2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3538347-1040-4ef8-84f2-36701657240b")
+	)
+	(fp_line
+		(start 1.9558 -2.4384)
+		(end 0.3048 -2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e76ab93-2614-4b29-9f92-ad2ee9809837")
+	)
+	(fp_line
+		(start 1.9558 -2.159)
+		(end 1.9558 -1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53edc3bb-ee1e-4f91-846e-f665a075d171")
+	)
+	(fp_line
+		(start 1.9558 -1.651)
+		(end 2.9972 -1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "876c1b20-9b5e-4898-a135-3c6720981ac3")
+	)
+	(fp_line
+		(start 1.9558 -0.889)
+		(end 1.9558 -0.381)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d2751c5-6596-49d3-95cc-5d5c566b3c89")
+	)
+	(fp_line
+		(start 1.9558 -0.381)
+		(end 2.9972 -0.381)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7715f06b-93ca-46e6-ae5d-eabdb0892230")
+	)
+	(fp_line
+		(start 1.9558 0.381)
+		(end 1.9558 0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4e3e373-6a07-4ec1-b221-b0bdd260ecf4")
+	)
+	(fp_line
+		(start 1.9558 0.889)
+		(end 2.9972 0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "386b9884-e305-4cd8-ada2-eac0e0caf8d5")
+	)
+	(fp_line
+		(start 1.9558 1.651)
+		(end 1.9558 2.159)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "593144f6-c0c1-4110-8496-a194b5a06f2d")
+	)
+	(fp_line
+		(start 1.9558 2.159)
+		(end 2.9972 2.159)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "062d4fb8-7a7e-4352-8141-93357c5fba2c")
+	)
+	(fp_line
+		(start 1.9558 2.4384)
+		(end 1.9558 -2.4384)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "484e93cc-e6a1-4193-a4d9-dad6ce76e91e")
+	)
+	(fp_line
+		(start 2.9972 -2.159)
+		(end 1.9558 -2.159)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "697e4b3e-77fd-46a4-acaf-2406102833a2")
+	)
+	(fp_line
+		(start 2.9972 -1.651)
+		(end 2.9972 -2.159)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db9bf0cf-474d-4ff7-b00f-fa0fde714495")
+	)
+	(fp_line
+		(start 2.9972 -0.889)
+		(end 1.9558 -0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14284032-e88e-4c0e-84d3-aa373bc07bb8")
+	)
+	(fp_line
+		(start 2.9972 -0.381)
+		(end 2.9972 -0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "653e1e8a-7f8e-4c15-a81f-bff859f12caa")
+	)
+	(fp_line
+		(start 2.9972 0.381)
+		(end 1.9558 0.381)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6c951d5-d6bf-49ec-a3cb-259fbc268f42")
+	)
+	(fp_line
+		(start 2.9972 0.889)
+		(end 2.9972 0.381)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f037d822-2d9c-41b4-ad83-9ea912f23547")
+	)
+	(fp_line
+		(start 2.9972 1.651)
+		(end 1.9558 1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d543048-a1c0-46c7-a7ef-1025eb47b01d")
+	)
+	(fp_line
+		(start 2.9972 2.159)
+		(end 2.9972 1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "369bf5fb-95d3-4fab-a6af-aaa0b930f43c")
+	)
+	(fp_arc
+		(start 0.3048 -2.4384)
+		(mid 0 -2.1336)
+		(end -0.3048 -2.4384)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e5b8b9e-32a1-4cf0-8331-3e71a9358de5")
+	)
+	(pad "1" smd rect
+		(at -2.3622 -1.905)
+		(size 1.9812 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "784e0ab9-b9de-4f54-8a51-d2ab562c1675")
+	)
+	(pad "2" smd rect
+		(at -2.3622 -0.635)
+		(size 1.9812 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7436da27-93d9-4ec0-baf4-bd3063f2b4ef")
+	)
+	(pad "3" smd rect
+		(at -2.3622 0.635)
+		(size 1.9812 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2a18e608-471d-46c1-ba8c-b521610f1bb3")
+	)
+	(pad "4" smd rect
+		(at -2.3622 1.905)
+		(size 1.9812 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c4f81663-8be7-407b-84c9-42919a82fe14")
+	)
+	(pad "5" smd rect
+		(at 2.3622 1.905)
+		(size 1.9812 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0a561de2-344a-41f1-bdf2-cfad99f20c84")
+	)
+	(pad "6" smd rect
+		(at 2.3622 0.635)
+		(size 1.9812 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "537b6350-1755-41e5-a5fb-bb9e791886c3")
+	)
+	(pad "7" smd rect
+		(at 2.3622 -0.635)
+		(size 1.9812 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6d6adc36-00ba-4a62-8608-c1c8e9e6b03d")
+	)
+	(pad "8" smd rect
+		(at 2.3622 -1.905)
+		(size 1.9812 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f08b8ff7-c01c-44e8-9633-5ebde5df4aca")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/93LC56BT-I_SN.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

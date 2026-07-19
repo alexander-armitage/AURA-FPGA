@@ -1,0 +1,438 @@
+(footprint "SON127P800X600X80-9N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>W25Q256JVEIQ</b><br>")
+	(property "Reference" "U2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "353306f0-50cd-48e3-b3b2-4ea6a4a05290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "W25Q256JVEIQ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7746ed82-b769-40b7-9180-c2fd60314265")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ac29888-d7f7-4661-b0c6-6e563de51e5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "256M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "178beeea-fc53-4535-a0a1-73281f0d1144")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER_NAME" "Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c8dd933-f1ab-47d7-9bc3-ecbd09dd8745")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Winbond Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7b21c6c-59f8-4ed6-9a95-bf1131e1d614")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q256JVEIQ?qs=qSfuJ%252Bfl%2Fd4o%2FNFUf7yCgA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f7f2846-bdbc-4dc5-b47f-43795e9e5f21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "256M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9f12d82-92a0-49e1-916f-c1fc2077cb64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUSER_PART_NUMBER" "454-W25Q256JVEIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5438c6db-465d-4c4a-bb59-4281c5990508")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95ae2364-1b9e-4846-9b7b-42aef9b58176")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "WDFN-8 Winbond Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b854d8f5-3ee5-4a84-8854-3388979d1b36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/W25Q256JVEIQ/Winbond/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d86f90d3-8b99-45d2-b153-bd577937ca43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HEIGHT" "0.8mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d510333-5837-48b9-815b-956398ad99b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "W25Q256JVEIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03b09c54-d480-441b-9c6f-21c9e0bac80e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q256JVEIQ/Winbond/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be9aecbe-21b8-4bd1-80db-f86e41afafd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/w25q256jveiq/winbond-electronics?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dc93504-5907-44fa-9970-35beb71c96f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ARROW_PART_NUMBER" "W25Q256JVEIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "432c6033-9ae6-43ef-91ad-f80737c3c45c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "FLASH - NOR Memory IC 256Mb (32M x 8) SPI - Quad I/O 133 MHz 8-WSON (8x6)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "352d543e-edd6-4e6c-b349-4cbb9218b29c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5c0e6dc-5d1f-4010-b69b-8feddf05cca8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER_PART_NUMBER" "W25Q256JVEIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cd69168-a4b5-449d-b560-b50ab62252af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -4.375 -2.63)
+		(end -4.25 -2.63)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4b355b00-b45b-42bb-9ec0-cea2c9a78a0f")
+	)
+	(fp_line
+		(start -4.625 -3.3)
+		(end 4.625 -3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed912f5c-2eeb-482a-9c44-4a6f2a88e825")
+	)
+	(fp_line
+		(start -4.625 3.3)
+		(end -4.625 -3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1316aed9-a99f-4060-bb4c-ac29ba57c74b")
+	)
+	(fp_line
+		(start -4 -3)
+		(end 4 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef5fb611-9df9-4944-ab6d-709940fe1acf")
+	)
+	(fp_line
+		(start -4 -1)
+		(end -2 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ead6ede5-a7c7-4fc6-9b07-fb9b9885d223")
+	)
+	(fp_line
+		(start -4 3)
+		(end -4 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93dacd55-fbf6-49f3-99d5-d7a5c7f793f7")
+	)
+	(fp_line
+		(start 4 -3)
+		(end 4 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd255f73-b9d0-4261-97c9-88139a6bad95")
+	)
+	(fp_line
+		(start 4 3)
+		(end -4 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0276907-cfa8-4d7c-990b-9cb9419dd10d")
+	)
+	(fp_line
+		(start 4.625 -3.3)
+		(end 4.625 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e1f0330-9ad0-4871-a1a8-623ca5787dcf")
+	)
+	(fp_line
+		(start 4.625 3.3)
+		(end -4.625 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c78a19a-ca94-4798-bdcb-03a579da0473")
+	)
+	(pad "1" smd rect
+		(at -3.9 -1.905)
+		(size 0.95 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "48fa27de-cc8e-4e1b-a734-b34359924293")
+	)
+	(pad "2" smd rect
+		(at -3.9 -0.635)
+		(size 0.95 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e88a5abf-8bb9-482a-9c19-8d6a60a98224")
+	)
+	(pad "3" smd rect
+		(at -3.9 0.635)
+		(size 0.95 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "329486c1-6b9f-45d1-8b5b-7078cab93875")
+	)
+	(pad "4" smd rect
+		(at -3.9 1.905)
+		(size 0.95 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1444393e-41a6-4189-b9fd-af08b3f73a99")
+	)
+	(pad "5" smd rect
+		(at 3.9 1.905)
+		(size 0.95 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "30528d49-7ca6-417e-a66e-5c06b1c10210")
+	)
+	(pad "6" smd rect
+		(at 3.9 0.635)
+		(size 0.95 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "856c94ca-ec7d-42e8-9073-56a552d02991")
+	)
+	(pad "7" smd rect
+		(at 3.9 -0.635)
+		(size 0.95 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0b09aada-2bff-492f-8bc8-b8c9af4256be")
+	)
+	(pad "8" smd rect
+		(at 3.9 -1.905)
+		(size 0.95 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "70c696d4-edaf-4c56-9b19-ec6af57ba615")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 3.45 4.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "93887f71-fbc8-488c-be5f-85885d84212e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Models/W25Q256JVEIQ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
