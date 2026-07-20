@@ -536,7 +536,7 @@
       {
         "clearance": 0.1,
         "name": "DDR_ADDR",
-        "pcb_color": "rgb(0, 0, 255)",
+        "pcb_color": "rgb(132, 132, 132)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2281,
