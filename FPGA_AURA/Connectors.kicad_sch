@@ -5,7 +5,7 @@
 	(uuid "136413ef-b756-4540-8501-e399b3001954")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ST5-40-1.00-L-D-P-TR:ST5-40-1.00-L-D-P-TR"
+		(symbol "SS5-20-3.00-X-D-K-XX:SS5-20-3.00-X-D-K-XX"
 			(pin_names
 				(offset 1.016)
 			)
@@ -15,7 +15,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -7.62 52.07 0)
+				(at -7.62 26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,8 +25,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ST5-40-1.00-L-D-P-TR"
-				(at -7.62 -55.88 0)
+			(property "Value" "SS5-20-3.00-X-D-K-XX"
+				(at -7.62 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +36,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ST5-40-1.00-L-D-P-TR:SAMTEC_ST5-40-1.00-L-D-P-TR"
+			(property "Footprint" "SS5-20-3.00-X-D-K-XX:SAMTEC_SS5-20-3.00-X-D-K-XX"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +59,7 @@
 					)
 				)
 			)
-			(property "Description" "80 Position Connector Header, Center Strip Contacts Surface Mount Gold"
+			(property "Description" "40 Position Connector Socket, Outer Shroud Contacts Surface Mount Gold"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -83,7 +83,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.5 mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -119,7 +119,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/ST5-40-1.00-L-D-P-TR/Samtec/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/SS5-20-3.00-L-D-K-TR/Samtec+Inc./view-part/?ref=eda"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -143,7 +143,7 @@
 					(justify bottom)
 				)
 			)
-			(property "PARTREV" "G"
+			(property "PARTREV" "F"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -155,7 +155,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST5-40-1.00-L-D-P-TR/Samtec/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS5-20-3.00-L-D-K-TR/Samtec+Inc./view-part/?ref=snap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -167,7 +167,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "ST5-40-1.00-L-D-P-TR"
+			(property "MP" "SS5-20-3.00-L-D-K-TR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -203,7 +203,940 @@
 					(justify bottom)
 				)
 			)
-			(symbol "ST5-40-1.00-L-D-P-TR_0_0"
+			(symbol "SS5-20-3.00-X-D-K-XX_0_0"
+				(rectangle
+					(start -7.62 -27.94)
+					(end 7.62 25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 22.86 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 22.86 180)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 20.32 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 20.32 180)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 17.78 0)
+					(length 5.08)
+					(name "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 17.78 180)
+					(length 5.08)
+					(name "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 15.24 0)
+					(length 5.08)
+					(name "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 15.24 180)
+					(length 5.08)
+					(name "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 12.7 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -12.7 180)
+					(length 5.08)
+					(name "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -15.24 180)
+					(length 5.08)
+					(name "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -17.78 0)
+					(length 5.08)
+					(name "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 180)
+					(length 5.08)
+					(name "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -20.32 0)
+					(length 5.08)
+					(name "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -20.32 180)
+					(length 5.08)
+					(name "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -22.86 0)
+					(length 5.08)
+					(name "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -22.86 180)
+					(length 5.08)
+					(name "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -25.4 0)
+					(length 5.08)
+					(name "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -25.4 180)
+					(length 5.08)
+					(name "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SS5-40-3.00-X-D-K-XX:SS5-40-3.00-X-D-K-XX"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -7.62 52.07 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SS5-40-3.00-X-D-K-XX"
+				(at -7.62 -55.88 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SS5-40-3.00-X-D-K-XX:SAMTEC_SS5-40-3.00-X-D-K-XX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "80 Position Connector Socket, Outer Shroud Contacts Surface Mount Gold"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Samtec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.5 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SS5-40-3.00-L-D-K-TR/Samtec/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS5-40-3.00-L-D-K-TR/Samtec/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "SS5-40-3.00-L-D-K-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SS5-40-3.00-X-D-K-XX_0_0"
 				(rectangle
 					(start -7.62 -53.34)
 					(end 7.62 50.8)
@@ -1660,8 +2593,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ST5-40-1.00-L-D-P-TR:ST5-40-1.00-L-D-P-TR")
-		(at 125.73 106.68 0)
+		(lib_id "SS5-40-3.00-X-D-K-XX:SS5-40-3.00-X-D-K-XX")
+		(at 93.98 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1670,9 +2603,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b0c14b59-836b-4fd3-850f-465d62f97611")
+		(uuid "1cb22e83-77df-436c-a5d4-1e26a7de9ec0")
 		(property "Reference" "J1"
-			(at 125.73 50.8 0)
+			(at 93.98 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1681,8 +2614,8 @@
 				)
 			)
 		)
-		(property "Value" "ST5-40-1.00-L-D-P-TR"
-			(at 125.73 53.34 0)
+		(property "Value" "SS5-40-3.00-X-D-K-XX"
+			(at 93.98 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1691,8 +2624,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ST5-40-1.00-L-D-P-TR:ST5-40-1.00-L-D-P-TR"
-			(at 125.73 106.68 0)
+		(property "Footprint" "SS5-40-3.00-X-D-K-XX:SAMTEC_SS5-40-3.00-X-D-K-XX"
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1704,7 +2637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 106.68 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1714,8 +2647,8 @@
 				)
 			)
 		)
-		(property "Description" "80 Position Connector Header, Center Strip Contacts Surface Mount Gold"
-			(at 125.73 106.68 0)
+		(property "Description" "80 Position Connector Socket, Outer Shroud Contacts Surface Mount Gold"
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1727,7 +2660,7 @@
 			)
 		)
 		(property "MF" "Samtec"
-			(at 125.73 106.68 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1738,8 +2671,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.08mm"
-			(at 125.73 106.68 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.5 mm"
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1751,7 +2684,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 125.73 106.68 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,7 +2696,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 125.73 106.68 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,8 +2707,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ST5-40-1.00-L-D-P-TR/Samtec/view-part/?ref=eda"
-			(at 125.73 106.68 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/SS5-40-3.00-L-D-K-TR/Samtec/view-part/?ref=eda"
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1787,7 +2720,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 125.73 106.68 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1798,8 +2731,8 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" "G"
-			(at 125.73 106.68 0)
+		(property "PARTREV" "F"
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1810,8 +2743,8 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST5-40-1.00-L-D-P-TR/Samtec/view-part/?ref=snap"
-			(at 125.73 106.68 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS5-40-3.00-L-D-K-TR/Samtec/view-part/?ref=snap"
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,8 +2755,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ST5-40-1.00-L-D-P-TR"
-			(at 125.73 106.68 0)
+		(property "MP" "SS5-40-3.00-L-D-K-TR"
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,7 +2768,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 125.73 106.68 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +2780,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 125.73 106.68 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1859,249 +2792,577 @@
 			)
 		)
 		(pin "17"
-			(uuid "ea697e95-5f0c-4596-b794-2b4048a570c2")
-		)
-		(pin "10"
-			(uuid "42b97511-e7e6-4a4d-80b8-201a6b091c24")
-		)
-		(pin "03"
-			(uuid "2abb6a99-7064-48bf-b874-52221ef25bf3")
-		)
-		(pin "01"
-			(uuid "6ec166e3-e303-4c2d-a8ca-49a2dbfa29f8")
-		)
-		(pin "15"
-			(uuid "87177fb0-8a43-4b00-8590-06f625a36a39")
-		)
-		(pin "04"
-			(uuid "ac5dae12-1930-40e4-bade-0a49f9f4d7d9")
-		)
-		(pin "16"
-			(uuid "c384c510-be78-4fcd-b06b-37fd8a8ae166")
-		)
-		(pin "25"
-			(uuid "3636f6f5-8ddc-4e48-9d15-1be1b86d578e")
-		)
-		(pin "27"
-			(uuid "01c036b7-8319-464f-91c7-12d64d6048a2")
-		)
-		(pin "07"
-			(uuid "26d2871e-9c9a-42ef-9c9a-d08024aed9ab")
-		)
-		(pin "02"
-			(uuid "48930104-08b1-48e8-afd6-5414e0ccab6a")
-		)
-		(pin "14"
-			(uuid "2c6c99a4-618f-4625-95a8-5669016caeff")
-		)
-		(pin "32"
-			(uuid "9488b880-c420-40e6-b94a-468e226b4850")
-		)
-		(pin "34"
-			(uuid "93664890-6d83-493d-8e11-abeff21b0014")
-		)
-		(pin "18"
-			(uuid "490372ab-60c6-4bf3-8431-a3940778082b")
-		)
-		(pin "06"
-			(uuid "0711e5ac-197b-4461-8d29-bb985480815f")
-		)
-		(pin "05"
-			(uuid "df95638f-bf26-471c-bf05-15bd45309bf0")
-		)
-		(pin "09"
-			(uuid "13577d82-982b-4299-b29a-884e51ad476c")
-		)
-		(pin "12"
-			(uuid "3eb8d8f8-a10b-45d7-a831-ffb46070c61f")
-		)
-		(pin "08"
-			(uuid "b6960265-5bdc-43c2-ba33-5285ca22a65c")
-		)
-		(pin "11"
-			(uuid "d508ca2a-99e0-4828-8311-c2221e94f8e5")
-		)
-		(pin "13"
-			(uuid "e8e73bac-0ad7-4e58-b286-b083347dfa82")
+			(uuid "77f8d0a5-0b3b-46c3-a7ac-c42978270def")
 		)
 		(pin "20"
-			(uuid "79820314-cef5-471e-838e-8035eddcaf7b")
+			(uuid "1bc2d881-fd74-4394-a64a-5e0cfec9ff2e")
 		)
-		(pin "19"
-			(uuid "f5103663-f640-449e-9d5c-76389cfa3ceb")
+		(pin "25"
+			(uuid "fb444299-5fc1-49ee-a4cf-d79a185968e3")
 		)
-		(pin "21"
-			(uuid "f27f0fdc-874f-4a0a-912a-02a330356a9b")
-		)
-		(pin "23"
-			(uuid "928af19e-57c0-48c7-bf5c-8efc1f254bbe")
-		)
-		(pin "24"
-			(uuid "838c2f33-55a7-4b20-9bcb-187db64d988e")
-		)
-		(pin "22"
-			(uuid "33d35d44-179e-4f80-8884-7026a55ca51c")
-		)
-		(pin "26"
-			(uuid "6ae62c50-5788-419d-8e94-a02c70875aaf")
+		(pin "13"
+			(uuid "6aea017f-c9c2-447f-938d-ee3dac019718")
 		)
 		(pin "28"
-			(uuid "53da31d3-23f4-4933-9932-4967edb6f2ab")
+			(uuid "5d8794df-c7d3-46ef-ab39-8999d4ec7860")
 		)
-		(pin "29"
-			(uuid "141196be-d88e-48ff-bc8e-6d76042bb3ed")
+		(pin "16"
+			(uuid "5d3ac931-4cab-4851-8cff-f3c87e58bbcd")
 		)
-		(pin "30"
-			(uuid "58dee8c9-0267-4742-941d-967266df5a6a")
+		(pin "23"
+			(uuid "57f7808c-6dea-4e11-8c4d-f18e901d4f0f")
 		)
-		(pin "31"
-			(uuid "5e0c4a9e-3316-4cb5-b03e-47cd30b236d9")
+		(pin "07"
+			(uuid "aa47da39-e327-4cdf-bef2-b6f64f21a7c2")
 		)
-		(pin "33"
-			(uuid "46c5825d-de54-423a-8f57-272f439ac57c")
+		(pin "06"
+			(uuid "8805d5ea-bbde-4242-9ef3-5498be6dd51f")
 		)
-		(pin "56"
-			(uuid "e1aeb3f5-817a-4b8b-8d7b-81c56dc91940")
+		(pin "12"
+			(uuid "96cdbb0a-2974-41a8-8d9b-c828d7d9bdc1")
 		)
-		(pin "58"
-			(uuid "698cb553-179e-498b-813d-9575cbb035c4")
+		(pin "01"
+			(uuid "a992c69f-a3c8-41a6-b996-88430b6939a7")
 		)
-		(pin "39"
-			(uuid "d4343afd-193b-434a-b7b8-d85b03a8805b")
+		(pin "04"
+			(uuid "b6e44313-89b6-4836-9f29-1b615c814b6b")
 		)
-		(pin "42"
-			(uuid "727bf9d1-2b0f-4ddb-a363-69c566e0ea06")
+		(pin "10"
+			(uuid "fcaf8171-e47e-4196-bf7b-5d75936a7e19")
 		)
-		(pin "51"
-			(uuid "6d166f08-66b6-425a-9c72-fafe5de7bdbb")
+		(pin "14"
+			(uuid "4d896888-19f1-40b9-903b-d288975e64cb")
 		)
-		(pin "55"
-			(uuid "1cc8ebbf-7f36-4611-9a83-b821622a150a")
+		(pin "15"
+			(uuid "4f52cebf-a4a3-4bb9-940d-ef9fdd8b0c12")
 		)
-		(pin "59"
-			(uuid "ea59940f-8b82-47e6-903a-4635882798a4")
+		(pin "05"
+			(uuid "b3721b38-9e08-4be6-ab98-e66d4bacbf20")
 		)
-		(pin "44"
-			(uuid "761f12ba-e912-44b6-b8a0-9fcc03e9d08c")
+		(pin "19"
+			(uuid "3d10125f-40a5-45db-a517-3bdcdb72c04d")
 		)
-		(pin "37"
-			(uuid "295ddb64-7f8f-4c92-8c66-abf7fd86e0a8")
+		(pin "11"
+			(uuid "9c7c56a4-6443-473d-a265-3a58a15f338d")
 		)
-		(pin "46"
-			(uuid "f3e4f098-c62b-4202-b199-c629f1754484")
+		(pin "21"
+			(uuid "d4ebc94a-2bd5-4e69-a596-e429e38678e8")
 		)
-		(pin "35"
-			(uuid "a7dd5dc1-5a7e-4f5c-89c3-4935c88eea5e")
+		(pin "22"
+			(uuid "7fbe2056-5cf5-4509-a438-865bdfd300e2")
 		)
-		(pin "45"
-			(uuid "eda7e79b-4df5-4b11-8890-9d93409cca42")
+		(pin "08"
+			(uuid "d7eaa9dc-36e8-41f3-84b8-6c1120d1325b")
 		)
-		(pin "47"
-			(uuid "0e90bdea-c19d-4c4b-ac8a-b04831fac002")
+		(pin "09"
+			(uuid "96e2fd94-5864-463c-82bc-884db8b518ee")
 		)
-		(pin "40"
-			(uuid "c9a26c27-8cf6-42e8-9cc6-1c4ba5e53859")
+		(pin "02"
+			(uuid "e8061344-c2a4-413e-8dc0-bf0cb9e7a469")
 		)
-		(pin "38"
-			(uuid "2e705ec6-9676-4bf9-b3d0-4dba7379dedb")
+		(pin "03"
+			(uuid "0b51a253-5c9a-4348-9cfd-b9c4877ef4d0")
+		)
+		(pin "18"
+			(uuid "8a620941-53aa-415c-87d4-46c3d34b5024")
+		)
+		(pin "24"
+			(uuid "3db25ec2-023e-4bb9-822b-a4b567147fde")
+		)
+		(pin "26"
+			(uuid "9ac92593-4b2e-4763-bc9e-ccdf5830c9e7")
+		)
+		(pin "27"
+			(uuid "04944d6e-17c2-4c5a-9b46-fe43998ef1a6")
 		)
 		(pin "41"
-			(uuid "e27820ee-4de4-4628-a230-71e4570af02f")
+			(uuid "557ff2d2-a3e6-4cc2-a104-f7b394d16291")
 		)
-		(pin "49"
-			(uuid "2fcbdea7-e9d9-4883-88da-eba1faa2b527")
+		(pin "33"
+			(uuid "3535b27b-ef8d-48a8-9666-8cf363362539")
 		)
-		(pin "43"
-			(uuid "b8a94ae3-e005-446d-9baf-2c0b5fef61a3")
+		(pin "51"
+			(uuid "06df8de3-8bf7-46bd-8ee0-9f6639dd388a")
 		)
-		(pin "50"
-			(uuid "5ef3d9da-adfe-4261-8688-4920cdc9b27f")
+		(pin "32"
+			(uuid "3dd8b36a-d0c2-4f52-82a9-6f2db109889a")
 		)
-		(pin "52"
-			(uuid "225f3628-568e-4420-929e-475e1463c569")
+		(pin "40"
+			(uuid "af143884-27b0-4a2f-bed3-64d9af789808")
 		)
-		(pin "36"
-			(uuid "9daf4864-2b82-4849-bb53-3e26cae60b7a")
-		)
-		(pin "48"
-			(uuid "7b70d2c9-ad4c-4edd-8ae4-535e37c87154")
-		)
-		(pin "53"
-			(uuid "474d61de-0ce4-4a62-9427-e8fb75e4b143")
-		)
-		(pin "54"
-			(uuid "da7dfeb5-aa9d-472f-975d-9fe99c2ec837")
+		(pin "45"
+			(uuid "0c158ace-8789-44cd-8399-e43a42e4e4aa")
 		)
 		(pin "57"
-			(uuid "9bcd779b-b695-4796-ba60-371f7274dee0")
+			(uuid "2676c6ca-a7ef-4a7e-87e7-6d502b80602f")
 		)
-		(pin "60"
-			(uuid "b79a2438-1c64-4eb1-a6fc-ea4d9b5d8f88")
+		(pin "59"
+			(uuid "6ea147c8-2872-46c6-a74e-aa646aa8825c")
 		)
-		(pin "65"
-			(uuid "339e1172-ca00-4ea1-b18b-a0c03f388d51")
+		(pin "55"
+			(uuid "135c0aed-dee4-4b23-aae5-4657b255dd4b")
 		)
-		(pin "67"
-			(uuid "8d51c72d-3b85-4f4f-85eb-e0673c32a657")
+		(pin "29"
+			(uuid "8e92add6-d7bf-49d9-99ae-24f313999d1e")
 		)
-		(pin "66"
-			(uuid "e08e1b70-34f1-4fb3-8794-ac3ab3b9c38d")
+		(pin "35"
+			(uuid "74ca321e-1477-49f1-a934-df3e9be6c5db")
 		)
-		(pin "61"
-			(uuid "38cf109f-6236-4b3d-ac63-03f4be82a5f0")
+		(pin "37"
+			(uuid "4f2010d3-11d9-443c-819d-4a46baef65db")
 		)
-		(pin "73"
-			(uuid "956a8425-f690-4d29-bc58-cea84ef2dbe8")
+		(pin "42"
+			(uuid "278b7f1b-2786-40fd-bdb7-5de401ad29eb")
 		)
-		(pin "79"
-			(uuid "9bb02062-0238-469a-8988-c6b0d9d868d5")
+		(pin "34"
+			(uuid "680266a3-56fa-45b8-91c5-a4177d8d83c4")
 		)
-		(pin "70"
-			(uuid "e2356398-2f0a-4b40-adb2-d9a958f2360a")
+		(pin "43"
+			(uuid "e07ea130-cd30-4891-a36d-28d3d7ce5c34")
 		)
-		(pin "75"
-			(uuid "07cc609a-09c0-467c-a42f-f883033f767e")
+		(pin "44"
+			(uuid "0f25a08a-01b4-4aad-8a1f-a17f571b75f8")
+		)
+		(pin "36"
+			(uuid "873ab069-d87e-4290-83fb-ed71fe3a78b4")
+		)
+		(pin "30"
+			(uuid "e76f7ddf-c119-428a-a6be-26f13a9e2ae5")
+		)
+		(pin "46"
+			(uuid "5483bc8a-f34d-4167-994f-0f208c145079")
+		)
+		(pin "39"
+			(uuid "6a2c1844-3e21-490e-8b52-581427eb11e8")
+		)
+		(pin "49"
+			(uuid "c36103e7-c755-47d8-9436-59db8a854d76")
+		)
+		(pin "50"
+			(uuid "2769629d-084e-4e3d-ab55-fa6c309956e7")
+		)
+		(pin "38"
+			(uuid "5148cc9b-3367-4951-a705-2b7a4cac6968")
+		)
+		(pin "31"
+			(uuid "369db9a8-d4b4-4dd1-a6f9-89ced0f95518")
+		)
+		(pin "47"
+			(uuid "b390baf5-c1ea-4a11-8e26-362835428160")
+		)
+		(pin "48"
+			(uuid "4c58e049-2b98-4539-aba0-04f03a8d302a")
+		)
+		(pin "52"
+			(uuid "0424229c-a9ae-4264-a646-0f25385cbe16")
+		)
+		(pin "53"
+			(uuid "06791180-e130-4c3a-9b54-7d30e5b0d7b5")
+		)
+		(pin "54"
+			(uuid "f4f3ca2b-d4c6-44c6-b7d6-f106103a2b90")
+		)
+		(pin "56"
+			(uuid "1a0f6c5a-e349-4655-b996-40641a5247d8")
+		)
+		(pin "58"
+			(uuid "46171a1e-5234-49d2-8a88-646d6847d216")
 		)
 		(pin "62"
-			(uuid "23644508-5ce5-49e5-bff3-7b1ac7938618")
-		)
-		(pin "77"
-			(uuid "7e5a9f5f-166c-4d72-bee4-d8955680b579")
-		)
-		(pin "78"
-			(uuid "708611e4-d008-462e-999d-af57fc852e09")
-		)
-		(pin "72"
-			(uuid "5d695681-6077-4631-acf9-283cf9a6de67")
-		)
-		(pin "71"
-			(uuid "c5bf91bc-8556-43e7-a626-3b2f8e07511c")
-		)
-		(pin "76"
-			(uuid "255ae4fd-0cd7-48dc-8409-8810e30a66ec")
-		)
-		(pin "64"
-			(uuid "9c2b866c-9517-4c8b-8c7b-aecf10b2c9a8")
-		)
-		(pin "80"
-			(uuid "322d74bc-5645-4126-9aeb-f3695a4b3201")
+			(uuid "3e9fa48c-ef85-447c-b985-12fc16575ddc")
 		)
 		(pin "63"
-			(uuid "83c346e8-aed9-4f71-b002-e772f519feaf")
+			(uuid "08fa1795-d7c0-4204-8322-0c081b67e856")
 		)
-		(pin "74"
-			(uuid "64bd6036-a933-4cfa-9363-a516eebff30b")
+		(pin "61"
+			(uuid "dc2de10b-6a99-4996-8862-15583f6915d7")
+		)
+		(pin "64"
+			(uuid "77e1ecd7-77ea-4e08-b9cd-bf69469daadc")
+		)
+		(pin "60"
+			(uuid "e4615b95-c2a3-41f9-b7f7-ee5484c6aa1e")
+		)
+		(pin "67"
+			(uuid "c82ff4d9-1b1a-4a85-8aeb-fbee2b9bd4f9")
+		)
+		(pin "76"
+			(uuid "cce95dd7-277b-476c-87bf-c4e519066925")
+		)
+		(pin "75"
+			(uuid "8e500317-6fe1-44b2-bb88-29b909c5669b")
+		)
+		(pin "78"
+			(uuid "6374e357-a355-4189-9d50-050c75b05395")
+		)
+		(pin "80"
+			(uuid "5b5dd2ae-186b-4fb1-b688-beeaefeca0cf")
+		)
+		(pin "70"
+			(uuid "3c45e45c-3b78-4790-bb7e-11b35f28375c")
+		)
+		(pin "71"
+			(uuid "4f2e1fd7-9da5-466d-aff7-e15de129fc14")
 		)
 		(pin "68"
-			(uuid "4555219a-5897-47de-97e4-1475042c4114")
+			(uuid "ece75d87-551c-46c8-84ea-4db69139c5f4")
+		)
+		(pin "72"
+			(uuid "7229f4d1-fe32-449e-949e-ac5489c40006")
 		)
 		(pin "69"
-			(uuid "5f3c3fa3-e2cb-4a85-83f0-c46bfbd2eeaa")
+			(uuid "c5561d5f-a41a-4ad9-8550-40d0e8208f43")
+		)
+		(pin "77"
+			(uuid "24da1955-f46e-4215-88ed-bd63fcfc0eee")
+		)
+		(pin "73"
+			(uuid "a44d9977-f6b2-40b4-8b3a-2f74ae1169ba")
+		)
+		(pin "79"
+			(uuid "2bee3615-0189-4b43-930b-a58f88e31c7b")
+		)
+		(pin "66"
+			(uuid "4ceacd09-99ee-4305-ba21-304fa1f71984")
+		)
+		(pin "65"
+			(uuid "e50137bf-6bb1-47b8-a864-cd2e5b7a1e38")
+		)
+		(pin "74"
+			(uuid "a9113dcf-8b69-4fb8-a773-45e1e98ae3dd")
 		)
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/c5c459e2-37f2-44a6-9b9b-e3ab2715c2c9"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SS5-20-3.00-X-D-K-XX:SS5-20-3.00-X-D-K-XX")
+		(at 190.5 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f9cc6f9-1f21-445d-a0d9-0baef49f5d47")
+		(property "Reference" "J2"
+			(at 190.5 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS5-20-3.00-X-D-K-XX"
+			(at 190.5 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SS5-20-3.00-X-D-K-XX:SAMTEC_SS5-20-3.00-X-D-K-XX"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40 Position Connector Socket, Outer Shroud Contacts Surface Mount Gold"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.5 mm"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SS5-20-3.00-L-D-K-TR/Samtec+Inc./view-part/?ref=eda"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS5-20-3.00-L-D-K-TR/Samtec+Inc./view-part/?ref=snap"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SS5-20-3.00-L-D-K-TR"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "31"
+			(uuid "a5cedbab-a0cd-480d-b6cd-b488d526a708")
+		)
+		(pin "27"
+			(uuid "8f946541-2ec3-48cf-ba5a-6d26caae4d65")
+		)
+		(pin "33"
+			(uuid "c0c4c524-7f9b-413c-8ca1-b049480c95ee")
+		)
+		(pin "30"
+			(uuid "430cfc34-68ed-46f1-832b-cc21538c23f8")
+		)
+		(pin "32"
+			(uuid "f21ba32a-dadc-4889-95f8-34b9bcc66237")
+		)
+		(pin "34"
+			(uuid "e5e31410-2700-48df-be3b-af25091be313")
+		)
+		(pin "35"
+			(uuid "3f734852-4f19-483d-b5df-b0b0053f5ec4")
+		)
+		(pin "36"
+			(uuid "5be6ed5b-9e1f-4dbb-b7ab-d7c05ea03beb")
+		)
+		(pin "29"
+			(uuid "58bf7bbb-789d-470f-b325-a0eaae548f0d")
+		)
+		(pin "37"
+			(uuid "0e0deb7c-e719-40e3-bad4-376690bdef55")
+		)
+		(pin "39"
+			(uuid "cf04fbd2-2176-48bb-826f-396b5dbf178d")
+		)
+		(pin "28"
+			(uuid "dd56886f-dd7b-4d56-b96b-82cbcdd2aefe")
+		)
+		(pin "38"
+			(uuid "f57b477e-5de2-4278-a4e6-73030d5964e0")
+		)
+		(pin "40"
+			(uuid "ae0fb10f-4dcd-42cb-88eb-04aefe7b2536")
+		)
+		(pin "19"
+			(uuid "b7516b22-8397-4524-89e4-b25e10176152")
+		)
+		(pin "24"
+			(uuid "175231ba-1040-4a7e-a6ff-a68821427100")
+		)
+		(pin "26"
+			(uuid "da523223-9364-49b0-9a86-e07b08540590")
+		)
+		(pin "18"
+			(uuid "73072eb6-e216-4814-b905-55be33ff0511")
+		)
+		(pin "20"
+			(uuid "a3a15251-b4b9-4020-898b-474bb95b2a71")
+		)
+		(pin "21"
+			(uuid "dbff6f4d-f7c4-4132-85cf-0a9c0bd721b6")
+		)
+		(pin "23"
+			(uuid "5273b30a-4ee1-4435-a66b-b3c7e1cca4f1")
+		)
+		(pin "22"
+			(uuid "74bd1376-7367-4b6c-a9bb-b76fba8015a9")
+		)
+		(pin "17"
+			(uuid "8713bb9a-3d33-4821-bd9c-f24d2d569065")
+		)
+		(pin "25"
+			(uuid "c01a925b-3444-48bf-b646-d8996cd6da4d")
+		)
+		(pin "16"
+			(uuid "7c96deb3-782a-42e3-91e5-47df8d0b6abb")
+		)
+		(pin "04"
+			(uuid "eb489662-c16a-4722-8bf2-1da4def80576")
+		)
+		(pin "05"
+			(uuid "24134efb-9921-4975-9717-8f5c8b9375b4")
+		)
+		(pin "01"
+			(uuid "748889f1-9380-43ce-86e7-847fac0d7037")
+		)
+		(pin "02"
+			(uuid "ff9600d5-87e7-4a59-b967-5bcd7d796e1d")
+		)
+		(pin "03"
+			(uuid "4adb20cd-7e25-498c-ba3d-bae0d92f3426")
+		)
+		(pin "06"
+			(uuid "5c1a6064-e9f3-4dc1-990c-310b5acfab5b")
+		)
+		(pin "07"
+			(uuid "33023c4f-a9c3-4f1c-9b26-9219c204b019")
+		)
+		(pin "08"
+			(uuid "25c36630-cf90-4454-ac8d-911fa89028be")
+		)
+		(pin "09"
+			(uuid "423900de-2e01-446a-a29f-3e6d2b379747")
+		)
+		(pin "10"
+			(uuid "897416ae-453c-4aec-9706-3ad677bc10bb")
+		)
+		(pin "11"
+			(uuid "f5d823ce-285d-4fa3-bd01-f2d22134659b")
+		)
+		(pin "12"
+			(uuid "210de89c-d444-4db3-af41-cda6aed71979")
+		)
+		(pin "15"
+			(uuid "63bf53ed-887d-490a-bd62-d8acb5ec2f45")
+		)
+		(pin "13"
+			(uuid "8c2e128a-d9db-48f2-906c-90d1bcd73757")
+		)
+		(pin "14"
+			(uuid "e80872e0-b65c-4ada-8e57-f3ef33cdb709")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/c5c459e2-37f2-44a6-9b9b-e3ab2715c2c9"
+					(reference "J2")
 					(unit 1)
 				)
 			)

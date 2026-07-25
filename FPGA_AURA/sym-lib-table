@@ -19,4 +19,7 @@
 	(lib (name "532617007") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/532617007.kicad_sym") (options "") (descr ""))
 	(lib (name "YC124-FR-0740R2L") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/YC124-FR-0740R2L.kicad_sym") (options "") (descr ""))
 	(lib (name "ST5-40-1.00-L-D-P-TR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/ST5-40-1.00-L-D-P-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "ST5-20-1.00-L-D-P-TR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/ST5-20-1.00-L-D-P-TR/ST5-20-1.00-L-D-P-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "SS5-20-3.00-X-D-K-XX") (type "KiCad") (uri "${KIPRJMOD}/Libraries/SS5-20-3.00-X-D-K-XX/SS5-20-3.00-X-D-K-XX.kicad_sym") (options "") (descr ""))
+	(lib (name "SS5-40-3.00-X-D-K-XX") (type "KiCad") (uri "${KIPRJMOD}/Libraries/SS5-40-3.00-X-D-K-XX/SS5-40-3.00-X-D-K-XX.kicad_sym") (options "") (descr ""))
 )

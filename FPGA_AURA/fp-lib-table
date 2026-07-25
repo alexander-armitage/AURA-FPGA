@@ -19,5 +19,6 @@
 	(lib (name "532617007") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Footprints/532617007.pretty") (options "") (descr ""))
 	(lib (name "YC124-FR-0740R2L") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Footprints/YC124-FR-0740R2L.pretty") (options "") (descr ""))
 	(lib (name "SAMTEC_ST5-20-1.00-L-D-P-TR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Footprints/SAMTEC_ST5-20-1.00-L-D-P-TR") (options "") (descr ""))
-	(lib (name "ST5-40-1.00-L-D-P-TR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Footprints/ST5-40-1.00-L-D-P-TR.pretty") (options "") (descr ""))
+	(lib (name "SS5-20-3.00-X-D-K-XX") (type "KiCad") (uri "${KIPRJMOD}/Libraries/SS5-20-3.00-X-D-K-XX") (options "") (descr ""))
+	(lib (name "SS5-40-3.00-X-D-K-XX") (type "KiCad") (uri "${KIPRJMOD}/Libraries/SS5-40-3.00-X-D-K-XX") (options "") (descr ""))
 )
