@@ -810,17 +810,13 @@
         "uuid": "3d83cb23-9528-4d06-8969-599520e9eb23"
       }
     ],
-    "used_designators": "J2,#PWR18,#PWR20,#PWR184-185",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "3d83cb23-9528-4d06-8969-599520e9eb23",
       "FPGA_AURA"
-    ],
-    [
-      "ce047a46-50f2-4465-991d-ae0222187798",
-      "100_Power_Switching"
     ],
     [
       "13b0138f-baaf-4548-88e5-002745ed3ff2",

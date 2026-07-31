@@ -18847,7 +18847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ab812de-536e-4ae5-84bd-6d7130401d6e")
-		(property "Reference" "H?"
+		(property "Reference" "H101"
 			(at 59.69 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18908,7 +18908,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "H?")
+					(reference "H101")
 					(unit 1)
 				)
 			)
@@ -18926,7 +18926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "461ecc2e-89cd-41bb-ab78-5d8cf6df3b76")
-		(property "Reference" "H?"
+		(property "Reference" "H103"
 			(at 59.69 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18987,7 +18987,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "H?")
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -19083,7 +19083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "951b2405-3fe3-4ccc-b8ca-9d8d495ea6d1")
-		(property "Reference" "H?"
+		(property "Reference" "H100"
 			(at 46.99 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19144,7 +19144,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "H?")
+					(reference "H100")
 					(unit 1)
 				)
 			)
@@ -19162,7 +19162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4fc8ea4-db6c-42e9-a53b-653c0fa25db2")
-		(property "Reference" "H?"
+		(property "Reference" "H102"
 			(at 46.99 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19223,7 +19223,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "H?")
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -19632,53 +19632,6 @@
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
 					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 22.86 36.83)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "ce047a46-50f2-4465-991d-ae0222187798")
-		(property "Sheetname" "100_Power_Switching"
-			(at 22.86 36.1184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power_Switching.kicad_sch"
-			(at 22.86 50.1146 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "2")
 				)
 			)
 		)
