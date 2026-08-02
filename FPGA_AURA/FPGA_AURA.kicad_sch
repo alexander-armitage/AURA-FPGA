@@ -344,7 +344,8 @@
 		(uuid "ecd4b07a-bf92-438f-a102-88fa9e93aa8e")
 	)
 	(image
-		(at 250.825 54.61)
+		(at 205.74 45.085)
+		(scale 0.592973)
 		(uuid "1c3d0ad2-777c-487f-99b6-189f406a8b47")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA2cAAANRCAYAAABnaMTVAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3WlsXGd+7/lv7fvCIllcxJ0SqV3WYslye5Hdasd2ekl3Oj0TBxfoTAbIBYI7Ly+QV3PfzcuL"
@@ -2639,7 +2640,8 @@
 		)
 	)
 	(image
-		(at 175.895 128.27)
+		(at 159.385 92.075)
+		(scale 0.593886)
 		(uuid "39e574d8-233b-4753-a99c-fc89fbedba6b")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA2oAAANSCAYAAAAUAj3LAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3Vlwm+eZ6Pk/8GHfCZLgvkskRWqXTEnWYklxHNvpdKfTSU63Z9Iz6eqarqmcOpdTNZdzM3M9"
@@ -6408,7 +6410,7 @@
 		)
 	)
 	(image
-		(at 107.315 69.215)
+		(at 113.03 67.31)
 		(uuid "60a27265-9110-4a6b-a4d4-56c4637c21b1")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAV8AAANSCAYAAADCtM12AAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzsvV9sFOfZ//3pTzl4pL7Vc/BEbVmZ2AvGy3uSE/YFgqkJlonXRKKgPhKO1yCHkggs1XbcRpC3"
@@ -7245,7 +7247,8 @@
 		)
 	)
 	(image
-		(at 175.895 54.61)
+		(at 158.115 45.085)
+		(scale 0.595399)
 		(uuid "824924fa-1a21-4e2d-b4d9-846111fb95c5")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA2MAAANOCAYAAACcA9ThAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3WtsXGd64Pl/1Tl1v1exive7RFKUqLsoy7Zkya12LPct7nS8iIPBdCYDZIBg5uMC2S87n3Y+"
@@ -8856,7 +8859,8 @@
 		)
 	)
 	(image
-		(at 251.46 128.27)
+		(at 207.01 92.075)
+		(scale 0.610685)
 		(uuid "85da2a77-265a-4d33-af69-e187e93832cd")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA2QAAANUCAYAAADcku5lAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3dlvW3eW6Psvyc15pihKogZrsAZbHhJb8ZDYjp2pU0lXV9fpPmlU9e17gcZBNRp1cf6H+3Sf"
@@ -11597,7 +11601,8 @@
 		)
 	)
 	(image
-		(at 401.955 54.61)
+		(at 255.27 92.075)
+		(scale 0.621747)
 		(uuid "a47ec00b-6401-4a9e-866e-4bdd2d74e82a")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA2YAAANPCAYAAACxdswAAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3VlsHFea6Pl/ZkTumcxkkkyuorhI1EJttmRK8iq5VC5ZVd2363ZfX5SBHlw0GrdwUY1+n4d5"
@@ -15310,7 +15315,8 @@
 		)
 	)
 	(image
-		(at 326.39 54.61)
+		(at 254.635 45.085)
+		(scale 0.612447)
 		(uuid "bab40be7-6729-442b-8d82-5037ecf85844")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA2QAAANPCAYAAAC1gxw9AAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3VlsHFea6Pl/ZkTumcxkkkyuorhI1EJttmRK8iq5VC5ZVd23fbuvL8pADy4ajVu4qEa/z8M8"
