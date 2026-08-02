@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "d7ff79c2-f666-4818-a74c-253316c5bf27")
 	(paper "A4")
+	(title_block
+		(title "XC7A35T Banks 34, 35")
+		(company "Alexander Armitage")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -12885,7 +12889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0304aecf-b2f4-411c-84ff-ca52cfdb6cfb")
-		(property "Reference" "C39"
+		(property "Reference" "C601"
 			(at 111.76 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12949,7 +12953,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C39")
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -13202,7 +13206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ac6b7e2-c5e2-424c-8094-7b7f94d457e5")
-		(property "Reference" "C58"
+		(property "Reference" "C613"
 			(at 165.1 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13266,7 +13270,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C58")
+					(reference "C613")
 					(unit 1)
 				)
 			)
@@ -13275,7 +13279,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 115.57 88.9 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13283,9 +13286,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "371cb144-d1df-44c1-922f-efd2e85d06bf")
-		(property "Reference" "C36"
+		(property "Reference" "C604"
 			(at 111.76 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13293,7 +13295,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "470n"
@@ -13304,11 +13306,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 114.6048 92.71 0)
+			(at 116.5352 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13349,7 +13351,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C36")
+					(reference "C604")
 					(unit 1)
 				)
 			)
@@ -13514,7 +13516,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 140.97 69.85 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13522,9 +13523,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "45959409-2bf1-4652-9788-95d68d4a4a42")
-		(property "Reference" "C37"
+		(property "Reference" "C603"
 			(at 137.16 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13532,7 +13532,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "470n"
@@ -13543,11 +13543,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 140.0048 73.66 0)
+			(at 141.9352 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13588,7 +13588,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C37")
+					(reference "C603")
 					(unit 1)
 				)
 			)
@@ -15737,7 +15737,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 140.97 88.9 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15745,9 +15744,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65cd3dbb-d632-4acd-ae94-b28f911e3e2e")
-		(property "Reference" "C34"
+		(property "Reference" "C606"
 			(at 137.16 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15755,7 +15753,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "4u7"
@@ -15766,11 +15764,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 140.0048 92.71 0)
+			(at 141.9352 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15811,7 +15809,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C34")
+					(reference "C606")
 					(unit 1)
 				)
 			)
@@ -15976,7 +15974,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 128.27 88.9 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15984,9 +15981,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "963c40d7-ace1-44c9-ad26-67259c89c3e1")
-		(property "Reference" "C35"
+		(property "Reference" "C605"
 			(at 124.46 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15994,7 +15990,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "4u7"
@@ -16005,11 +16001,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127.3048 92.71 0)
+			(at 129.2352 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16050,7 +16046,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C35")
+					(reference "C605")
 					(unit 1)
 				)
 			)
@@ -16059,7 +16055,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 115.57 52.07 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16067,9 +16062,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9bebb035-25b6-4dd7-8e52-24b87c7972eb")
-		(property "Reference" "C33"
+		(property "Reference" "C600"
 			(at 111.76 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16077,10 +16071,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47u"
 			(at 111.76 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16088,11 +16082,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 114.6048 55.88 0)
+			(at 116.5352 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16133,7 +16127,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C33")
+					(reference "C600")
 					(unit 1)
 				)
 			)
@@ -16151,7 +16145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2baac0c-be15-4358-8901-c911cdbeb407")
-		(property "Reference" "C60"
+		(property "Reference" "C611"
 			(at 190.5 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16215,7 +16209,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C60")
+					(reference "C611")
 					(unit 1)
 				)
 			)
@@ -16233,7 +16227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f1cbc1-99e4-414b-8530-e8da6d7658d9")
-		(property "Reference" "C55"
+		(property "Reference" "C610"
 			(at 166.37 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16297,7 +16291,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C55")
+					(reference "C610")
 					(unit 1)
 				)
 			)
@@ -16315,7 +16309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd40c4dd-a076-456e-a736-c41d04e6e04f")
-		(property "Reference" "C57"
+		(property "Reference" "C608"
 			(at 190.5 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16379,7 +16373,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C57")
+					(reference "C608")
 					(unit 1)
 				)
 			)
@@ -16397,7 +16391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d02ee75b-778b-46bf-969f-255524865fe0")
-		(property "Reference" "C56"
+		(property "Reference" "C609"
 			(at 179.07 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16461,7 +16455,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C56")
+					(reference "C609")
 					(unit 1)
 				)
 			)
@@ -16558,7 +16552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2313084-7aa5-41f0-b381-554af2d044d6")
-		(property "Reference" "C59"
+		(property "Reference" "C612"
 			(at 177.8 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16622,7 +16616,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C59")
+					(reference "C612")
 					(unit 1)
 				)
 			)
@@ -16640,7 +16634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2931d53-1882-4fcf-a7dc-1000fe05d225")
-		(property "Reference" "C54"
+		(property "Reference" "C607"
 			(at 190.5 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16651,7 +16645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47u"
 			(at 190.5 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16704,7 +16698,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C54")
+					(reference "C607")
 					(unit 1)
 				)
 			)
@@ -17106,7 +17100,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 128.27 69.85 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17114,9 +17107,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f21c6239-2dab-456c-9f66-f3a858047b3f")
-		(property "Reference" "C38"
+		(property "Reference" "C602"
 			(at 124.46 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17124,7 +17116,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "470n"
@@ -17135,11 +17127,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 127.3048 73.66 0)
+			(at 129.2352 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17180,7 +17172,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/2d3446c8-405c-4eaf-9ac6-0e0b69b3b124"
-					(reference "C38")
+					(reference "C602")
 					(unit 1)
 				)
 			)

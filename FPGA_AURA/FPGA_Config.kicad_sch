@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "706c9c12-4630-470b-83f9-17c867433ac0")
 	(paper "A4")
+	(title_block
+		(title "XC7A35T Configuration")
+		(company "Alexander Armitage")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -7391,7 +7395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16fbee12-0157-44dc-bed6-9eb6289b0f4a")
-		(property "Reference" "R2"
+		(property "Reference" "R303"
 			(at 97.79 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7453,7 +7457,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "R2")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -7549,7 +7553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28215960-0c2c-49b0-ba08-951a61e905cf")
-		(property "Reference" "D1"
+		(property "Reference" "D300"
 			(at 214.63 67.6274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7778,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "D1")
+					(reference "D300")
 					(unit 1)
 				)
 			)
@@ -8464,7 +8468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a68a432-d137-4c31-883f-8ee48fd8dc2c")
-		(property "Reference" "C1"
+		(property "Reference" "C300"
 			(at 225.806 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,7 +8532,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "C1")
+					(reference "C300")
 					(unit 1)
 				)
 			)
@@ -8546,7 +8550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a42b5fbd-4f9b-4262-91ba-a28fd70294a2")
-		(property "Reference" "R3"
+		(property "Reference" "R300"
 			(at 106.68 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8760,7 +8764,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "R3")
+					(reference "R300")
 					(unit 1)
 				)
 			)
@@ -8934,7 +8938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2525cb2-adf6-4915-a3e6-c7b8f595f0a4")
-		(property "Reference" "R7"
+		(property "Reference" "R306"
 			(at 213.36 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9148,7 +9152,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "R7")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -9166,7 +9170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6434845-2109-4ec9-b2bf-124e970c189d")
-		(property "Reference" "D107"
+		(property "Reference" "D301"
 			(at 196.85 141.2874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +9395,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "D107")
+					(reference "D301")
 					(unit 1)
 				)
 			)
@@ -9409,7 +9413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7eb4543-0267-4bc9-9191-5463d3119552")
-		(property "Reference" "R6"
+		(property "Reference" "R305"
 			(at 213.36 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9623,7 +9627,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "R6")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -9797,7 +9801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7561e88-7395-448a-9323-ffd6169e7152")
-		(property "Reference" "R1"
+		(property "Reference" "R304"
 			(at 177.8 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9859,7 +9863,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "R1")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -9877,7 +9881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbdc7861-0140-4819-9bd8-10a1a5b5fc67")
-		(property "Reference" "R111"
+		(property "Reference" "R308"
 			(at 195.58 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +10095,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "R111")
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -10109,7 +10113,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "de4e663e-883c-4fae-b029-2e5d0aad2ecd")
-		(property "Reference" "R4"
+		(property "Reference" "R301"
 			(at 102.87 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10323,7 +10327,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "R4")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -10341,7 +10345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f786232f-ede2-4f10-bebf-4a08062cf8ff")
-		(property "Reference" "R5"
+		(property "Reference" "R302"
 			(at 102.87 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10555,7 +10559,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "R5")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -11601,7 +11605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda5f93e-d834-43f3-bc12-5d6fc9ba2b0c")
-		(property "Reference" "R110"
+		(property "Reference" "R307"
 			(at 195.58 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11815,7 +11819,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/4c613221-464e-4cff-8867-bf431546a544"
-					(reference "R110")
+					(reference "R307")
 					(unit 1)
 				)
 			)

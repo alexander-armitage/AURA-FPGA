@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "e2238740-5a52-43db-bf60-f375677a3bc1")
 	(paper "A4")
+	(title_block
+		(title "XC7A35T Banks 14, 15")
+		(company "Alexander Armitage")
+	)
 	(lib_symbols
 		(symbol "ASEM1-100.000MHZ-LC-T:ASEM1-100.000MHZ-LC-T"
 			(pin_names
@@ -11247,10 +11251,6 @@
 		(uuid "38d8d255-2bf5-490d-b7a0-cda93017954a")
 	)
 	(no_connect
-		(at 222.25 53.34)
-		(uuid "4f3d2988-6ffd-4b8c-adb2-bd4bcae1683d")
-	)
-	(no_connect
 		(at 222.25 142.24)
 		(uuid "5255cfe6-8559-44fd-a35b-8acca8e0316f")
 	)
@@ -11381,6 +11381,16 @@
 			(type default)
 		)
 		(uuid "0a226b70-e2c8-4791-8512-470728045680")
+	)
+	(wire
+		(pts
+			(xy 254 53.34) (xy 254 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c688741-1efb-466d-92d4-6265c19f4da4")
 	)
 	(wire
 		(pts
@@ -11624,7 +11634,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 80.01) (xy 242.57 88.9)
+			(xy 242.57 81.28) (xy 242.57 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11924,13 +11934,23 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 77.47) (xy 240.03 86.36)
+			(xy 240.03 78.74) (xy 240.03 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "576323e1-ae4b-47c6-8a90-ebaa57c7825d")
+	)
+	(wire
+		(pts
+			(xy 222.25 53.34) (xy 254 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596366c5-d798-40de-b807-f9eb266afe29")
 	)
 	(wire
 		(pts
@@ -12054,7 +12074,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 80.01) (xy 242.57 80.01)
+			(xy 246.38 81.28) (xy 242.57 81.28)
 		)
 		(stroke
 			(width 0)
@@ -12464,6 +12484,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 62.23) (xy 254 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bab240-9d5f-43ec-82db-e33ea73236c8")
+	)
+	(wire
+		(pts
 			(xy 274.32 62.23) (xy 274.32 64.77)
 		)
 		(stroke
@@ -12774,7 +12804,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 77.47) (xy 246.38 77.47)
+			(xy 240.03 78.74) (xy 246.38 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12834,6 +12864,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 72.39) (xy 254 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcc131e-08d5-47f3-b404-f464b3d8e51e")
+	)
+	(wire
+		(pts
 			(xy 138.43 59.69) (xy 151.13 59.69)
 		)
 		(stroke
@@ -12853,14 +12893,34 @@
 		(uuid "22fbcb1a-bf19-4a81-9c99-fbb09d2d1fc5")
 	)
 	(label "INIT_CALIB"
-		(at 273.05 50.8 180)
+		(at 227.33 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "707a7318-87c1-40af-9e82-4e959e0b9c89")
+	)
+	(label "GPIO"
+		(at 227.33 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "780bcc9f-3532-4abc-9a85-d8e0b24a431c")
+	)
+	(label "GPIO_LED"
+		(at 254 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "707a7318-87c1-40af-9e82-4e959e0b9c89")
+		(uuid "dafd90f2-bc77-4c15-874b-4ff6938f3c81")
 	)
 	(label "INIT_CALIB_LED"
 		(at 274.32 64.77 180)
@@ -13378,7 +13438,7 @@
 	)
 	(global_label "FPGA_REFCLK_N"
 		(shape input)
-		(at 246.38 80.01 0)
+		(at 246.38 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13388,7 +13448,7 @@
 		)
 		(uuid "71fc4834-51d8-44b5-b9a5-399bf6b5f4b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.4238 80.01 0)
+			(at 264.4238 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14218,7 +14278,7 @@
 	)
 	(global_label "FPGA_REFCLK_P"
 		(shape input)
-		(at 246.38 77.47 0)
+		(at 246.38 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14228,7 +14288,7 @@
 		)
 		(uuid "e3b07bcf-dea9-40f1-aebd-55b28d17c95e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.3633 77.47 0)
+			(at 264.3633 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15558,6 +15618,483 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 254 58.42 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11f2b988-61a1-433d-a704-471643b1c80b")
+		(property "Reference" "R502"
+			(at 251.46 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470R"
+			(at 251.46 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 252.222 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Simulation Data" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f9f537c-38f8-412f-85b6-aca4cd9a1f7e")
+		)
+		(pin "2"
+			(uuid "51f4d33e-43e7-4d72-afbf-4cd9c8652afa")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
+					(reference "R502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 254 68.58 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14d8f609-4c68-4161-9b98-636cfd54369c")
+		(property "Reference" "D501"
+			(at 256.54 68.8974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 256.54 71.4374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 254 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 254 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 254 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Simulation Data" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 254 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8ace721-46d9-441f-aed1-ee29d0948471")
+		)
+		(pin "2"
+			(uuid "6407c637-9fda-49f4-82f0-509208420e3f")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
+					(reference "D501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XC7A35T-2FTG256C:XC7A35T-2FTG256C")
 		(at 63.5 106.68 0)
 		(mirror y)
@@ -16599,7 +17136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b19d55b-336a-449c-8100-48abfa21ed73")
-		(property "Reference" "C52"
+		(property "Reference" "C509"
 			(at 154.94 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16663,7 +17200,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C52")
+					(reference "C509")
 					(unit 1)
 				)
 			)
@@ -16760,7 +17297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e8999c1-edc9-4995-9dbb-ee34903fcf75")
-		(property "Reference" "C51"
+		(property "Reference" "C508"
 			(at 142.24 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16824,7 +17361,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C51")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -16842,7 +17379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4517a688-ae45-461b-ab62-d3b8522510b9")
-		(property "Reference" "Y1"
+		(property "Reference" "Y500"
 			(at 255.27 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17069,7 +17606,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "Y1")
+					(reference "Y500")
 					(unit 1)
 				)
 			)
@@ -17323,26 +17860,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d6a72f-cf8d-4ad5-b5d9-ddeb25134e83")
-		(property "Reference" "D2"
-			(at 270.51 68.8974 90)
+		(property "Reference" "D500"
+			(at 276.86 68.8974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED"
-			(at 270.51 71.4374 90)
+			(at 276.86 71.4374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -17548,7 +18085,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "D2")
+					(reference "D500")
 					(unit 1)
 				)
 			)
@@ -17723,7 +18260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e8c03ae-b48b-4900-9b06-a9054b275244")
-		(property "Reference" "R9"
+		(property "Reference" "R501"
 			(at 271.78 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17937,7 +18474,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "R9")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -18113,7 +18650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82af30e9-a173-4c27-b503-02116c36656a")
-		(property "Reference" "C45"
+		(property "Reference" "C502"
 			(at 107.95 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18177,7 +18714,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C45")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -18186,7 +18723,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 99.06 66.04 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18194,9 +18730,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85032561-efc6-4f38-a7df-47879642e13b")
-		(property "Reference" "C46"
+		(property "Reference" "C501"
 			(at 95.25 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18204,7 +18739,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "470n"
@@ -18215,11 +18750,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 98.0948 69.85 0)
+			(at 100.0252 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18260,7 +18795,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C46")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -18515,7 +19050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5569ea2-c6d4-4ee3-91a2-855727ae2b33")
-		(property "Reference" "C48"
+		(property "Reference" "C512"
 			(at 154.94 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18579,7 +19114,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C48")
+					(reference "C512")
 					(unit 1)
 				)
 			)
@@ -18745,6 +19280,86 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 254 73.66 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1cd27bd-aeac-4f62-92b7-82f7ba513170")
+		(property "Reference" "#PWR098"
+			(at 254 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50bfcdc4-52d3-442f-a24a-2142a53821f6")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 274.32 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -18833,7 +19448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8632ace-add9-494b-8a85-4d941f13febd")
-		(property "Reference" "C49"
+		(property "Reference" "C513"
 			(at 167.64 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18897,7 +19512,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C49")
+					(reference "C513")
 					(unit 1)
 				)
 			)
@@ -18906,7 +19521,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 124.46 85.09 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18914,9 +19528,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cea3ae05-cb4d-49b5-8e2a-903a9de14172")
-		(property "Reference" "C40"
+		(property "Reference" "C506"
 			(at 120.65 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18924,7 +19537,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "47u"
@@ -18935,11 +19548,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 123.4948 88.9 0)
+			(at 125.4252 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18980,7 +19593,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C40")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -18998,7 +19611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4314bfd-b4bd-41e1-9e5e-25821c72fa5a")
-		(property "Reference" "C47"
+		(property "Reference" "C511"
 			(at 142.24 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19062,7 +19675,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C47")
+					(reference "C511")
 					(unit 1)
 				)
 			)
@@ -19081,26 +19694,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6afe7f3-59d4-47ca-8518-c1da0cd3acd1")
-		(property "Reference" "R8"
-			(at 222.25 39.3699 0)
+		(property "Reference" "R500"
+			(at 227.33 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 222.25 41.9099 0)
+			(at 227.33 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -19145,7 +19758,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "R8")
+					(reference "R500")
 					(unit 1)
 				)
 			)
@@ -19154,7 +19767,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 111.76 85.09 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19162,9 +19774,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dafbbe9e-31de-44af-9b04-088d7e750580")
-		(property "Reference" "C41"
+		(property "Reference" "C505"
 			(at 107.95 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19172,7 +19783,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "4u7"
@@ -19183,11 +19794,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 110.7948 88.9 0)
+			(at 112.7252 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19228,7 +19839,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C41")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -19246,7 +19857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "decfba5c-6c7d-46f6-932c-ba24f8c68f56")
-		(property "Reference" "C53"
+		(property "Reference" "C510"
 			(at 167.64 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19310,7 +19921,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C53")
+					(reference "C510")
 					(unit 1)
 				)
 			)
@@ -19644,7 +20255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9c9fe62-d66d-4b00-867b-4e05afedd2b1")
-		(property "Reference" "C42"
+		(property "Reference" "C504"
 			(at 95.25 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19708,7 +20319,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C42")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -19717,7 +20328,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 99.06 48.26 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19725,9 +20335,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f14d5530-6a1f-4c81-82e2-caa5bddefe91")
-		(property "Reference" "C43"
+		(property "Reference" "C500"
 			(at 95.25 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19735,7 +20344,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "470n"
@@ -19746,11 +20355,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 98.0948 52.07 0)
+			(at 100.0252 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19791,7 +20400,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C43")
+					(reference "C500")
 					(unit 1)
 				)
 			)
@@ -19809,7 +20418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4015410-12d4-4476-94cc-260df7437f80")
-		(property "Reference" "C50"
+		(property "Reference" "C507"
 			(at 167.64 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19873,7 +20482,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C50")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -19892,7 +20501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4a4b4ae-69a7-4d36-a19c-814894ee8cae")
-		(property "Reference" "C44"
+		(property "Reference" "C503"
 			(at 120.65 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19956,7 +20565,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C44")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -19974,7 +20583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5330525-614d-4e39-b76b-d64b52878f15")
-		(property "Reference" "C2"
+		(property "Reference" "C514"
 			(at 278.13 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20038,7 +20647,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/49fa5711-315f-4731-8075-f443e3d2a01c"
-					(reference "C2")
+					(reference "C514")
 					(unit 1)
 				)
 			)

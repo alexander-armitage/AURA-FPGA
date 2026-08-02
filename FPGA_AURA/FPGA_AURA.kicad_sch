@@ -10,247 +10,8 @@
 		(rev "V0.1")
 		(company "Alexander Armitage")
 	)
-	(lib_symbols
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "Project References:\nhttps://digilent.com/reference/programmable-logic/arty-a7/reference-manual\nhttps://digilent.com/reference/_media/programmable-logic/arty-a7/arty-a7-e2-sch.pdf\nhttps://github.com/snhobbs/scopefun-hardware/tree/master/KiCadSource\nhttps://github.com/arm8686/FT2232HL-Board/blob/master/FT2232HL%20Board%20sch%20V3.6.pdf\n\nAMD Documentation:\nhttps://docs.amd.com/v/u/en-US/ug470_7Series_Config\nhttps://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet\nhttps://docs.amd.com/v/u/en-US/wp484-a7-s7-ddr2-3-pcb\nhttps://docs.amd.com/r/en-US/ug908-vivado-programming-debugging/JTAG-Cables-and-Devices-Supported-by-hw_server\nhttps://docs.amd.com/r/en-US/ug586_7Series_MIS/Trace-Lengths\n\nHigh-speed design:\nProject Goals:\nRun ML/MPC/LQR on an FPGA\nUse DDR3 to load weights/matrices from an SD card\n\nStackup:\nL1: High Speed\nL2: Ground\nL3: Power\nL4: Power\nL5: Ground\nL6: High Speed\nL7: Ground\nL8: High Speed\n\nDDR Routing:\nAccording to WP484, route single ended as 50ohm, diff as 100ohm\nChose closest ODT to 50ohm"
+	(lib_symbols)
+	(text "Project References:\nhttps://digilent.com/reference/programmable-logic/arty-a7/reference-manual\nhttps://digilent.com/reference/_media/programmable-logic/arty-a7/arty-a7-e2-sch.pdf\nhttps://github.com/snhobbs/scopefun-hardware/tree/master/KiCadSource\nhttps://github.com/arm8686/FT2232HL-Board/blob/master/FT2232HL%20Board%20sch%20V3.6.pdf\n\nAMD Documentation:\nhttps://docs.amd.com/v/u/en-US/ug470_7Series_Config\nhttps://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet\nhttps://docs.amd.com/v/u/en-US/wp484-a7-s7-ddr2-3-pcb\nhttps://docs.amd.com/r/en-US/ug908-vivado-programming-debugging/JTAG-Cables-and-Devices-Supported-by-hw_server\nhttps://docs.amd.com/r/en-US/ug586_7Series_MIS/Trace-Lengths\n\nHigh-speed design:\nProject Goals:\nRun ML/MPC/LQR on an FPGA\nUse DDR3 to load weights/matrices from an SD card\n\nStackup:\nL1: High Speed\nL2: Ground\nL3: Power\nL4: Power\nL5: Ground\nL6: High Speed\nL7: Ground\nL8: High Speed\nL9: Ground\nL10: High Speed\n\nDDR Routing:\nAccording to WP484, route single ended as 50ohm, diff as 100ohm\nChose closest ODT to 50ohm\n\nNote: Due to stackup, diff pairs will be routed as 95ohm"
 		(exclude_from_sim no)
 		(at 16.256 192.532 0)
 		(effects
@@ -262,86 +23,6 @@
 			(justify left bottom)
 		)
 		(uuid "0447b600-271b-4b70-a484-7e4d4529177c")
-	)
-	(wire
-		(pts
-			(xy 64.77 59.69) (xy 64.77 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c30234-3dff-48f5-8afb-1f985fe7390f")
-	)
-	(wire
-		(pts
-			(xy 63.5 72.39) (xy 64.77 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "632949f6-4093-4165-9c23-b8a25a6e546a")
-	)
-	(wire
-		(pts
-			(xy 52.07 59.69) (xy 52.07 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9be618a4-c3a2-4cef-8f0c-fb05278ac248")
-	)
-	(wire
-		(pts
-			(xy 64.77 59.69) (xy 63.5 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bba80800-09ee-4d7e-b738-78732ac5ca6e")
-	)
-	(wire
-		(pts
-			(xy 50.8 59.69) (xy 52.07 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1d46da-675d-42e6-96b1-42a95805147d")
-	)
-	(wire
-		(pts
-			(xy 52.07 72.39) (xy 52.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ca0375-810a-4da4-b3f1-5a4f1b36692c")
-	)
-	(wire
-		(pts
-			(xy 50.8 72.39) (xy 52.07 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbd2ae00-c7e5-4d6d-a47a-d29734403024")
-	)
-	(wire
-		(pts
-			(xy 64.77 72.39) (xy 64.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecd4b07a-bf92-438f-a102-88fa9e93aa8e")
 	)
 	(image
 		(at 205.74 45.085)
@@ -18685,636 +18366,8 @@
 			"TMP/HzGWEiKmuduxAAAAAElFTkSuQmCC"
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "355fcfbd-b249-4612-867e-15e481af5bee")
-		(property "Reference" "#PWR0185"
-			(at 64.77 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9bfe8568-98fb-4395-97ae-b0af60ffb716")
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "#PWR0185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3668db84-1792-40aa-a438-df340bddb879")
-		(property "Reference" "#PWR020"
-			(at 52.07 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c5d8e8d-bda2-49c8-bbe7-f3840ce45e9a")
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 60.96 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ab812de-536e-4ae5-84bd-6d7130401d6e")
-		(property "Reference" "H101"
-			(at 59.69 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 60.9599 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 60.96 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 60.96 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b7a8b6e-6ac8-4c96-8695-c768d0131672")
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "H101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 60.96 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "461ecc2e-89cd-41bb-ab78-5d8cf6df3b76")
-		(property "Reference" "H103"
-			(at 59.69 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 60.9599 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 60.96 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 60.96 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c08f6bb5-2c73-4c15-b7ea-71a40b2b407e")
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "H103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "908beff2-08bf-4b86-bb54-1d88409625ca")
-		(property "Reference" "#PWR0184"
-			(at 64.77 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2cedde41-62d1-4bb4-8834-d45409fc3919")
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "#PWR0184")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 48.26 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "951b2405-3fe3-4ccc-b8ca-9d8d495ea6d1")
-		(property "Reference" "H100"
-			(at 46.99 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 48.2599 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 48.26 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 48.26 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30efe253-defb-49b9-a6a5-58f86b28c6c7")
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "H100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 48.26 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4fc8ea4-db6c-42e9-a53b-653c0fa25db2")
-		(property "Reference" "H102"
-			(at 46.99 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 48.2599 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e611804-d729-4562-a835-f48d12442d8a")
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "H102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e14da98b-ede2-4b76-8a7a-14440f2df90b")
-		(property "Reference" "#PWR018"
-			(at 52.07 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4ea3f7a-aa9a-4674-982d-6e5ec17d1d4b")
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 73.66 36.83)
+		(at 60.96 36.83)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19329,8 +18382,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "0a20a675-d4c7-4854-8ed1-df16c4f02d86")
-		(property "Sheetname" "300_FPGA_Power"
-			(at 73.66 36.1184 0)
+		(property "Sheetname" "200_FPGA_Power"
+			(at 60.96 36.1184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19341,54 +18394,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA_Power.kicad_sch"
-			(at 73.66 50.1146 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA_AURA"
-				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 48.26 36.83)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "13b0138f-baaf-4548-88e5-002745ed3ff2")
-		(property "Sheetname" "200_Power_Regulation"
-			(at 48.26 36.1184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power_Regulation.kicad_sch"
-			(at 48.26 50.1146 0)
+			(at 60.96 50.1146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19403,6 +18409,53 @@
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 36.83)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13b0138f-baaf-4548-88e5-002745ed3ff2")
+		(property "Sheetname" "100_Power_Regulation"
+			(at 35.56 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Regulation.kicad_sch"
+			(at 35.56 50.1146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
+					(page "2")
 				)
 			)
 		)
@@ -19423,7 +18476,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "2d3446c8-405c-4eaf-9ac6-0e0b69b3b124")
-		(property "Sheetname" "700_FPGA_Banks_34_35"
+		(property "Sheetname" "600_FPGA_Banks_34_35"
 			(at 48.26 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19470,7 +18523,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "408cdb2b-d0b6-4bb9-b687-a733abb79467")
-		(property "Sheetname" "500_DDR3L"
+		(property "Sheetname" "400_DDR3L"
 			(at 73.66 61.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19496,7 +18549,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -19517,7 +18570,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "49fa5711-315f-4731-8075-f443e3d2a01c")
-		(property "Sheetname" "600_FPGA_Banks_14_15"
+		(property "Sheetname" "500_FPGA_Banks_14_15"
 			(at 22.86 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19543,7 +18596,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "8")
+					(page "6")
 				)
 			)
 		)
@@ -19564,7 +18617,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "4c613221-464e-4cff-8867-bf431546a544")
-		(property "Sheetname" "400_FPGA_Config"
+		(property "Sheetname" "300_FPGA_Config"
 			(at 22.86 61.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19590,7 +18643,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -19611,7 +18664,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "c5c459e2-37f2-44a6-9b9b-e3ab2715c2c9")
-		(property "Sheetname" "800_Connectors"
+		(property "Sheetname" "700_Connectors"
 			(at 73.66 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19637,7 +18690,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23"
-					(page "9")
+					(page "8")
 				)
 			)
 		)

@@ -23,4 +23,6 @@
 	(lib (name "SS5-20-3.00-X-D-K-XX") (type "KiCad") (uri "${KIPRJMOD}/Libraries/SS5-20-3.00-X-D-K-XX/SS5-20-3.00-X-D-K-XX.kicad_sym") (options "") (descr ""))
 	(lib (name "SS5-40-3.00-X-D-K-XX") (type "KiCad") (uri "${KIPRJMOD}/Libraries/SS5-40-3.00-X-D-K-XX/SS5-40-3.00-X-D-K-XX.kicad_sym") (options "") (descr ""))
 	(lib (name "ASEM1-100.000MHZ-LC-T") (type "KiCad") (uri "${KIPRJMOD}/Libraries/ASEM1-100.000MHZ-LC-T/ASEM1-100.000MHZ-LC-T.kicad_sym") (options "") (descr ""))
+	(lib (name "SS5-20-3.50-X-D-K-XX") (type "KiCad") (uri "${KIPRJMOD}/Libraries/SS5-20-3.50-X-D-K-XX/SS5-20-3.50-X-D-K-XX.kicad_sym") (options "") (descr ""))
+	(lib (name "SS5-40-3.50-X-D-K-XX") (type "KiCad") (uri "${KIPRJMOD}/Libraries/SS5-40-3.50-X-D-K-XX/SS5-40-3.50-X-D-K-XX.kicad_sym") (options "") (descr ""))
 )

@@ -8,6 +8,7 @@
 		(title "Power Regulation")
 		(date "01-11-2025")
 		(rev "V0.1")
+		(company "Alexander Armitage")
 	)
 	(lib_symbols
 		(symbol "ADP5014ACPZ-R7:U?"
@@ -1297,6 +1298,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS51200DRCR:TPS51200DRCR"
 			(pin_names
 				(offset 1.016)
@@ -1927,8 +2051,8 @@
 		)
 	)
 	(rectangle
-		(start 175.26 58.42)
-		(end 279.4 135.89)
+		(start 175.26 25.4)
+		(end 279.4 102.87)
 		(stroke
 			(width 0)
 			(type default)
@@ -1952,7 +2076,7 @@
 	)
 	(text "DDR3L VTT Regulator"
 		(exclude_from_sim no)
-		(at 175.26 57.15 0)
+		(at 175.26 24.13 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1987,17 +2111,6 @@
 		)
 		(uuid "4295a21a-c83c-441e-a152-3a6670000156")
 	)
-	(text "ToDo: \nValidate component values\nValidate power up sequence"
-		(exclude_from_sim no)
-		(at 208.534 145.288 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ca71b492-8aa2-49ce-8d23-120e9976b618")
-	)
 	(text "RT: 1MHz\nCFG1: 4A, 4A, 2A, 2A\nCFG2: Sequnce, 1x, FPWM, UVO\nEN3/UV: 3V9 cut-off\nEN2/DL12: 2ms (soft start), 6ms\nEN4/DL34: 12ms, 12ms"
 		(exclude_from_sim no)
 		(at 168.91 181.61 0)
@@ -2010,7 +2123,7 @@
 		(uuid "e321abb1-6d5e-4650-92ee-6b16d8316a08")
 	)
 	(junction
-		(at 236.22 92.71)
+		(at 236.22 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0190da29-6363-45b2-b44c-e72eccafb712")
@@ -2046,13 +2159,13 @@
 		(uuid "12e1818b-38d7-4388-823c-950076030401")
 	)
 	(junction
-		(at 232.41 71.12)
+		(at 232.41 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "192a67f0-e137-47a8-b93e-00bb843cb927")
 	)
 	(junction
-		(at 246.38 71.12)
+		(at 246.38 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c57c232-6ca5-4a67-8ba8-6ad8919cab20")
@@ -2094,7 +2207,7 @@
 		(uuid "36759475-85d2-4068-81e6-ed648d82cc1a")
 	)
 	(junction
-		(at 257.81 102.87)
+		(at 257.81 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49413656-1aa2-4c06-b5ba-f29350ca4c45")
@@ -2106,7 +2219,7 @@
 		(uuid "4ae36357-cb98-4cfc-b454-3890f1bd3118")
 	)
 	(junction
-		(at 232.41 82.55)
+		(at 232.41 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e00c173-78c1-44f0-b962-f770f66ce288")
@@ -2154,13 +2267,13 @@
 		(uuid "6d464521-298f-40c4-a3c5-a20b0e8fa945")
 	)
 	(junction
-		(at 257.81 71.12)
+		(at 257.81 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "740e5e3c-8425-49e2-8c59-b24a2147c9cc")
 	)
 	(junction
-		(at 237.49 124.46)
+		(at 237.49 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "794dd982-11d7-4170-9104-5f8196e2eddf")
@@ -2190,7 +2303,7 @@
 		(uuid "90ce70d8-6b15-45b3-89de-da4b5410543a")
 	)
 	(junction
-		(at 190.5 95.25)
+		(at 190.5 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99ca8949-ff53-422f-afab-7f281404404d")
@@ -2208,25 +2321,25 @@
 		(uuid "a281ebb8-543d-4584-bb91-8f8ce666eb86")
 	)
 	(junction
-		(at 257.81 82.55)
+		(at 257.81 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a35b6d6c-6668-45fc-9f33-20ea1dfc69cc")
 	)
 	(junction
-		(at 269.24 82.55)
+		(at 269.24 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7cebd38-3225-4774-9227-c4765491c032")
 	)
 	(junction
-		(at 269.24 71.12)
+		(at 269.24 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8106799-9fb0-4835-a57f-aabef234b11a")
 	)
 	(junction
-		(at 179.07 95.25)
+		(at 179.07 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acb5c795-9535-4a83-be11-cbb3e801ef96")
@@ -2238,7 +2351,7 @@
 		(uuid "ace2d1f7-7044-4eef-9bdf-ec497d88ef5f")
 	)
 	(junction
-		(at 220.98 71.12)
+		(at 220.98 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad3142a3-0c57-4cbe-a41c-825c2e999706")
@@ -2268,7 +2381,7 @@
 		(uuid "c88e3533-da55-4e07-9161-ef15f03f6bf3")
 	)
 	(junction
-		(at 210.82 125.73)
+		(at 210.82 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca4efa5a-8423-4ba2-95ac-aa9ad4219708")
@@ -2280,7 +2393,7 @@
 		(uuid "d3474236-5f50-4414-80a7-fb29f4cbeab8")
 	)
 	(junction
-		(at 213.36 125.73)
+		(at 213.36 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3a45db8-17dc-46a8-8095-e7d0f7ddf5e9")
@@ -2310,7 +2423,7 @@
 		(uuid "fddc3022-5890-463d-bafa-09091980fbbe")
 	)
 	(junction
-		(at 200.66 71.12)
+		(at 200.66 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fecc9af6-2a2b-4c4f-8c49-11f853f13e1e")
@@ -2356,7 +2469,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 69.85) (xy 232.41 71.12)
+			(xy 232.41 36.83) (xy 232.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2489,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 86.36) (xy 179.07 95.25)
+			(xy 179.07 53.34) (xy 179.07 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 82.55) (xy 269.24 82.55)
+			(xy 257.81 49.53) (xy 269.24 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 125.73) (xy 215.9 125.73)
+			(xy 213.36 92.71) (xy 215.9 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 102.87) (xy 257.81 104.14)
+			(xy 257.81 69.85) (xy 257.81 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +2649,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 123.19) (xy 213.36 125.73)
+			(xy 213.36 90.17) (xy 213.36 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 113.03) (xy 237.49 114.3)
+			(xy 237.49 80.01) (xy 237.49 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2669,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 110.49) (xy 231.14 110.49)
+			(xy 232.41 77.47) (xy 231.14 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2656,7 +2769,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 82.55) (xy 269.24 81.28)
+			(xy 269.24 49.53) (xy 269.24 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2666,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 105.41) (xy 179.07 107.95)
+			(xy 179.07 72.39) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2676,13 +2789,23 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 92.71) (xy 236.22 95.25)
+			(xy 236.22 59.69) (xy 236.22 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f5b46ec-c6f3-4bb2-839f-349d0b35d553")
+	)
+	(wire
+		(pts
+			(xy 237.49 125.73) (xy 236.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbc1309-e836-47bb-89be-e9521641f3c3")
 	)
 	(wire
 		(pts
@@ -2706,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 125.73) (xy 215.9 123.19)
+			(xy 215.9 92.71) (xy 215.9 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2756,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 95.25) (xy 190.5 95.25)
+			(xy 179.07 62.23) (xy 190.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2919,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 71.12) (xy 215.9 71.12)
+			(xy 220.98 38.1) (xy 215.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2806,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 71.12) (xy 246.38 73.66)
+			(xy 246.38 38.1) (xy 246.38 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2816,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 111.76) (xy 257.81 114.3)
+			(xy 257.81 78.74) (xy 257.81 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2876,7 +2999,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 72.39) (xy 200.66 71.12)
+			(xy 200.66 39.37) (xy 200.66 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2926,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 71.12) (xy 257.81 73.66)
+			(xy 257.81 38.1) (xy 257.81 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2956,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 71.12) (xy 210.82 71.12)
+			(xy 200.66 38.1) (xy 210.82 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2983,6 +3106,16 @@
 			(type default)
 		)
 		(uuid "4c0b735e-b069-4dfb-b267-95fcf0f80a04")
+	)
+	(wire
+		(pts
+			(xy 223.52 138.43) (xy 224.79 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4e5f76-f7e3-4bdc-873e-208c326b14cf")
 	)
 	(wire
 		(pts
@@ -3076,7 +3209,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 95.25) (xy 231.14 95.25)
+			(xy 236.22 62.23) (xy 231.14 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 95.25) (xy 179.07 97.79)
+			(xy 179.07 62.23) (xy 179.07 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3126,13 +3259,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 69.85) (xy 200.66 71.12)
+			(xy 200.66 36.83) (xy 200.66 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5ed2a414-aedf-490f-a263-57db22445693")
+	)
+	(wire
+		(pts
+			(xy 237.49 125.73) (xy 237.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f660a08-a91d-4247-858b-48f7b66b23ef")
 	)
 	(wire
 		(pts
@@ -3266,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 71.12) (xy 210.82 82.55)
+			(xy 210.82 38.1) (xy 210.82 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3286,7 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 71.12) (xy 257.81 71.12)
+			(xy 246.38 38.1) (xy 257.81 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 81.28) (xy 257.81 82.55)
+			(xy 257.81 48.26) (xy 257.81 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3406,7 +3549,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 124.46) (xy 237.49 124.46)
+			(xy 232.41 91.44) (xy 237.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3426,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 82.55) (xy 257.81 82.55)
+			(xy 246.38 49.53) (xy 257.81 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3453,6 +3596,16 @@
 			(type default)
 		)
 		(uuid "7b38ed26-7138-4459-b2d5-76b53ad0c2b0")
+	)
+	(wire
+		(pts
+			(xy 237.49 138.43) (xy 237.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8e88b3-3d9b-4691-b281-468c764bd7b9")
 	)
 	(wire
 		(pts
@@ -3486,7 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 125.73) (xy 213.36 125.73)
+			(xy 210.82 92.71) (xy 213.36 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3516,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 90.17) (xy 195.58 90.17)
+			(xy 189.23 57.15) (xy 195.58 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3526,7 +3679,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 121.92) (xy 237.49 124.46)
+			(xy 237.49 88.9) (xy 237.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3699,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 102.87) (xy 257.81 101.6)
+			(xy 257.81 69.85) (xy 257.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3586,7 +3739,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 71.12) (xy 220.98 73.66)
+			(xy 220.98 38.1) (xy 220.98 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3616,7 +3769,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 71.12) (xy 232.41 73.66)
+			(xy 232.41 38.1) (xy 232.41 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3736,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 125.73) (xy 210.82 127)
+			(xy 210.82 92.71) (xy 210.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3756,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 86.36) (xy 189.23 90.17)
+			(xy 189.23 53.34) (xy 189.23 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3776,13 +3929,23 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 71.12) (xy 246.38 71.12)
+			(xy 242.57 38.1) (xy 246.38 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "994f9481-0733-4b2d-8b79-9caeb5b55414")
+	)
+	(wire
+		(pts
+			(xy 236.22 138.43) (xy 237.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996d3d55-c39f-40e1-858f-368751ee0a61")
 	)
 	(wire
 		(pts
@@ -3796,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 92.71) (xy 242.57 92.71)
+			(xy 236.22 59.69) (xy 242.57 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3816,7 +3979,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 110.49) (xy 232.41 124.46)
+			(xy 232.41 77.47) (xy 232.41 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3836,7 +3999,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 124.46) (xy 237.49 124.46)
+			(xy 242.57 91.44) (xy 237.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3846,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 69.85) (xy 269.24 71.12)
+			(xy 269.24 36.83) (xy 269.24 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3893,6 +4056,16 @@
 			(type default)
 		)
 		(uuid "a9396593-469a-413b-91fd-b95383300c5b")
+	)
+	(wire
+		(pts
+			(xy 224.79 138.43) (xy 224.79 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99b913b-1c9b-4b01-ab99-600d0157d49b")
 	)
 	(wire
 		(pts
@@ -3946,7 +4119,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 102.87) (xy 257.81 102.87)
+			(xy 231.14 69.85) (xy 257.81 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3996,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 123.19) (xy 210.82 125.73)
+			(xy 210.82 90.17) (xy 210.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4046,7 +4219,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 71.12) (xy 269.24 71.12)
+			(xy 257.81 38.1) (xy 269.24 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4056,7 +4229,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 82.55) (xy 269.24 83.82)
+			(xy 269.24 49.53) (xy 269.24 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4066,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 92.71) (xy 242.57 71.12)
+			(xy 242.57 59.69) (xy 242.57 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4086,13 +4259,23 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 92.71) (xy 236.22 92.71)
+			(xy 231.14 59.69) (xy 236.22 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc8b7cfe-ca35-4ab6-ad89-797db96b7a01")
+	)
+	(wire
+		(pts
+			(xy 223.52 125.73) (xy 224.79 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd17f3c-ef19-4689-b282-56ddcfa3acce")
 	)
 	(wire
 		(pts
@@ -4106,7 +4289,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 82.55) (xy 220.98 82.55)
+			(xy 232.41 49.53) (xy 220.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4136,7 +4319,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 95.25) (xy 190.5 97.79)
+			(xy 190.5 62.23) (xy 190.5 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 76.2) (xy 189.23 78.74)
+			(xy 189.23 43.18) (xy 189.23 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4216,7 +4399,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 81.28) (xy 246.38 82.55)
+			(xy 246.38 48.26) (xy 246.38 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4276,7 +4459,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 80.01) (xy 200.66 81.28)
+			(xy 200.66 46.99) (xy 200.66 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4479,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 105.41) (xy 190.5 107.95)
+			(xy 190.5 72.39) (xy 190.5 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4336,7 +4519,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 81.28) (xy 232.41 82.55)
+			(xy 232.41 48.26) (xy 232.41 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4386,7 +4569,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 215.9 82.55)
+			(xy 215.9 38.1) (xy 215.9 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4406,7 +4589,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 82.55) (xy 232.41 83.82)
+			(xy 232.41 49.53) (xy 232.41 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4416,7 +4599,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 71.12) (xy 232.41 71.12)
+			(xy 220.98 38.1) (xy 232.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4446,6 +4629,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 125.73) (xy 224.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0748483-54ce-42ac-b8f1-987c133067ae")
+	)
+	(wire
+		(pts
 			(xy 160.02 68.58) (xy 160.02 67.31)
 		)
 		(stroke
@@ -4456,7 +4649,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 76.2) (xy 179.07 78.74)
+			(xy 179.07 43.18) (xy 179.07 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4476,7 +4669,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 71.12) (xy 269.24 73.66)
+			(xy 269.24 38.1) (xy 269.24 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +4689,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 82.55) (xy 220.98 81.28)
+			(xy 220.98 49.53) (xy 220.98 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4516,7 +4709,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 95.25) (xy 195.58 95.25)
+			(xy 190.5 62.23) (xy 195.58 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4565,7 +4758,7 @@
 		(uuid "275693a5-599d-44bd-a120-39f72e1e0693")
 	)
 	(label "TPS_REFIN"
-		(at 179.07 95.25 0)
+		(at 179.07 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4766,7 +4959,7 @@
 	)
 	(global_label "DDR_PGOOD"
 		(shape output)
-		(at 242.57 124.46 0)
+		(at 242.57 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4776,7 +4969,7 @@
 		)
 		(uuid "73cbd0a8-af00-4c17-be43-c1305060631e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8038 124.46 0)
+			(at 256.8038 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4824,7 +5017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01840872-8b0c-4ee2-b41e-459e10dcc652")
-		(property "Reference" "C208"
+		(property "Reference" "C108"
 			(at 163.83 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4888,7 +5081,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C208")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -4984,7 +5177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0594f565-04df-4f05-86ea-7231f6b511a1")
-		(property "Reference" "L201"
+		(property "Reference" "L101"
 			(at 146.05 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5046,7 +5239,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "L201")
+					(reference "L101")
 					(unit 1)
 				)
 			)
@@ -5210,7 +5403,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 232.41 77.47 0)
+		(at 232.41 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5220,8 +5413,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ac954f7-9349-4c11-9427-bf786808bb9e")
-		(property "Reference" "C218"
-			(at 236.22 76.1999 0)
+		(property "Reference" "C118"
+			(at 236.22 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5232,7 +5425,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 236.22 78.7399 0)
+			(at 236.22 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5243,7 +5436,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 233.3752 81.28 0)
+			(at 233.3752 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,7 +5447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 77.47 0)
+			(at 232.41 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5265,7 +5458,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 232.41 77.47 0)
+			(at 232.41 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5284,7 +5477,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C218")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -5302,7 +5495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bf7dd2b-9b31-4ab0-b714-1a3686171a7a")
-		(property "Reference" "R209"
+		(property "Reference" "R109"
 			(at 26.67 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5366,7 +5559,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R209")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -5374,7 +5567,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 82.55 0)
+		(at 179.07 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5384,8 +5577,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c536064-3029-45eb-89ff-b191c603bd64")
-		(property "Reference" "R222"
-			(at 181.61 81.2799 0)
+		(property "Reference" "R122"
+			(at 181.61 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5396,7 +5589,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 181.61 83.8199 0)
+			(at 181.61 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5407,7 +5600,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.292 82.55 90)
+			(at 177.292 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +5611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 82.55 0)
+			(at 179.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5429,7 +5622,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 82.55 0)
+			(at 179.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,7 +5641,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R222")
+					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -5544,7 +5737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "176b5251-743a-446e-b8d8-63e92f6030d6")
-		(property "Reference" "R207"
+		(property "Reference" "R107"
 			(at 38.1 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5801,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R207")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -5616,7 +5809,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 232.41 69.85 0)
+		(at 232.41 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5627,7 +5820,7 @@
 		(fields_autoplaced yes)
 		(uuid "18794634-dd8f-4ab6-beee-50c831395287")
 		(property "Reference" "#PWR081"
-			(at 232.41 73.66 0)
+			(at 232.41 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5638,7 +5831,7 @@
 			)
 		)
 		(property "Value" "+1V35"
-			(at 232.41 64.77 0)
+			(at 232.41 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5648,7 +5841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 69.85 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,7 +5852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 69.85 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5670,7 +5863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 232.41 69.85 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5782,7 +5975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d8d0445-32af-4a3a-bf47-e98c605c361a")
-		(property "Reference" "R214"
+		(property "Reference" "R114"
 			(at 151.13 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5846,7 +6039,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R214")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -5864,7 +6057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2198d7a1-b5b2-44c9-a6ca-5bcc26f5db97")
-		(property "Reference" "C210"
+		(property "Reference" "C110"
 			(at 27.94 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5928,7 +6121,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C210")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -5936,7 +6129,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 101.6 0)
+		(at 179.07 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5946,8 +6139,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "226e2aa1-a5f0-4499-af4b-9be7faa785c2")
-		(property "Reference" "R221"
-			(at 181.61 100.3299 0)
+		(property "Reference" "R121"
+			(at 181.61 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5958,7 +6151,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 181.61 102.8699 0)
+			(at 181.61 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5969,7 +6162,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.292 101.6 90)
+			(at 177.292 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5980,7 +6173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 101.6 0)
+			(at 179.07 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5991,7 +6184,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 101.6 0)
+			(at 179.07 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6010,7 +6203,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R221")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -6018,7 +6211,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 82.55 0)
+		(at 189.23 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6029,7 +6222,7 @@
 		(fields_autoplaced yes)
 		(uuid "28551d78-8d11-46d2-bdcc-0f00b2517f3e")
 		(property "Reference" "R220"
-			(at 191.77 81.2799 0)
+			(at 191.77 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6040,7 +6233,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 191.77 83.8199 0)
+			(at 191.77 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6051,7 +6244,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 187.452 82.55 90)
+			(at 187.452 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6062,7 +6255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 82.55 0)
+			(at 189.23 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6073,7 +6266,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 82.55 0)
+			(at 189.23 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6100,7 +6293,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 237.49 118.11 0)
+		(at 237.49 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6110,8 +6303,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a164199-6abe-4c6f-bb77-5a31f9a681ca")
-		(property "Reference" "R223"
-			(at 240.03 116.8399 0)
+		(property "Reference" "R123"
+			(at 240.03 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6122,7 +6315,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 240.03 119.3799 0)
+			(at 240.03 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6133,7 +6326,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 235.712 118.11 90)
+			(at 235.712 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6144,7 +6337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 118.11 0)
+			(at 237.49 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,7 +6348,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 237.49 118.11 0)
+			(at 237.49 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6174,7 +6367,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R223")
+					(reference "R123")
 					(unit 1)
 				)
 			)
@@ -6182,7 +6375,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 179.07 76.2 0)
+		(at 179.07 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6193,7 +6386,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a4143ad-1c2d-431f-bfac-8f2e0b238dd2")
 		(property "Reference" "#PWR080"
-			(at 179.07 80.01 0)
+			(at 179.07 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6204,7 +6397,7 @@
 			)
 		)
 		(property "Value" "+1V35"
-			(at 179.07 71.12 0)
+			(at 179.07 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6214,7 +6407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 76.2 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6225,7 +6418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 76.2 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,7 +6429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 179.07 76.2 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6338,7 +6531,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 220.98 77.47 0)
+		(at 220.98 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6348,8 +6541,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bb7d16a-49f0-45bd-929c-d4231df8bbc1")
-		(property "Reference" "C217"
-			(at 224.79 76.1999 0)
+		(property "Reference" "C117"
+			(at 224.79 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6360,7 +6553,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 224.79 78.7399 0)
+			(at 224.79 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6371,7 +6564,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 221.9452 81.28 0)
+			(at 221.9452 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6382,7 +6575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 77.47 0)
+			(at 220.98 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6393,7 +6586,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 220.98 77.47 0)
+			(at 220.98 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6412,7 +6605,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C217")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -6420,7 +6613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 114.3 0)
+		(at 257.81 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6431,7 +6624,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e0fe255-1d9f-47f8-ae91-595619f8975f")
 		(property "Reference" "#PWR077"
-			(at 257.81 120.65 0)
+			(at 257.81 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6442,7 +6635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 119.38 0)
+			(at 257.81 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6452,7 +6645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 114.3 0)
+			(at 257.81 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6463,7 +6656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 114.3 0)
+			(at 257.81 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6474,7 +6667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 114.3 0)
+			(at 257.81 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6507,7 +6700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ef44671-d5ef-4699-9233-ad8d31b1823a")
-		(property "Reference" "R204"
+		(property "Reference" "R104"
 			(at 73.152 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6571,7 +6764,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R204")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -6589,7 +6782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30d4e20b-4c30-4bb5-af99-cd7eef703c1c")
-		(property "Reference" "C209"
+		(property "Reference" "C109"
 			(at 163.83 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6653,7 +6846,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C209")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -6739,6 +6932,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 237.49 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "355fcfbd-b249-4612-867e-15e481af5bee")
+		(property "Reference" "#PWR0185"
+			(at 237.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bfe8568-98fb-4395-97ae-b0af60ffb716")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 36.83 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -6816,8 +7087,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 237.49 113.03 0)
+		(lib_id "power:GND")
+		(at 224.79 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6826,9 +7097,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "370f24ee-9354-43ad-9bb2-099dc64a5ab0")
-		(property "Reference" "#PWR082"
-			(at 237.49 116.84 0)
+		(uuid "3668db84-1792-40aa-a438-df340bddb879")
+		(property "Reference" "#PWR020"
+			(at 224.79 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,8 +7109,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 237.49 107.95 0)
+		(property "Value" "GND"
+			(at 224.79 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6849,7 +7120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 113.03 0)
+			(at 224.79 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,7 +7131,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 113.03 0)
+			(at 224.79 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c5d8e8d-bda2-49c8-bbe7-f3840ce45e9a")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 237.49 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "370f24ee-9354-43ad-9bb2-099dc64a5ab0")
+		(property "Reference" "#PWR082"
+			(at 237.49 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 237.49 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,7 +7220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 237.49 113.03 0)
+			(at 237.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6972,6 +7321,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 233.68 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ab812de-536e-4ae5-84bd-6d7130401d6e")
+		(property "Reference" "H101"
+			(at 232.41 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 233.6799 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b7a8b6e-6ac8-4c96-8695-c768d0131672")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
+					(reference "H101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 80.01 148.59 0)
 		(unit 1)
@@ -6982,7 +7410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45155dc6-1423-4bd7-b049-67db23302d15")
-		(property "Reference" "R205"
+		(property "Reference" "R105"
 			(at 82.042 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,7 +7474,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R205")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -7054,7 +7482,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 77.47 0)
+		(at 246.38 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7064,8 +7492,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "459ed23b-05d2-4446-a7de-6395f0000e8f")
-		(property "Reference" "C215"
-			(at 250.19 76.1999 0)
+		(property "Reference" "C115"
+			(at 250.19 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7076,7 +7504,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 250.19 78.7399 0)
+			(at 250.19 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7087,7 +7515,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 247.3452 81.28 0)
+			(at 247.3452 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7098,7 +7526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 77.47 0)
+			(at 246.38 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7109,7 +7537,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 246.38 77.47 0)
+			(at 246.38 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +7556,86 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C215")
+					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 233.68 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "461ecc2e-89cd-41bb-ab78-5d8cf6df3b76")
+		(property "Reference" "H103"
+			(at 232.41 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 233.6799 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 233.68 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 233.68 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c08f6bb5-2c73-4c15-b7ea-71a40b2b407e")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -7292,7 +7799,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 101.6 0)
+		(at 257.81 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7303,7 +7810,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a8f7018-f639-4d3c-a6f4-11c694672614")
 		(property "Reference" "#PWR075"
-			(at 257.81 105.41 0)
+			(at 257.81 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7821,7 @@
 			)
 		)
 		(property "Value" "+VREF"
-			(at 257.81 96.52 0)
+			(at 257.81 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7324,7 +7831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 101.6 0)
+			(at 257.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7335,7 +7842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 101.6 0)
+			(at 257.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,7 +7853,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 101.6 0)
+			(at 257.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7458,7 +7965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5211c907-0399-4007-9046-49ba2dd0bdb9")
-		(property "Reference" "C206"
+		(property "Reference" "C106"
 			(at 163.83 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7522,7 +8029,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C206")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -7540,7 +8047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a6bcbb-9fdf-4167-9d56-9a87a4432cc6")
-		(property "Reference" "C212"
+		(property "Reference" "C112"
 			(at 53.34 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7604,7 +8111,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C212")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -7621,7 +8128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59295b31-df11-477f-b677-d970a779778d")
-		(property "Reference" "R203"
+		(property "Reference" "R103"
 			(at 83.82 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +8190,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R203")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -7691,7 +8198,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 269.24 69.85 0)
+		(at 269.24 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7702,7 +8209,7 @@
 		(fields_autoplaced yes)
 		(uuid "59859267-a05f-481b-bd86-189170a96dbf")
 		(property "Reference" "#PWR074"
-			(at 269.24 73.66 0)
+			(at 269.24 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7713,7 +8220,7 @@
 			)
 		)
 		(property "Value" "+VTT"
-			(at 269.24 64.77 0)
+			(at 269.24 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7723,7 +8230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 69.85 0)
+			(at 269.24 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7734,7 +8241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 69.85 0)
+			(at 269.24 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +8252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 269.24 69.85 0)
+			(at 269.24 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,7 +8286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a2f0f65-6e08-491f-8a55-82e807563bc1")
-		(property "Reference" "R217"
+		(property "Reference" "R117"
 			(at 52.07 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7843,7 +8350,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R217")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -7939,7 +8446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60df6f8a-fdbd-4b60-881e-074b5f2c99d7")
-		(property "Reference" "C202"
+		(property "Reference" "C102"
 			(at 74.93 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8003,7 +8510,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C202")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -8011,7 +8518,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 257.81 77.47 0)
+		(at 257.81 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8021,8 +8528,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "667bcef1-0efe-40f9-a1da-aff2bfd1960e")
-		(property "Reference" "C219"
-			(at 261.62 76.1999 0)
+		(property "Reference" "C119"
+			(at 261.62 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8033,7 +8540,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 261.62 78.7399 0)
+			(at 261.62 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8044,7 +8551,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 258.7752 81.28 0)
+			(at 258.7752 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8055,7 +8562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 77.47 0)
+			(at 257.81 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,7 +8573,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 77.47 0)
+			(at 257.81 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,7 +8592,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C219")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -8103,7 +8610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68bd39c1-6bc6-4da8-8356-f32eefdd1b25")
-		(property "Reference" "R216"
+		(property "Reference" "R116"
 			(at 39.37 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +8674,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R216")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -8263,7 +8770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f2d262c-c0d9-4c46-a6b7-a7edc523c751")
-		(property "Reference" "R219"
+		(property "Reference" "R119"
 			(at 71.12 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8327,7 +8834,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R219")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -8335,7 +8842,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 81.28 0)
+		(at 200.66 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8346,7 +8853,7 @@
 		(fields_autoplaced yes)
 		(uuid "70a0904c-8f8c-4e5d-80b1-ee77020a2245")
 		(property "Reference" "#PWR086"
-			(at 200.66 87.63 0)
+			(at 200.66 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8357,7 +8864,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 86.36 0)
+			(at 200.66 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8367,7 +8874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 81.28 0)
+			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8378,7 +8885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 81.28 0)
+			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8389,7 +8896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 81.28 0)
+			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,7 +8998,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 200.66 69.85 0)
+		(at 200.66 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8502,7 +9009,7 @@
 		(fields_autoplaced yes)
 		(uuid "726b5f52-5211-42c5-9324-db1178935b47")
 		(property "Reference" "#PWR087"
-			(at 200.66 73.66 0)
+			(at 200.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8513,7 +9020,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 200.66 64.77 0)
+			(at 200.66 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8523,7 +9030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 69.85 0)
+			(at 200.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8534,7 +9041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 69.85 0)
+			(at 200.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8545,7 +9052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 69.85 0)
+			(at 200.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8578,7 +9085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7364b778-be1a-4764-875b-5dd59add9cfb")
-		(property "Reference" "R202"
+		(property "Reference" "R102"
 			(at 83.058 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8640,7 +9147,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R202")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -8658,7 +9165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "792babfc-2802-4031-8d0c-ba6456fc560d")
-		(property "Reference" "R218"
+		(property "Reference" "R118"
 			(at 63.5 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8722,7 +9229,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R218")
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -8808,7 +9315,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 107.95 0)
+		(at 179.07 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8819,7 +9326,7 @@
 		(fields_autoplaced yes)
 		(uuid "89f4613b-ed2c-4357-a956-0bba3c4a7179")
 		(property "Reference" "#PWR076"
-			(at 179.07 114.3 0)
+			(at 179.07 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8830,7 +9337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 113.03 0)
+			(at 179.07 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8840,7 +9347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 107.95 0)
+			(at 179.07 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,7 +9358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 107.95 0)
+			(at 179.07 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8862,7 +9369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 107.95 0)
+			(at 179.07 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8974,7 +9481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cce9598-4502-4b3b-9ca5-7fa213f3cedd")
-		(property "Reference" "L202"
+		(property "Reference" "L102"
 			(at 143.51 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9036,7 +9543,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "L202")
+					(reference "L102")
 					(unit 1)
 				)
 			)
@@ -9132,7 +9639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ddb151f-e2a9-4128-b611-e6b2e6ff67bc")
-		(property "Reference" "R213"
+		(property "Reference" "R113"
 			(at 151.13 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9196,7 +9703,85 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R213")
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "908beff2-08bf-4b86-bb54-1d88409625ca")
+		(property "Reference" "#PWR0184"
+			(at 237.49 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cedde41-62d1-4bb4-8834-d45409fc3919")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -9282,7 +9867,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 107.95 0)
+		(at 190.5 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9293,7 +9878,7 @@
 		(fields_autoplaced yes)
 		(uuid "929817e2-ba11-4cae-9421-f571280889bf")
 		(property "Reference" "#PWR083"
-			(at 190.5 114.3 0)
+			(at 190.5 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9304,7 +9889,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 113.03 0)
+			(at 190.5 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9314,7 +9899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 107.95 0)
+			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9325,7 +9910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 107.95 0)
+			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9336,7 +9921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 107.95 0)
+			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,19 +10022,29 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 189.23 76.2 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 220.98 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "958c6996-f861-4415-a681-d1168f030fbc")
-		(property "Reference" "#PWR079"
-			(at 189.23 80.01 0)
+		(uuid "951b2405-3fe3-4ccc-b8ca-9d8d495ea6d1")
+		(property "Reference" "H100"
+			(at 219.71 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 220.9799 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,20 +10052,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 189.23 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 76.2 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 220.98 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9481,7 +10067,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 76.2 0)
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30efe253-defb-49b9-a6a5-58f86b28c6c7")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
+					(reference "H100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 189.23 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "958c6996-f861-4415-a681-d1168f030fbc")
+		(property "Reference" "#PWR079"
+			(at 189.23 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.23 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9492,7 +10156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 76.2 0)
+			(at 189.23 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9604,7 +10268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2fa6858-7ccd-4b80-a18b-aebba234e8b1")
-		(property "Reference" "C203"
+		(property "Reference" "C103"
 			(at 86.36 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,7 +10332,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C203")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -9763,7 +10427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a62f681d-d8ac-4739-a031-5e6ad9b50d8a")
-		(property "Reference" "R201"
+		(property "Reference" "R101"
 			(at 60.96 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9827,7 +10491,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R201")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -9845,7 +10509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa751647-f41b-4742-aef4-f950dca8bb4c")
-		(property "Reference" "L203"
+		(property "Reference" "L103"
 			(at 143.51 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9907,7 +10571,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "L203")
+					(reference "L103")
 					(unit 1)
 				)
 			)
@@ -10080,7 +10744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b100b01f-88b2-457d-bb75-be840ce952b6")
-		(property "Reference" "R206"
+		(property "Reference" "R106"
 			(at 90.932 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10144,7 +10808,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R206")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -10162,7 +10826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b137eed1-a824-4b2b-b03c-aa4b2cb1c1ee")
-		(property "Reference" "R208"
+		(property "Reference" "R108"
 			(at 38.1 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10226,7 +10890,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R208")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -10243,7 +10907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b40a16b7-c932-46a8-87ea-f9d26ac30394")
-		(property "Reference" "U200"
+		(property "Reference" "U100"
 			(at 113.538 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10422,7 +11086,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "U200")
+					(reference "U100")
 					(unit 1)
 				)
 			)
@@ -10508,7 +11172,7 @@
 	)
 	(symbol
 		(lib_id "TPS51200DRCR:TPS51200DRCR")
-		(at 213.36 102.87 0)
+		(at 213.36 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10518,7 +11182,7 @@
 		(dnp no)
 		(uuid "b8f1ad3d-6e2e-4e45-8767-9713f2f94bdf")
 		(property "Reference" "U4"
-			(at 213.614 102.616 0)
+			(at 213.614 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10528,7 +11192,7 @@
 			)
 		)
 		(property "Value" "TPS51200DRCR"
-			(at 213.36 106.934 0)
+			(at 213.36 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10538,7 +11202,7 @@
 			)
 		)
 		(property "Footprint" "TPS51200DRCR:VREG_V62_16624-01YE"
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10550,7 +11214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10561,7 +11225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10572,7 +11236,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10584,7 +11248,7 @@
 			)
 		)
 		(property "Description_1" "3A Sink/Source DDR Termination Regulator w/ VTTREF Buffered Reference for DDR2, DDR3, DDR3L and DDR4"
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10596,7 +11260,7 @@
 			)
 		)
 		(property "Package" "VSON-10 Texas Instruments"
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10608,7 +11272,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10620,7 +11284,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS51200DRCR/Texas+Instruments/view-part/?ref=snap"
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10632,7 +11296,7 @@
 			)
 		)
 		(property "MP" "TPS51200DRCR"
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10644,7 +11308,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10656,7 +11320,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TPS51200DRCR/Texas+Instruments/view-part/?ref=eda"
-			(at 213.36 102.87 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10721,7 +11385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf98a864-a2af-4909-ab5b-e3f3e8057e52")
-		(property "Reference" "R212"
+		(property "Reference" "R112"
 			(at 38.1 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10785,7 +11449,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R212")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -10793,7 +11457,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 83.82 0)
+		(at 269.24 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10804,7 +11468,7 @@
 		(fields_autoplaced yes)
 		(uuid "c09f6592-c0d9-49c8-a314-d7d26198fb04")
 		(property "Reference" "#PWR078"
-			(at 269.24 90.17 0)
+			(at 269.24 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +11479,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 88.9 0)
+			(at 269.24 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10825,7 +11489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 83.82 0)
+			(at 269.24 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,7 +11500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 83.82 0)
+			(at 269.24 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10847,7 +11511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 83.82 0)
+			(at 269.24 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10881,7 +11545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c326b6b1-cd60-46f3-9ae8-67e14952a5da")
-		(property "Reference" "C200"
+		(property "Reference" "C100"
 			(at 49.53 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,7 +11609,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C200")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -10963,7 +11627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4052bf6-5873-4de3-91fa-42882fb89ccf")
-		(property "Reference" "C207"
+		(property "Reference" "C107"
 			(at 163.83 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11027,7 +11691,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C207")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -11035,7 +11699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 127 0)
+		(at 210.82 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11046,7 +11710,7 @@
 		(fields_autoplaced yes)
 		(uuid "c504f85b-0ae5-43ff-b706-64ddd1cc521c")
 		(property "Reference" "#PWR073"
-			(at 210.82 133.35 0)
+			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11057,7 +11721,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 132.08 0)
+			(at 210.82 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11067,7 +11731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 127 0)
+			(at 210.82 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11078,7 +11742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 127 0)
+			(at 210.82 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11089,7 +11753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 127 0)
+			(at 210.82 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11123,7 +11787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c654179f-8974-4e58-b896-432d34967bbb")
-		(property "Reference" "R215"
+		(property "Reference" "R115"
 			(at 26.67 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11187,7 +11851,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R215")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -11195,7 +11859,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 83.82 0)
+		(at 232.41 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11206,7 +11870,7 @@
 		(fields_autoplaced yes)
 		(uuid "c65664d5-9c18-49da-bab8-a0cf12458689")
 		(property "Reference" "#PWR084"
-			(at 232.41 90.17 0)
+			(at 232.41 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11217,7 +11881,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 88.9 0)
+			(at 232.41 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11227,7 +11891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 83.82 0)
+			(at 232.41 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11238,7 +11902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 83.82 0)
+			(at 232.41 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11249,7 +11913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 83.82 0)
+			(at 232.41 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11429,7 +12093,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 101.6 0)
+		(at 190.5 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11439,8 +12103,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc787c5a-917f-4bdd-9c90-7161d65ae235")
-		(property "Reference" "C216"
-			(at 194.31 100.3299 0)
+		(property "Reference" "C116"
+			(at 194.31 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11451,7 +12115,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 194.31 102.8699 0)
+			(at 194.31 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11462,7 +12126,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 191.4652 105.41 0)
+			(at 191.4652 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +12137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 101.6 0)
+			(at 190.5 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11484,7 +12148,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 101.6 0)
+			(at 190.5 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11503,7 +12167,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C216")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -11521,7 +12185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb04a07-9105-4106-9ccc-c24bf3cc3dae")
-		(property "Reference" "R211"
+		(property "Reference" "R111"
 			(at 38.1 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11585,7 +12249,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R211")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -11593,7 +12257,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 200.66 76.2 0)
+		(at 200.66 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11603,8 +12267,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d177bf09-aaa2-423d-9bc4-2e717258fade")
-		(property "Reference" "C221"
-			(at 204.47 74.9299 0)
+		(property "Reference" "C121"
+			(at 204.47 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11615,7 +12279,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 204.47 77.4699 0)
+			(at 204.47 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11626,7 +12290,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 201.6252 80.01 0)
+			(at 201.6252 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11637,7 +12301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 76.2 0)
+			(at 200.66 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11648,7 +12312,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 200.66 76.2 0)
+			(at 200.66 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11667,7 +12331,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C221")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -11752,6 +12416,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 220.98 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4fc8ea4-db6c-42e9-a53b-653c0fa25db2")
+		(property "Reference" "H102"
+			(at 219.71 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 220.9799 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 220.98 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 220.98 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e611804-d729-4562-a835-f48d12442d8a")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
+					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 154.94 0)
 		(unit 1)
@@ -11830,6 +12573,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 224.79 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e14da98b-ede2-4b76-8a7a-14440f2df90b")
+		(property "Reference" "#PWR018"
+			(at 224.79 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4ea3f7a-aa9a-4674-982d-6e5ec17d1d4b")
+		)
+		(instances
+			(project "FPGA_AURA"
+				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 24.13 95.25 0)
 		(unit 1)
@@ -11841,7 +12662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2cdf972-c5a4-4867-b2cd-e23d03e21abd")
-		(property "Reference" "R210"
+		(property "Reference" "R110"
 			(at 26.67 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11905,7 +12726,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R210")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -11923,7 +12744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3896e10-1451-4602-8512-07a5920813a0")
-		(property "Reference" "R200"
+		(property "Reference" "R100"
 			(at 60.96 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11987,7 +12808,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "R200")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -12005,7 +12826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3af1a63-394a-4ed7-8dda-f9eaf4f7d8e0")
-		(property "Reference" "C201"
+		(property "Reference" "C101"
 			(at 62.23 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12069,7 +12890,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C201")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -12243,7 +13064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed272adc-568b-4526-98bd-cd97e8579e6c")
-		(property "Reference" "C220"
+		(property "Reference" "C120"
 			(at 104.14 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12307,7 +13128,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C220")
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -12325,7 +13146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee1cefe2-254e-4409-8aa0-efefc735ebe7")
-		(property "Reference" "C213"
+		(property "Reference" "C113"
 			(at 64.77 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12389,7 +13210,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C213")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -12708,7 +13529,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 269.24 77.47 0)
+		(at 269.24 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12718,8 +13539,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6eb7a4b-8305-4a35-8487-5a4e5dadee07")
-		(property "Reference" "C222"
-			(at 273.05 76.1999 0)
+		(property "Reference" "C122"
+			(at 273.05 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12730,7 +13551,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 273.05 78.7399 0)
+			(at 273.05 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12741,7 +13562,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 270.2052 81.28 0)
+			(at 270.2052 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12752,7 +13573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 77.47 0)
+			(at 269.24 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12763,7 +13584,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 269.24 77.47 0)
+			(at 269.24 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +13603,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C222")
+					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -12800,7 +13621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7daab79-299e-4595-a477-ea6bcb86be7b")
-		(property "Reference" "C205"
+		(property "Reference" "C105"
 			(at 125.73 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12864,7 +13685,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C205")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -12882,7 +13703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f88dd2fc-1318-40fd-81b9-df20aa7b56df")
-		(property "Reference" "L200"
+		(property "Reference" "L100"
 			(at 146.05 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12944,7 +13765,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "L200")
+					(reference "L100")
 					(unit 1)
 				)
 			)
@@ -12952,7 +13773,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 257.81 107.95 0)
+		(at 257.81 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12962,8 +13783,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f93b1ce6-d316-4c3e-981d-3991ec53c44f")
-		(property "Reference" "C214"
-			(at 261.62 106.6799 0)
+		(property "Reference" "C114"
+			(at 261.62 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12974,7 +13795,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 261.62 109.2199 0)
+			(at 261.62 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12985,7 +13806,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 258.7752 111.76 0)
+			(at 258.7752 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12996,7 +13817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 107.95 0)
+			(at 257.81 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13007,7 +13828,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 107.95 0)
+			(at 257.81 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13026,7 +13847,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C214")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -13044,7 +13865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1c75da-3143-44da-ad84-55355bbbfff6")
-		(property "Reference" "C211"
+		(property "Reference" "C111"
 			(at 40.64 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13108,7 +13929,7 @@
 		(instances
 			(project "FPGA_AURA"
 				(path "/3d83cb23-9528-4d06-8969-599520e9eb23/13b0138f-baaf-4548-88e5-002745ed3ff2"
-					(reference "C211")
+					(reference "C111")
 					(unit 1)
 				)
 			)
