@@ -10810,6 +10810,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 151.13) (xy 57.15 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334d2eb1-48ee-4319-b12d-4ba7538aa788")
+	)
+	(wire
+		(pts
 			(xy 128.27 73.66) (xy 128.27 74.93)
 		)
 		(stroke
@@ -11420,16 +11430,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 151.13) (xy 52.07 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83a14f0-7d9e-4697-9dd9-63cd93bd2de1")
-	)
-	(wire
-		(pts
 			(xy 104.14 49.53) (xy 104.14 57.15)
 		)
 		(stroke
@@ -11570,6 +11570,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 158.75) (xy 57.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb698942-d7c8-4569-a93c-fa4dd91791fa")
+	)
+	(wire
+		(pts
 			(xy 57.15 100.33) (xy 52.07 100.33)
 		)
 		(stroke
@@ -11587,16 +11597,6 @@
 			(type default)
 		)
 		(uuid "d04f4004-cf02-4834-86f3-64b91b746391")
-	)
-	(wire
-		(pts
-			(xy 57.15 158.75) (xy 52.07 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5cf8702-5d39-4783-bc69-380f9d598b58")
 	)
 	(wire
 		(pts
@@ -11750,7 +11750,7 @@
 	)
 	(global_label "ETH_0_RX_ER"
 		(shape input)
-		(at 52.07 156.21 180)
+		(at 52.07 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11760,7 +11760,7 @@
 		)
 		(uuid "00c299e2-ca8b-4155-aa2c-e6d0c50b2f33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.6269 156.21 0)
+			(at 36.6269 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11774,7 +11774,7 @@
 	)
 	(global_label "ETH_0_RXD_3"
 		(shape input)
-		(at 52.07 153.67 180)
+		(at 52.07 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11784,7 +11784,7 @@
 		)
 		(uuid "0765236d-f4ff-468e-a4e6-fb2745384c50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5664 153.67 0)
+			(at 36.5664 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11798,7 +11798,7 @@
 	)
 	(global_label "ETH_0_RXD_0"
 		(shape input)
-		(at 52.07 146.05 180)
+		(at 52.07 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11808,7 +11808,7 @@
 		)
 		(uuid "162315ba-eead-4da4-8d12-effd4d3070d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5664 146.05 0)
+			(at 36.5664 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11822,30 +11822,6 @@
 	)
 	(global_label "ETH_1_TXD_1"
 		(shape output)
-		(at 52.07 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "185c2821-25a6-4371-912a-d9056c0f1029")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8688 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_1_TXD_0"
-		(shape output)
 		(at 52.07 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11854,7 +11830,7 @@
 			)
 			(justify right)
 		)
-		(uuid "1cf8ed97-c2e3-4f3f-a5fa-f45bd9924927")
+		(uuid "185c2821-25a6-4371-912a-d9056c0f1029")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.8688 90.17 0)
 			(hide yes)
@@ -11868,9 +11844,33 @@
 			)
 		)
 	)
+	(global_label "ETH_1_TXD_0"
+		(shape output)
+		(at 52.07 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cf8ed97-c2e3-4f3f-a5fa-f45bd9924927")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.8688 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ETH_0_TXD_2"
 		(shape output)
-		(at 52.07 166.37 180)
+		(at 52.07 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11880,7 +11880,7 @@
 		)
 		(uuid "219adf82-5ed9-4a7f-9a07-1a17cc6b71ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8688 166.37 0)
+			(at 36.8688 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11894,7 +11894,7 @@
 	)
 	(global_label "ETH_0_RXD_1"
 		(shape input)
-		(at 52.07 148.59 180)
+		(at 52.07 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11904,7 +11904,7 @@
 		)
 		(uuid "276b0f57-d634-43ec-a51e-ee122baa0fc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5664 148.59 0)
+			(at 36.5664 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11918,7 +11918,7 @@
 	)
 	(global_label "ETH_0_TXD_1"
 		(shape output)
-		(at 52.07 163.83 180)
+		(at 52.07 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11928,7 +11928,7 @@
 		)
 		(uuid "2c3e5a02-f56d-4c69-9e18-7a01155c8543")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8688 163.83 0)
+			(at 36.8688 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11942,7 +11942,7 @@
 	)
 	(global_label "ETH_1_RXD_1"
 		(shape input)
-		(at 52.07 125.73 180)
+		(at 52.07 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11952,7 +11952,7 @@
 		)
 		(uuid "2eaedc08-f985-4641-94a9-7392d7d0a3ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5664 125.73 0)
+			(at 36.5664 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11966,7 +11966,7 @@
 	)
 	(global_label "ETH_0_COL"
 		(shape input)
-		(at 52.07 143.51 180)
+		(at 52.07 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11976,7 +11976,7 @@
 		)
 		(uuid "306e54df-4b84-4005-8b2c-9ddf01d74720")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.8644 143.51 0)
+			(at 38.8644 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11990,7 +11990,7 @@
 	)
 	(global_label "ETH_0_RXD_2"
 		(shape input)
-		(at 52.07 151.13 180)
+		(at 52.07 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12000,7 +12000,7 @@
 		)
 		(uuid "31612ad3-3875-4241-8a29-42c48a30509d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5664 151.13 0)
+			(at 36.5664 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12110,7 +12110,7 @@
 	)
 	(global_label "ETH_1_RXD_0"
 		(shape input)
-		(at 52.07 123.19 180)
+		(at 52.07 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12120,7 +12120,7 @@
 		)
 		(uuid "42a99748-2a3d-48ba-8c2f-c42d4df03a8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5664 123.19 0)
+			(at 36.5664 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12182,7 +12182,7 @@
 	)
 	(global_label "ETH_0_CRS"
 		(shape input)
-		(at 52.07 140.97 180)
+		(at 52.07 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12192,7 +12192,7 @@
 		)
 		(uuid "4feeae6e-8176-4d6b-86ba-7ec734c29fbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.7435 140.97 0)
+			(at 38.7435 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12374,7 +12374,7 @@
 	)
 	(global_label "ETH_0_TX_EN"
 		(shape output)
-		(at 52.07 171.45 180)
+		(at 52.07 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12384,7 +12384,7 @@
 		)
 		(uuid "733dceeb-8e6d-4c69-a2d8-ebfe18148bfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8688 171.45 0)
+			(at 36.8688 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12398,7 +12398,7 @@
 	)
 	(global_label "ETH_1_RX_DV"
 		(shape input)
-		(at 52.07 135.89 180)
+		(at 52.07 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12408,7 +12408,7 @@
 		)
 		(uuid "85b66e6c-f0b7-46fc-af86-ea2d7fb4142c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.6873 135.89 0)
+			(at 36.6873 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12446,7 +12446,7 @@
 	)
 	(global_label "ETH_0_RX_DV"
 		(shape input)
-		(at 52.07 158.75 180)
+		(at 52.07 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12456,7 +12456,7 @@
 		)
 		(uuid "8d92c1ed-286a-45ea-8f7e-bfd12e488ee7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.6873 158.75 0)
+			(at 36.6873 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12470,7 +12470,7 @@
 	)
 	(global_label "ETH_1_RXD_3"
 		(shape input)
-		(at 52.07 130.81 180)
+		(at 52.07 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12480,7 +12480,7 @@
 		)
 		(uuid "9e5e02aa-c290-461c-847a-da2eebfea45a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5664 130.81 0)
+			(at 36.5664 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12494,7 +12494,7 @@
 	)
 	(global_label "ETH_1_COL"
 		(shape input)
-		(at 52.07 120.65 180)
+		(at 52.07 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12504,7 +12504,7 @@
 		)
 		(uuid "a0d6f1d2-1038-46b0-97b6-791c0e777d62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.8644 120.65 0)
+			(at 38.8644 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12518,7 +12518,7 @@
 	)
 	(global_label "ETH_1_TXD_3"
 		(shape output)
-		(at 52.07 97.79 180)
+		(at 52.07 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12528,7 +12528,7 @@
 		)
 		(uuid "a1c6f4c4-3e7c-42ed-825b-ccb2433a50a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8688 97.79 0)
+			(at 36.8688 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12566,7 +12566,7 @@
 	)
 	(global_label "ETH_1_TX_EN"
 		(shape output)
-		(at 52.07 87.63 180)
+		(at 52.07 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12576,7 +12576,7 @@
 		)
 		(uuid "acaf2b00-e025-468e-a454-0f495a24318a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8688 87.63 0)
+			(at 36.8688 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12590,7 +12590,7 @@
 	)
 	(global_label "ETH_1_RX_ER"
 		(shape input)
-		(at 52.07 133.35 180)
+		(at 52.07 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12600,7 +12600,7 @@
 		)
 		(uuid "b2832f3e-e76c-42f7-a3ef-1c13b8818223")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.6269 133.35 0)
+			(at 36.6269 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12614,7 +12614,7 @@
 	)
 	(global_label "ETH_1_CRS"
 		(shape input)
-		(at 52.07 118.11 180)
+		(at 52.07 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12624,7 +12624,7 @@
 		)
 		(uuid "ba24096d-09bc-4e3e-93ee-9810c9da5f81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.7435 118.11 0)
+			(at 38.7435 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12662,7 +12662,7 @@
 	)
 	(global_label "ETH_0_TXD_0"
 		(shape output)
-		(at 52.07 161.29 180)
+		(at 52.07 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12672,7 +12672,7 @@
 		)
 		(uuid "da4875d7-7a35-4f0b-a5ac-53932048f13a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8688 161.29 0)
+			(at 36.8688 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12686,7 +12686,7 @@
 	)
 	(global_label "ETH_1_TXD_2"
 		(shape output)
-		(at 52.07 95.25 180)
+		(at 52.07 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12696,7 +12696,7 @@
 		)
 		(uuid "dc03abd1-c199-4cab-8364-c43d1e41f37d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8688 95.25 0)
+			(at 36.8688 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12710,7 +12710,7 @@
 	)
 	(global_label "ETH_1_RXD_2"
 		(shape input)
-		(at 52.07 128.27 180)
+		(at 52.07 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12720,7 +12720,7 @@
 		)
 		(uuid "dc283b95-a742-4ea9-96c7-573500021432")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5664 128.27 0)
+			(at 36.5664 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12758,7 +12758,7 @@
 	)
 	(global_label "ETH_0_TXD_3"
 		(shape output)
-		(at 52.07 168.91 180)
+		(at 52.07 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12768,7 +12768,7 @@
 		)
 		(uuid "de3f7459-394b-4089-8df4-3f958e56e71c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8688 168.91 0)
+			(at 36.8688 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

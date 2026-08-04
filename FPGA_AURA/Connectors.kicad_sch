@@ -3581,16 +3581,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 100.33) (xy 234.95 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16f5bef9-1fce-48f4-bf08-829080fe1a5f")
-	)
-	(wire
-		(pts
 			(xy 177.8 113.03) (xy 203.2 113.03)
 		)
 		(stroke
@@ -3598,16 +3588,6 @@
 			(type default)
 		)
 		(uuid "19ad83b3-20ea-468a-95f1-50a9fa95c4a8")
-	)
-	(wire
-		(pts
-			(xy 199.39 105.41) (xy 203.2 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b84e2b-3bec-40cd-bc7e-5667b8dcffdf")
 	)
 	(wire
 		(pts
@@ -3701,6 +3681,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 105.41) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ca51c6-cc2e-4dd7-ad8c-05c38f642f50")
+	)
+	(wire
+		(pts
 			(xy 110.49 93.98) (xy 114.3 93.98)
 		)
 		(stroke
@@ -3761,7 +3751,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 110.49) (xy 234.95 110.49)
+			(xy 228.6 110.49) (xy 232.41 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3961,7 +3951,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 113.03) (xy 234.95 113.03)
+			(xy 228.6 113.03) (xy 232.41 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4008,6 +3998,16 @@
 			(type default)
 		)
 		(uuid "3e29df69-5151-46b1-a729-2af0e5433b03")
+	)
+	(wire
+		(pts
+			(xy 199.39 107.95) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f623e97-0368-4336-a290-4ce64c5b4898")
 	)
 	(wire
 		(pts
@@ -4661,6 +4661,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 100.33) (xy 232.41 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa62956-a9f7-4fe3-b9a1-972696d7ed1e")
+	)
+	(wire
+		(pts
 			(xy 85.09 73.66) (xy 57.15 73.66)
 		)
 		(stroke
@@ -4751,13 +4761,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 102.87) (xy 234.95 102.87)
+			(xy 228.6 102.87) (xy 232.41 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c17ef010-e954-41ed-9e85-f9beb064a5f3")
+		(uuid "c2773cd0-4c3b-4cf9-aad3-19ad22381bc4")
 	)
 	(wire
 		(pts
@@ -5168,16 +5178,6 @@
 			(type default)
 		)
 		(uuid "f6f31683-b997-4505-b016-422fe9d6b5e4")
-	)
-	(wire
-		(pts
-			(xy 199.39 107.95) (xy 203.2 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f71697a4-5245-4168-8473-bb22423614b7")
 	)
 	(wire
 		(pts
@@ -5641,17 +5641,17 @@
 	)
 	(global_label "TCK"
 		(shape input)
-		(at 234.95 102.87 0)
+		(at 199.39 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3b85e89b-f934-46f0-bc66-1c3cbd014f21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.4428 102.87 0)
+			(at 192.8972 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,7 +5659,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -6169,7 +6169,7 @@
 	)
 	(global_label "TDI"
 		(shape input)
-		(at 234.95 110.49 0)
+		(at 232.41 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6179,7 +6179,7 @@
 		)
 		(uuid "8c5df7d4-e58f-45ec-8e93-0299c0e58fa0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.7776 110.49 0)
+			(at 238.2376 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6217,7 +6217,7 @@
 	)
 	(global_label "TDO"
 		(shape output)
-		(at 234.95 113.03 0)
+		(at 232.41 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6227,7 +6227,7 @@
 		)
 		(uuid "909bd3c2-f0cc-4ace-a98e-2b37aa5d483e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.5033 113.03 0)
+			(at 238.9633 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6505,17 +6505,17 @@
 	)
 	(global_label "FPGA_REFCLK_N"
 		(shape output)
-		(at 199.39 107.95 180)
+		(at 232.41 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b395a1c9-98d7-4f80-b8c7-6bfe9fe4ff3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.3462 107.95 0)
+			(at 250.4538 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,7 +6523,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -6865,17 +6865,17 @@
 	)
 	(global_label "FPGA_REFCLK_P"
 		(shape output)
-		(at 199.39 105.41 180)
+		(at 232.41 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "eb09b86c-33e6-40c7-bb7d-3e77ae098447")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4067 105.41 0)
+			(at 250.3933 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6883,7 +6883,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -6937,17 +6937,17 @@
 	)
 	(global_label "TMS"
 		(shape input)
-		(at 234.95 100.33 0)
+		(at 199.39 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f365f771-7e73-45d3-8023-dda82b9d8803")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.5637 100.33 0)
+			(at 192.7763 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6955,7 +6955,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
