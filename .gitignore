@@ -43,4 +43,9 @@ fp-info-cache
 *.kicad_prl
 
 ./FPGA_AURA/.history_trim/
+
+# Vivado stuff
 /build
+*.jou
+*.log
+*.str
