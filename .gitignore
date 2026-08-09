@@ -45,7 +45,9 @@ fp-info-cache
 ./FPGA_AURA/.history_trim/
 
 # Vivado stuff
-/build
+build
+
 *.jou
 *.log
 *.str
+*.logfile
