@@ -1,0 +1,27 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 08-aug-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Aug  9 20:24:29 2026
+# Process ID         : 11748
+# Current directory  : /home/alexander-armitage/Documents/GitHub/AURA-FPGA
+# Command line       : vivado -mode batch -source Vivado/scripts/build.tcl
+# Log file           : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/vivado.log
+# Journal file       : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/vivado.jou
+# Running On         : alexander-armitage-XPS-9320
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency      : 865.945 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 32703 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41293 MB
+# Available Virtual  : 38786 MB
+#-----------------------------------------------------------
+source Vivado/scripts/build.tcl
+couldn't read file "Vivado/scripts/build.tcl": no such file or directory
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  9 20:24:32 2026...

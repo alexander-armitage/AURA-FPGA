@@ -1,0 +1,628 @@
+
+*** Running vivado
+    with args -log System_microblaze_0_axi_periph_imp_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_microblaze_0_axi_periph_imp_xbar_0.tcl
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 08-aug-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Aug  9 20:30:20 2026
+# Process ID         : 16891
+# Current directory  : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_xbar_0_synth_1
+# Command line       : vivado -log System_microblaze_0_axi_periph_imp_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_microblaze_0_axi_periph_imp_xbar_0.tcl
+# Log file           : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_xbar_0_synth_1/System_microblaze_0_axi_periph_imp_xbar_0.vds
+# Journal file       : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_xbar_0_synth_1/vivado.jou
+# Running On         : alexander-armitage-XPS-9320
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency      : 2200.000 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 32703 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41293 MB
+# Available Virtual  : 32033 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Aug  9 20:30:20 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source System_microblaze_0_axi_periph_imp_xbar_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:06 . Memory (MB): peak = 1717.027 ; gain = 274.059 ; free physical = 15889 ; free virtual = 29340
+Command: synth_design -top System_microblaze_0_axi_periph_imp_xbar_0 -part xc7a35tftg256-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tftg256-2
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18852
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2385.574 ; gain = 518.367 ; free physical = 10336 ; free virtual = 23986
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'System_microblaze_0_axi_periph_imp_xbar_0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_xbar_0/synth/System_microblaze_0_axi_periph_imp_xbar_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_axi_crossbar' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_crossbar' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2232]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_addr_decoder' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_carry_and' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_carry_and' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized2' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized2' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized3' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized3' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized4' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized4' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized5' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized5' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized6' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_comparator_static__parameterized6' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_addr_decoder' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:170899]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:170899]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'MUXF7' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104838]
+INFO: [Synth 8-6155] done synthesizing module 'MUXF7' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104838]
+INFO: [Synth 8-6157] synthesizing module 'MUXF8' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104875]
+INFO: [Synth 8-6155] done synthesizing module 'MUXF8' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104875]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_splitter' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_splitter' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_wdata_router' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_wdata_router' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized2' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_nto1_mux' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2872]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_nto1_mux' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2872]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized2' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_wdata_router__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_wdata_router__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized3' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized2' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl__parameterized2' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl__parameterized2' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized2' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized3' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized4' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized4' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized5' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized5' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_wdata_router__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_wdata_router__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized6' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized6' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized7' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized7' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized8' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized8' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized9' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_si_transactor__parameterized9' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_addr_decoder__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_addr_decoder__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_addr_decoder__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_addr_decoder__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized3' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized3' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_wdata_mux' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized2' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized2' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_wdata_mux' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_37_axi_register_slice' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:3721]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_37_axic_register_slice' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_37_axic_register_slice' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_37_axic_register_slice__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_37_axic_register_slice__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_37_axic_register_slice__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_37_axic_register_slice__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_37_axic_register_slice__parameterized2' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_37_axic_register_slice__parameterized2' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_37_axi_register_slice' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8c55/hdl/axi_register_slice_v2_1_rfs.v:3721]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_37_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_37_axi_register_slice' has 93 connections declared, but only 92 given [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized4' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl__parameterized3' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_ndeep_srl__parameterized3' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized4' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_wdata_mux__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized3' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized3' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_wdata_mux__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_37_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_37_axi_register_slice' has 93 connections declared, but only 92 given [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_37_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_37_axi_register_slice' has 93 connections declared, but only 92 given [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_37_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_37_axi_register_slice' has 93 connections declared, but only 92 given [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_37_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_37_axi_register_slice' has 93 connections declared, but only 92 given [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_37_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_37_axi_register_slice' has 93 connections declared, but only 92 given [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_37_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_37_axi_register_slice' has 93 connections declared, but only 92 given [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_37_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_37_axi_register_slice' has 93 connections declared, but only 92 given [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized5' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_srl_fifo__parameterized5' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_wdata_mux__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized4' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized4' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_wdata_mux__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_37_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_37_axi_register_slice' has 93 connections declared, but only 92 given [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_decerr_slave' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3626]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_decerr_slave' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_39_addr_arbiter' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:420]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized2' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized2' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized3' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_2_mux_enc__parameterized3' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/0c28/hdl/generic_baseblocks_v2_1_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_addr_arbiter' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:420]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_crossbar' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2232]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_39_axi_crossbar' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6155] done synthesizing module 'System_microblaze_0_axi_periph_imp_xbar_0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_xbar_0/synth/System_microblaze_0_axi_periph_imp_xbar_0.v:53]
+INFO: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+INFO: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+INFO: [Synth 8-6014] Unused sequential element gen_single_issue.gen_debug_r_single_issue.debug_r_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4078]
+INFO: [Synth 8-6014] Unused sequential element gen_single_issue.gen_debug_r_single_issue.debug_r_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4078]
+INFO: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+INFO: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+INFO: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+INFO: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+INFO: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+INFO: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+INFO: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+INFO: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+INFO: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+INFO: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+INFO: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+INFO: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+INFO: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+INFO: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+INFO: [Synth 8-6014] Unused sequential element s_ready_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1034]
+INFO: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+INFO: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+INFO: [Synth 8-6014] Unused sequential element s_ready_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1034]
+INFO: [Synth 8-6014] Unused sequential element s_ready_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/a62a/hdl/axi_data_fifo_v2_1_vl_rfs.v:1034]
+INFO: [Synth 8-6014] Unused sequential element gen_master_slots[0].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+INFO: [Synth 8-6014] Unused sequential element gen_master_slots[1].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+INFO: [Synth 8-6014] Unused sequential element gen_master_slots[2].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+INFO: [Synth 8-6014] Unused sequential element gen_master_slots[3].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+INFO: [Synth 8-6014] Unused sequential element gen_master_slots[4].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+INFO: [Synth 8-6014] Unused sequential element gen_master_slots[5].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+INFO: [Synth 8-6014] Unused sequential element gen_master_slots[6].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+INFO: [Synth 8-6014] Unused sequential element gen_master_slots[7].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+INFO: [Synth 8-6014] Unused sequential element gen_master_slots[8].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/eea9/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+INFO: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_37_axic_register_slice is either unconnected or has no load
+INFO: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_37_axic_register_slice is either unconnected or has no load
+INFO: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_37_axic_register_slice__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_37_axic_register_slice__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+INFO: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wid[2] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wid[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_37_axi_register_slice is either unconnected or has no load
+INFO: [Synth 8-7129] Port ADDR[1] in module axi_crossbar_v2_1_39_addr_decoder is either unconnected or has no load
+INFO: [Synth 8-7129] Port ADDR[0] in module axi_crossbar_v2_1_39_addr_decoder is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_39_si_transactor__parameterized5 is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_39_si_transactor__parameterized5 is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_39_si_transactor__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_39_si_transactor__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_39_si_transactor__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_39_si_transactor__parameterized3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port SEL_ONEHOT[1] in module generic_baseblocks_v2_1_2_nto1_mux is either unconnected or has no load
+INFO: [Synth 8-7129] Port SEL_ONEHOT[0] in module generic_baseblocks_v2_1_2_nto1_mux is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_39_si_transactor__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_39_si_transactor__parameterized2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_39_si_transactor__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_39_si_transactor__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_39_si_transactor is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_39_si_transactor is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[17] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[16] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[15] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[14] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[13] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[12] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[11] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[10] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[9] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[8] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[7] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[6] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[5] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[4] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[3] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[2] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[1] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[95] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[94] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[93] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[92] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[91] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[90] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[89] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[88] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[87] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[86] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[85] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[84] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[83] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[82] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[81] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[80] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[79] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[78] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[77] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[76] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[75] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[74] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[73] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[72] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[71] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[70] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[69] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[68] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[67] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[66] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[65] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWADDR[64] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[23] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[22] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[21] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[20] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[19] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[18] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[17] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[16] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWSIZE[8] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWSIZE[7] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWSIZE[6] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWBURST[5] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWBURST[4] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLOCK[5] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLOCK[4] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWCACHE[11] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWCACHE[10] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWCACHE[9] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWCACHE[8] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWPROT[8] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWPROT[7] in module axi_crossbar_v2_1_39_crossbar is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2621.512 ; gain = 754.305 ; free physical = 9301 ; free virtual = 22926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2621.512 ; gain = 754.305 ; free physical = 9285 ; free virtual = 22910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 2621.512 ; gain = 754.305 ; free physical = 9285 ; free virtual = 22910
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2621.512 ; gain = 0.000 ; free physical = 9247 ; free virtual = 22874
+INFO: [Netlist 29-17] Analyzing 538 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_xbar_0/System_microblaze_0_axi_periph_imp_xbar_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_xbar_0/System_microblaze_0_axi_periph_imp_xbar_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_xbar_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_xbar_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2661.531 ; gain = 0.000 ; free physical = 9343 ; free virtual = 22965
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.15 . Memory (MB): peak = 2661.566 ; gain = 0.000 ; free physical = 9347 ; free virtual = 22969
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 2661.566 ; gain = 794.359 ; free physical = 10510 ; free virtual = 24121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 2669.535 ; gain = 802.328 ; free physical = 10509 ; free virtual = 24121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2669.535 ; gain = 802.328 ; free physical = 10509 ; free virtual = 24121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized4'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.write_cs_reg' in module 'axi_crossbar_v2_1_39_decerr_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                              100 |                               10
+                     ONE |                              010 |                               11
+                     TWO |                              001 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_37_axic_reg_srl_fifo__parameterized4'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.write_cs_reg' using encoding 'one-hot' in module 'axi_crossbar_v2_1_39_decerr_slave'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2669.535 ; gain = 802.328 ; free physical = 10289 ; free virtual = 23902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 9     
+	   2 Input    5 Bit       Adders := 15    
+	   2 Input    4 Bit       Adders := 11    
+	   2 Input    3 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 27    
+	   2 Input    1 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 34    
++---Registers : 
+	               66 Bit    Registers := 2     
+	               38 Bit    Registers := 18    
+	                9 Bit    Registers := 13    
+	                8 Bit    Registers := 21    
+	                6 Bit    Registers := 10    
+	                5 Bit    Registers := 24    
+	                4 Bit    Registers := 27    
+	                3 Bit    Registers := 15    
+	                2 Bit    Registers := 46    
+	                1 Bit    Registers := 102   
++---Muxes : 
+	   2 Input   38 Bit        Muxes := 18    
+	   2 Input    9 Bit        Muxes := 11    
+	   2 Input    8 Bit        Muxes := 12    
+	   2 Input    6 Bit        Muxes := 25    
+	   2 Input    4 Bit        Muxes := 27    
+	   3 Input    3 Bit        Muxes := 14    
+	   2 Input    3 Bit        Muxes := 52    
+	   2 Input    2 Bit        Muxes := 58    
+	   2 Input    1 Bit        Muxes := 338   
+	   3 Input    1 Bit        Muxes := 50    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 2669.535 ; gain = 802.328 ; free physical = 12390 ; free virtual = 26009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:02 ; elapsed = 00:01:04 . Memory (MB): peak = 2724.535 ; gain = 857.328 ; free physical = 11593 ; free virtual = 25215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:08 ; elapsed = 00:01:11 . Memory (MB): peak = 2797.363 ; gain = 930.156 ; free physical = 10694 ; free virtual = 24317
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 2828.371 ; gain = 961.164 ; free physical = 10422 ; free virtual = 24047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:15 ; elapsed = 00:01:17 . Memory (MB): peak = 2956.184 ; gain = 1088.977 ; free physical = 11437 ; free virtual = 25067
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:15 ; elapsed = 00:01:17 . Memory (MB): peak = 2956.184 ; gain = 1088.977 ; free physical = 11437 ; free virtual = 25068
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 2956.184 ; gain = 1088.977 ; free physical = 11593 ; free virtual = 25251
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 2956.184 ; gain = 1088.977 ; free physical = 11584 ; free virtual = 25246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 2956.184 ; gain = 1088.977 ; free physical = 11555 ; free virtual = 25225
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 2956.184 ; gain = 1088.977 ; free physical = 11555 ; free virtual = 25225
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |    45|
+|2     |LUT2    |   127|
+|3     |LUT3    |   465|
+|4     |LUT4    |   318|
+|5     |LUT5    |   312|
+|6     |LUT6    |  1885|
+|7     |MUXF7   |   225|
+|8     |MUXF8   |   225|
+|9     |SRLC32E |    47|
+|10    |FDRE    |  1252|
+|11    |FDSE    |    73|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 2956.184 ; gain = 1088.977 ; free physical = 11555 ; free virtual = 25225
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:11 ; elapsed = 00:01:15 . Memory (MB): peak = 2956.184 ; gain = 1048.922 ; free physical = 11546 ; free virtual = 25218
+Synthesis Optimization Complete : Time (s): cpu = 00:01:16 ; elapsed = 00:01:18 . Memory (MB): peak = 2956.191 ; gain = 1088.977 ; free physical = 11546 ; free virtual = 25218
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2956.191 ; gain = 0.000 ; free physical = 11690 ; free virtual = 25322
+INFO: [Netlist 29-17] Analyzing 450 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3012.211 ; gain = 0.000 ; free physical = 13219 ; free virtual = 26816
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: d642f575
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+326 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:28 ; elapsed = 00:01:25 . Memory (MB): peak = 3012.246 ; gain = 1295.219 ; free physical = 13203 ; free virtual = 26794
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1796.676; main = 1782.986; forked = 185.232
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3836.309; main = 3012.215; forked = 1038.941
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3036.223 ; gain = 0.000 ; free physical = 13203 ; free virtual = 26795
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_xbar_0_synth_1/System_microblaze_0_axi_periph_imp_xbar_0.dcp' has been generated.
+INFO: [Ipptcl 7-1612] Added synthesis output to IP cache for IP System_microblaze_0_axi_periph_imp_xbar_0, cache-ID = 3382b416e1b998b0
+INFO: [Coretcl 2-1174] Renamed 143 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3036.223 ; gain = 0.000 ; free physical = 13107 ; free virtual = 26705
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_xbar_0_synth_1/System_microblaze_0_axi_periph_imp_xbar_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file System_microblaze_0_axi_periph_imp_xbar_0_utilization_synth.rpt -pb System_microblaze_0_axi_periph_imp_xbar_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  9 20:32:00 2026...

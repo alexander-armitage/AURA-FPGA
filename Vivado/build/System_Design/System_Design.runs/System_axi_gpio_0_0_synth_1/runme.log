@@ -1,0 +1,462 @@
+
+*** Running vivado
+    with args -log System_axi_gpio_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_axi_gpio_0_0.tcl
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 08-aug-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Aug  9 20:28:56 2026
+# Process ID         : 13480
+# Current directory  : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_gpio_0_0_synth_1
+# Command line       : vivado -log System_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_axi_gpio_0_0.tcl
+# Log file           : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_gpio_0_0_synth_1/System_axi_gpio_0_0.vds
+# Journal file       : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_gpio_0_0_synth_1/vivado.jou
+# Running On         : alexander-armitage-XPS-9320
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency      : 2200.000 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 32703 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41293 MB
+# Available Virtual  : 36853 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Aug  9 20:28:56 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source System_axi_gpio_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1718.055 ; gain = 276.059 ; free physical = 18097 ; free virtual = 31410
+Command: synth_design -top System_axi_gpio_0_0 -part xc7a35tftg256-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tftg256-2
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13868
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2376.688 ; gain = 516.453 ; free physical = 11546 ; free virtual = 24880
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'System_axi_gpio_0_0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/synth/System_axi_gpio_0_0.vhd:87]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_GPIO_WIDTH bound to: 1 - type: integer 
+	Parameter C_GPIO2_WIDTH bound to: 32 - type: integer 
+	Parameter C_ALL_INPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_INPUTS_2 bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS_2 bound to: 0 - type: integer 
+	Parameter C_INTERRUPT_PRESENT bound to: 1 - type: integer 
+	Parameter C_DOUT_DEFAULT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT bound to: 32'b11111111111111111111111111111111 
+	Parameter C_IS_DUAL bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT_2 bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
+INFO: [Synth 8-3491] module 'axi_gpio' declared at '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/6ccd/hdl/axi_gpio_v2_0_rfs.vhd:1255' bound to instance 'U0' of component 'axi_gpio' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/synth/System_axi_gpio_0_0.vhd:181]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/6ccd/hdl/axi_gpio_v2_0_rfs.vhd:1341]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:2341]
+INFO: [Synth 8-3919] null assignment ignored [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:2370]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized7' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized7' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized8' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized8' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized9' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized9' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized10' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized10' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized11' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized11' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized12' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized12' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized13' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized13' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized14' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized14' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized15' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized15' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized16' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized16' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized17' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized17' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized18' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized18' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized19' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized19' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized20' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized20' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/de33/hdl/axi_lite_ipif_v3_1_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'interrupt_control' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/e2ca/hdl/interrupt_control_v3_2_rfs.vhd:257]
+INFO: [Synth 8-256] done synthesizing module 'interrupt_control' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/e2ca/hdl/interrupt_control_v3_2_rfs.vhd:257]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/6ccd/hdl/axi_gpio_v2_0_rfs.vhd:182]
+INFO: [Synth 8-226] default block is never used [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/6ccd/hdl/axi_gpio_v2_0_rfs.vhd:447]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_array_single' declared at '/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903' bound to instance 'INPUT_DOUBLE_REGS3' of component 'xpm_cdc_array_single' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/6ccd/hdl/axi_gpio_v2_0_rfs.vhd:458]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_array_single' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_array_single' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/6ccd/hdl/axi_gpio_v2_0_rfs.vhd:182]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/6ccd/hdl/axi_gpio_v2_0_rfs.vhd:1341]
+INFO: [Synth 8-256] done synthesizing module 'System_axi_gpio_0_0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/synth/System_axi_gpio_0_0.vhd:87]
+INFO: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT0_ND.READ_REG_GEN[0].GPIO_DBus_i_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/6ccd/hdl/axi_gpio_v2_0_rfs.vhd:388]
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_array_single is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[1] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[2] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[3] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[4] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[7] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[8] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port BE_Reg[0] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port BE_Reg[1] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port BE_Reg[2] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port BE_Reg[3] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[0] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[1] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[2] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[3] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[4] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[5] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[6] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[7] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[8] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[9] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[10] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[11] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[12] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[13] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[14] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[15] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[16] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[17] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[18] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[19] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[20] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[21] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[22] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[23] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[24] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[25] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[26] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[27] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[28] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[29] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[30] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port GPIO2_IO_I[31] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[1] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[2] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[3] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[4] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[5] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[6] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[7] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[8] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[9] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[10] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[11] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[12] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[13] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[14] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[15] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[16] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[17] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[18] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[19] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[20] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[21] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[22] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[23] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[24] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[25] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[26] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[27] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[28] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[29] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[30] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_be[1] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_be[2] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_be[3] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[0] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[1] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[2] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[3] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[4] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[5] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[6] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[9] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[11] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[12] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[13] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[14] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[15] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[0] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[1] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[2] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[3] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[4] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[5] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[6] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[9] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[11] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[12] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[13] in module interrupt_control is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2473.625 ; gain = 613.391 ; free physical = 10698 ; free virtual = 24024
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2488.469 ; gain = 628.234 ; free physical = 10681 ; free virtual = 24006
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2488.469 ; gain = 628.234 ; free physical = 10681 ; free virtual = 24006
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2488.469 ; gain = 0.000 ; free physical = 10658 ; free virtual = 23984
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_board.xdc] for cell 'U0'
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_gpio_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_gpio_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_array_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_axi_gpio_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_axi_gpio_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 1 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2587.270 ; gain = 0.000 ; free physical = 10172 ; free virtual = 23503
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2587.305 ; gain = 0.000 ; free physical = 10132 ; free virtual = 23463
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2587.305 ; gain = 727.070 ; free physical = 9104 ; free virtual = 22606
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2595.273 ; gain = 735.039 ; free physical = 9104 ; free virtual = 22600
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2595.273 ; gain = 735.039 ; free physical = 9117 ; free virtual = 22590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2595.273 ; gain = 735.039 ; free physical = 8970 ; free virtual = 22424
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 60    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   5 Input   32 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 5     
+	   2 Input    2 Bit        Muxes := 3     
+	   3 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 31    
+	   4 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2595.273 ; gain = 735.039 ; free physical = 8885 ; free virtual = 22378
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2664.273 ; gain = 804.039 ; free physical = 8548 ; free virtual = 22047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2693.320 ; gain = 833.086 ; free physical = 8497 ; free virtual = 21996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2693.320 ; gain = 833.086 ; free physical = 8493 ; free virtual = 21992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 2881.133 ; gain = 1020.898 ; free physical = 9825 ; free virtual = 23207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 2881.133 ; gain = 1020.898 ; free physical = 9824 ; free virtual = 23207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 2881.133 ; gain = 1020.898 ; free physical = 9820 ; free virtual = 23205
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 2881.133 ; gain = 1020.898 ; free physical = 9821 ; free virtual = 23206
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 2881.133 ; gain = 1020.898 ; free physical = 9793 ; free virtual = 23193
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 2881.133 ; gain = 1020.898 ; free physical = 9793 ; free virtual = 23196
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     5|
+|3     |LUT3 |    20|
+|4     |LUT4 |    18|
+|5     |LUT5 |    29|
+|6     |LUT6 |    16|
+|7     |FDRE |    77|
+|8     |FDSE |     4|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 2881.133 ; gain = 1020.898 ; free physical = 9794 ; free virtual = 23198
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 2881.133 ; gain = 922.062 ; free physical = 9760 ; free virtual = 23178
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 2881.141 ; gain = 1020.898 ; free physical = 9760 ; free virtual = 23178
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2881.141 ; gain = 0.000 ; free physical = 9747 ; free virtual = 23174
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2937.160 ; gain = 0.000 ; free physical = 11633 ; free virtual = 25073
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a9970d90
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+185 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:00:52 . Memory (MB): peak = 2937.195 ; gain = 1219.141 ; free physical = 11622 ; free virtual = 25061
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1736.089; main = 1689.163; forked = 177.354
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3796.266; main = 2937.164; forked = 1038.941
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2961.172 ; gain = 0.000 ; free physical = 11618 ; free virtual = 25057
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_gpio_0_0_synth_1/System_axi_gpio_0_0.dcp' has been generated.
+INFO: [Ipptcl 7-1612] Added synthesis output to IP cache for IP System_axi_gpio_0_0, cache-ID = 4219fd103d484f96
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2961.172 ; gain = 0.000 ; free physical = 13310 ; free virtual = 26694
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_gpio_0_0_synth_1/System_axi_gpio_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file System_axi_gpio_0_0_utilization_synth.rpt -pb System_axi_gpio_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  9 20:30:05 2026...

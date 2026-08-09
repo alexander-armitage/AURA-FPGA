@@ -1,0 +1,945 @@
+
+*** Running vivado
+    with args -log System_axi_ethernetlite_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_axi_ethernetlite_1_0.tcl
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 08-aug-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Aug  9 20:31:17 2026
+# Process ID         : 20196
+# Current directory  : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_ethernetlite_1_0_synth_1
+# Command line       : vivado -log System_axi_ethernetlite_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_axi_ethernetlite_1_0.tcl
+# Log file           : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_ethernetlite_1_0_synth_1/System_axi_ethernetlite_1_0.vds
+# Journal file       : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_ethernetlite_1_0_synth_1/vivado.jou
+# Running On         : alexander-armitage-XPS-9320
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency      : 400.000 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 32703 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41293 MB
+# Available Virtual  : 27811 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Aug  9 20:31:17 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source System_axi_ethernetlite_1_0.tcl -notrace
+Command: synth_design -top System_axi_ethernetlite_1_0 -part xc7a35tftg256-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tftg256-2
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20862
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2376.176 ; gain = 515.094 ; free physical = 11963 ; free virtual = 25582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'System_axi_ethernetlite_1_0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/synth/System_axi_ethernetlite_1_0.vhd:108]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_SELECT_XPM bound to: 1 - type: integer 
+	Parameter C_INSTANCE bound to: axi_ethernetlite_inst - type: string 
+	Parameter C_S_AXI_ACLK_PERIOD_PS bound to: 10000 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ID_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_PROTOCOL bound to: AXI4 - type: string 
+	Parameter C_INCLUDE_MDIO bound to: 0 - type: integer 
+	Parameter C_INCLUDE_INTERNAL_LOOPBACK bound to: 0 - type: integer 
+	Parameter C_INCLUDE_GLOBAL_BUFFERS bound to: 1 - type: integer 
+	Parameter C_DUPLEX bound to: 1 - type: integer 
+	Parameter C_TX_PING_PONG bound to: 1 - type: integer 
+	Parameter C_RX_PING_PONG bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'axi_ethernetlite' declared at '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13181' bound to instance 'U0' of component 'axi_ethernetlite' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/synth/System_axi_ethernetlite_1_0.vhd:245]
+INFO: [Synth 8-638] synthesizing module 'axi_ethernetlite' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13290]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT bound to: 32'sb00000000000000000000000000000001 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_sync_rst' declared at '/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059' bound to instance 'BUS_RST_RX_SYNC_CORE_I' of component 'xpm_cdc_sync_rst' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13425]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT bound to: 32'sb00000000000000000000000000000001 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_sync_rst' declared at '/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059' bound to instance 'BUS_RST_TX_SYNC_CORE_I' of component 'xpm_cdc_sync_rst' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13439]
+INFO: [Synth 8-3491] module 'IBUF' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:82818' bound to instance 'TX_IBUF_INST' of component 'IBUF' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13647]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:82818]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:82818]
+INFO: [Synth 8-3491] module 'IBUF' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:82818' bound to instance 'RX_IBUF_INST' of component 'IBUF' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13653]
+INFO: [Synth 8-3491] module 'BUFG' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:2678' bound to instance 'CLOCK_BUFG_TX' of component 'BUFG' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13661]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-3491] module 'BUFG' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:2678' bound to instance 'CLOCK_BUFG_RX' of component 'BUFG' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13670]
+	Parameter DEST_SYNC_FF bound to: 2 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at '/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'CDC_PHY_TX_EN_O' of component 'xpm_cdc_single' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13707]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+	Parameter DEST_SYNC_FF bound to: 2 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_array_single' declared at '/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903' bound to instance 'CDC_PHY_TX_DATA_OUT' of component 'xpm_cdc_array_single' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13724]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_array_single' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_array_single' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'RX_FF_I' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13746]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'TX_FF_I' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13754]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'RX_FF_I' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13746]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'TX_FF_I' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13754]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'RX_FF_I' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13746]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'TX_FF_I' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13754]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'RX_FF_I' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13746]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'TX_FF_I' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13754]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'DVD_FF' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13773]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'RER_FF' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13781]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'TEN_FF' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13789]
+INFO: [Synth 8-638] synthesizing module 'xemac' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:10766]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'IP2INTC_IRPT_REG_I' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:10944]
+INFO: [Synth 8-6157] synthesizing module 'FDR' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383]
+INFO: [Synth 8-6155] done synthesizing module 'FDR' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383]
+INFO: [Synth 8-638] synthesizing module 'axi_ethernetlite_v3_0_37_emac' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:10233]
+INFO: [Synth 8-638] synthesizing module 'receive' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:8404]
+INFO: [Synth 8-638] synthesizing module 'rx_statemachine' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4217]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'crcokdelay' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4340]
+INFO: [Synth 8-3491] module 'FDS' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49519' bound to instance 'state0a' of component 'FDS' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4393]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49519]
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49519]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'state1a' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4409]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'state2a' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4434]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'state3a' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4451]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'state4a' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4475]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'state17a' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4684]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'state18a' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4709]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'state20a' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4726]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'state21a' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4750]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'state22a' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4776]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'preamble' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:5025]
+INFO: [Synth 8-256] done synthesizing module 'rx_statemachine' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:4217]
+INFO: [Synth 8-638] synthesizing module 'rx_intrfce' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:5232]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT bound to: 32'sb00000000000000000000000000000001 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_sync_rst' declared at '/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059' bound to instance 'CDC_FIFO_RST' of component 'xpm_cdc_sync_rst' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:5282]
+	Parameter FIFO_MEMORY_TYPE bound to: auto - type: string 
+	Parameter FIFO_WRITE_DEPTH bound to: 16 - type: integer 
+	Parameter RELATED_CLOCKS bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH bound to: 6 - type: integer 
+	Parameter READ_MODE bound to: std - type: string 
+	Parameter FIFO_READ_LATENCY bound to: 1 - type: integer 
+	Parameter FULL_RESET_VALUE bound to: 1 - type: integer 
+	Parameter USE_ADV_FEATURES bound to: 1F1F - type: string 
+	Parameter READ_DATA_WIDTH bound to: 6 - type: integer 
+	Parameter CDC_SYNC_STAGES bound to: 2 - type: integer 
+	Parameter WR_DATA_COUNT_WIDTH bound to: 2 - type: integer 
+	Parameter PROG_FULL_THRESH bound to: 10 - type: integer 
+	Parameter RD_DATA_COUNT_WIDTH bound to: 2 - type: integer 
+	Parameter PROG_EMPTY_THRESH bound to: 10 - type: integer 
+	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_fifo_async' declared at '/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2173' bound to instance 'I_RX_FIFO' of component 'xpm_fifo_async' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:5295]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_async' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2173]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized0' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized0' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value.   [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:534]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_vec' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1905]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_vec' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1905]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray__parameterized0' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray__parameterized0' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_vec__parameterized0' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1905]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_vec__parameterized0' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1905]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_rst' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1639]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst__parameterized1' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst__parameterized1' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_rst' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1639]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_bit' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1927]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_bit' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1927]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized1' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized1' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized2' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized2' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1879]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_async' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2173]
+INFO: [Synth 8-256] done synthesizing module 'rx_intrfce' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:5232]
+INFO: [Synth 8-638] synthesizing module 'crcgenrx' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:6736]
+INFO: [Synth 8-256] done synthesizing module 'crcgenrx' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:6736]
+INFO: [Synth 8-256] done synthesizing module 'receive' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:8404]
+INFO: [Synth 8-638] synthesizing module 'transmit' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:7540]
+INFO: [Synth 8-638] synthesizing module 'crcgentx' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:6435]
+INFO: [Synth 8-638] synthesizing module 'crcnibshiftreg' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:1837]
+INFO: [Synth 8-256] done synthesizing module 'crcnibshiftreg' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:1837]
+INFO: [Synth 8-256] done synthesizing module 'crcgentx' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:6435]
+INFO: [Synth 8-638] synthesizing module 'tx_intrfce' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:3859]
+	Parameter FIFO_MEMORY_TYPE bound to: auto - type: string 
+	Parameter FIFO_WRITE_DEPTH bound to: 16 - type: integer 
+	Parameter RELATED_CLOCKS bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH bound to: 6 - type: integer 
+	Parameter READ_MODE bound to: std - type: string 
+	Parameter FIFO_READ_LATENCY bound to: 1 - type: integer 
+	Parameter FULL_RESET_VALUE bound to: 1 - type: integer 
+	Parameter USE_ADV_FEATURES bound to: 1F1F - type: string 
+	Parameter READ_DATA_WIDTH bound to: 6 - type: integer 
+	Parameter WR_DATA_COUNT_WIDTH bound to: 2 - type: integer 
+	Parameter PROG_FULL_THRESH bound to: 10 - type: integer 
+	Parameter RD_DATA_COUNT_WIDTH bound to: 2 - type: integer 
+	Parameter PROG_EMPTY_THRESH bound to: 10 - type: integer 
+	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_fifo_async' declared at '/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2173' bound to instance 'I_TX_FIFO' of component 'xpm_fifo_async' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:3912]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_async__parameterized1' [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2173]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_async__parameterized1' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2173]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'pipeIt' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:3972]
+	Parameter DEST_SYNC_FF bound to: 3 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_single' declared at '/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152' bound to instance 'CDC_FIFO_EMPTY' of component 'xpm_cdc_single' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:3983]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single__parameterized1' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single__parameterized1' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-256] done synthesizing module 'tx_intrfce' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:3859]
+INFO: [Synth 8-638] synthesizing module 'mux_onehot_f' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:410]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:506]
+INFO: [Synth 8-6157] synthesizing module 'MUXCY' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727]
+INFO: [Synth 8-6155] done synthesizing module 'MUXCY' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:506]
+INFO: [Synth 8-256] done synthesizing module 'mux_onehot_f' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:410]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:118]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-6157] synthesizing module 'MULT_AND' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716]
+INFO: [Synth 8-6155] done synthesizing module 'MULT_AND' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-6157] synthesizing module 'XORCY' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730]
+INFO: [Synth 8-6155] done synthesizing module 'XORCY' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104716' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:104727' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176730' bound to instance 'XORCY_i1' of component 'XORCY' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396' bound to instance 'FDRE_i1' of component 'FDRE' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:275]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'tx_statemachine' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2365]
+INFO: [Synth 8-638] synthesizing module 'cntr5bit' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2041]
+INFO: [Synth 8-256] done synthesizing module 'cntr5bit' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2041]
+INFO: [Synth 8-3491] module 'FDS' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49519' bound to instance 'STATE0A' of component 'FDS' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2694]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'STATE5A' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2726]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'STATE6A' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2741]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'STATE7A' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2759]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'STATE8A' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2777]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49383' bound to instance 'STATE9A' of component 'FDR' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2794]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'tx_statemachine' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:2365]
+INFO: [Synth 8-638] synthesizing module 'deferral' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:6182]
+INFO: [Synth 8-638] synthesizing module 'defer_state' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:1567]
+INFO: [Synth 8-226] default block is never used [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:1614]
+INFO: [Synth 8-256] done synthesizing module 'defer_state' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:1567]
+INFO: [Synth 8-256] done synthesizing module 'deferral' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:6182]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized1' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:118]
+INFO: [Synth 8-6157] synthesizing module 'FDSE' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49532]
+INFO: [Synth 8-6155] done synthesizing module 'FDSE' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49532]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized1' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:118]
+	Parameter DEST_SYNC_FF bound to: 2 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+	Parameter DEST_SYNC_FF bound to: 2 - type: integer 
+	Parameter INIT bound to: 32'sb00000000000000000000000000000001 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst__parameterized3' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst__parameterized3' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-256] done synthesizing module 'transmit' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:7540]
+INFO: [Synth 8-638] synthesizing module 'MacAddrRAM' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:8725]
+INFO: [Synth 8-638] synthesizing module 'ram16x4' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:5539]
+INFO: [Synth 8-6157] synthesizing module 'RAM16X1S' [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:159378]
+INFO: [Synth 8-6155] done synthesizing module 'RAM16X1S' (0#1) [/home/Vivado/2026.1/Vivado/scripts/rt/data/unisim_comp.v:159378]
+INFO: [Synth 8-256] done synthesizing module 'ram16x4' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:5539]
+INFO: [Synth 8-256] done synthesizing module 'MacAddrRAM' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:8725]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single__parameterized4' [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single__parameterized4' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
+INFO: [Synth 8-256] done synthesizing module 'axi_ethernetlite_v3_0_37_emac' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:10233]
+INFO: [Synth 8-638] synthesizing module 'emac_dpram' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:9518]
+	Parameter MEMORY_SIZE bound to: 8192 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: blockram - type: string 
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter WAKEUP_TIME bound to: disable_sleep - type: string 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 11 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter WRITE_MODE_A bound to: read_first - type: string 
+	Parameter WRITE_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 9 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: read_first - type: string 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_tdpram' [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:9505]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's.   [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:536]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_tdpram' (0#1) [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:9505]
+	Parameter MEMORY_SIZE bound to: 8192 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: blockram - type: string 
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter WAKEUP_TIME bound to: disable_sleep - type: string 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 11 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter WRITE_MODE_A bound to: read_first - type: string 
+	Parameter WRITE_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 9 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: read_first - type: string 
+INFO: [Synth 8-256] done synthesizing module 'emac_dpram' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:9518]
+INFO: [Synth 8-256] done synthesizing module 'xemac' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:10766]
+INFO: [Synth 8-638] synthesizing module 'axi_interface' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:12259]
+INFO: [Synth 8-256] done synthesizing module 'axi_interface' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:12259]
+INFO: [Synth 8-256] done synthesizing module 'axi_ethernetlite' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:13290]
+INFO: [Synth 8-256] done synthesizing module 'System_axi_ethernetlite_1_0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/synth/System_axi_ethernetlite_1_0.vhd:108]
+INFO: [Synth 8-6014] Unused sequential element busFifoData_is_5_d2_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:5014]
+INFO: [Synth 8-6014] Unused sequential element busFifoData_is_5_d3_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:5015]
+WARNING: [Synth 8-6014] Unused sequential element dest_out_bin_ff_reg was removed.  [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:417]
+WARNING: [Synth 8-6014] Unused sequential element dest_out_bin_ff_reg was removed.  [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:417]
+INFO: [Synth 8-6014] Unused sequential element phy_tx_en_i_p_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:8137]
+WARNING: [Synth 8-6014] Unused sequential element gen_wr_b.gen_word_wide.wr_sync.addrblsb_reg was removed.  [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:1794]
+WARNING: [Synth 8-6014] Unused sequential element gen_rd_b.gen_rd_b_synth_template.gen_rf_wide_reg.rd_sync.addrblsb_reg was removed.  [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:2970]
+Info : Asymmetric Ram write pattern identified
+Info : Asymmetric Ram read pattern identified
+INFO: [Synth 8-6014] Unused sequential element reg_access_d1_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:11336]
+INFO: [Synth 8-3848] Net PHY_MDC in module/entity xemac does not have driver. [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:10760]
+WARNING: [Synth 8-6014] Unused sequential element AXI4_MM_IF_GEN.bus2ip_rdce_i_d1_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:12425]
+WARNING: [Synth 8-6014] Unused sequential element AXI4_MM_IF_GEN.IP2Bus_Data_sampled_reg was removed.  [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/8315/hdl/axi_ethernetlite_v3_0_rfs.vhd:12436]
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[7] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[6] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[5] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[4] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[3] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[2] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[1] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWLEN[0] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWSIZE[2] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWSIZE[1] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWSIZE[0] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWBURST[1] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWBURST[0] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWCACHE[3] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWCACHE[2] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWCACHE[1] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_AWCACHE[0] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_ARSIZE[2] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_ARSIZE[1] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_ARSIZE[0] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_ARBURST[1] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_ARBURST[0] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_ARCACHE[3] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_ARCACHE[2] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_ARCACHE[1] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_ARCACHE[0] in module axi_interface is either unconnected or has no load
+INFO: [Synth 8-7129] Port sleep in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single is either unconnected or has no load
+INFO: [Synth 8-7129] Port TxRst in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port BusFifoWrNibbleCnt[0] in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port BusFifoWrNibbleCnt[1] in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port BusFifoWrNibbleCnt[2] in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port BusFifoWrNibbleCnt[3] in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port BusFifoWrNibbleCnt[4] in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port BusFifoWrNibbleCnt[5] in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port BusFifoWrNibbleCnt[6] in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port BusFifoWrNibbleCnt[7] in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port PhyCollision in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port Tx_pong_ping_l in module tx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_single__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port sleep in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port rsta in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port regcea in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port regceb in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[5] in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[4] in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[3] in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[2] in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[1] in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port dinb[0] in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base is either unconnected or has no load
+INFO: [Synth 8-7129] Port InternalWrapEn in module rx_intrfce is either unconnected or has no load
+INFO: [Synth 8-7129] Port Rcv_en in module rx_intrfce is either unconnected or has no load
+INFO: [Synth 8-7129] Port Emac_rx_rd_data_d1[4] in module rx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port Emac_rx_rd_data_d1[5] in module rx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port Collision in module rx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port Rx_pong_ping_l in module rx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port Rx_DPM_rd_data[0] in module rx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port Rx_DPM_rd_data[1] in module rx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port Rx_DPM_rd_data[2] in module rx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port Rx_DPM_rd_data[3] in module rx_statemachine is either unconnected or has no load
+INFO: [Synth 8-7129] Port PHY_MDC in module xemac is either unconnected or has no load
+INFO: [Synth 8-7129] Port Bus2IP_Addr[1] in module xemac is either unconnected or has no load
+INFO: [Synth 8-7129] Port Bus2IP_Addr[0] in module xemac is either unconnected or has no load
+INFO: [Synth 8-7129] Port PHY_MDIO_I in module xemac is either unconnected or has no load
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_array_single is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2496.113 ; gain = 635.031 ; free physical = 11664 ; free virtual = 25286
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2502.051 ; gain = 640.969 ; free physical = 11625 ; free virtual = 25247
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2502.051 ; gain = 640.969 ; free physical = 11625 ; free virtual = 25247
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2507.988 ; gain = 0.000 ; free physical = 11593 ; free virtual = 25215
+INFO: [Netlist 29-17] Analyzing 153 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_board.xdc] for cell 'U0'
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_ethernetlite_1_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_ethernetlite_1_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_clocks.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_array_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/Vivado/2026.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/Vivado/2026.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_axi_ethernetlite_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 31 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2612.820 ; gain = 0.000 ; free physical = 11340 ; free virtual = 24963
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 89 instances were transformed.
+  FDR => FDRE: 55 instances
+  FDS => FDSE: 2 instances
+  MULT_AND => LUT2: 28 instances
+  RAM16X1S => RAM32X1S (RAMS32): 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2612.855 ; gain = 0.000 ; free physical = 11301 ; free virtual = 24924
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2612.855 ; gain = 751.773 ; free physical = 11611 ; free virtual = 25261
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2620.824 ; gain = 759.742 ; free physical = 11611 ; free virtual = 25261
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 2620.824 ; gain = 759.742 ; free physical = 11593 ; free virtual = 25251
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'rdDestAddrNib_D_t_q_reg' in module 'rx_statemachine'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst'
+INFO: [Synth 8-802] inferred FSM for state register 'thisState_reg' in module 'defer_state'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  "0000" |                    0000000000001 |                             0000
+                  "0001" |                    0000000000010 |                             0001
+                  "0010" |                    0000000000100 |                             0010
+                  "0011" |                    0000000001000 |                             0011
+                  "0100" |                    0000000010000 |                             0100
+                  "0101" |                    0000000100000 |                             0101
+                  "0110" |                    0000001000000 |                             0110
+                  "0111" |                    0000010000000 |                             0111
+                  "1000" |                    0000100000000 |                             1000
+                  "1001" |                    0001000000000 |                             1001
+                  "1010" |                    0010000000000 |                             1010
+                  "1011" |                    0100000000000 |                             1011
+                  "1100" |                    1000000000000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rdDestAddrNib_D_t_q_reg' using encoding 'one-hot' in module 'rx_statemachine'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               WRST_IDLE |                            00001 |                              000
+                 WRST_IN |                            00010 |                              010
+                WRST_OUT |                            00100 |                              111
+               WRST_EXIT |                            01000 |                              110
+            WRST_GO2IDLE |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_wrst_state_reg' using encoding 'one-hot' in module 'xpm_fifo_rst'
+WARNING: [Synth 8-13336] FSM with state register gen_rst_ic.curr_rrst_state_reg in module xpm_fifo_rst has fsm_safe_state = default_state attribute, but default safe state cannot be implemented as the default specified in the RTL is being ignored. Consider using reset_state/auto_safe_state/power_on_state options instead
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               RRST_IDLE |                               00 |                               00
+                 RRST_IN |                               01 |                               10
+                RRST_OUT |                               10 |                               11
+               RRST_EXIT |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_rrst_state_reg' using encoding 'sequential' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                loadcntr |                               01 |                               00
+           startifgp1cnt |                               11 |                               01
+           startifgp2cnt |                               10 |                               10
+                 cntdone |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'thisState_reg' using encoding 'sequential' in module 'defer_state'
+INFO: [Synth 8-3971] The signal "xpm_memory_base__parameterized0:/gen_wr_b.gen_word_wide.mem_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 2620.824 ; gain = 759.742 ; free physical = 11680 ; free virtual = 25279
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   13 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 1     
+	   4 Input    5 Bit       Adders := 4     
+	   2 Input    5 Bit       Adders := 5     
+	   3 Input    5 Bit       Adders := 4     
+	   4 Input    4 Bit       Adders := 10    
+	   3 Input    4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      5 Bit         XORs := 4     
+	   2 Input      4 Bit         XORs := 4     
+	   2 Input      1 Bit         XORs := 86    
+	   3 Input      1 Bit         XORs := 19    
+	   4 Input      1 Bit         XORs := 14    
++---Registers : 
+	               32 Bit    Registers := 6     
+	               16 Bit    Registers := 11    
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 29    
+	                4 Bit    Registers := 45    
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 9     
+	                1 Bit    Registers := 83    
++---RAMs : 
+	               8K Bit	(2048 X 4 bit)          RAMs := 8     
+	               96 Bit	(16 X 6 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	  13 Input   13 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 28    
+	   2 Input   12 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   5 Input    6 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 19    
+	   2 Input    4 Bit        Muxes := 9     
+	   3 Input    4 Bit        Muxes := 5     
+	  13 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 12    
+	   3 Input    2 Bit        Muxes := 1     
+	   5 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 70    
+	   6 Input    1 Bit        Muxes := 4     
+	   5 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized0__3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0__3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0__3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized0__3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized0__3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base__parameterized0__3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base__parameterized0__3 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+INFO: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3971] The signal "xpm_memory_tdpram__1:/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "xpm_memory_tdpram__2:/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "xpm_memory_tdpram__3:/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "xpm_memory_tdpram:/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/RX/INST_RX_STATE/state21a) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE18A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE19A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE20A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE21A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE22A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE23A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[7].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[6].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[5].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[4].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[3].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[2].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[1].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[0].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 2628.824 ; gain = 767.742 ; free physical = 15152 ; free virtual = 28711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++-------------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                | RTL Object                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|xpm_memory_tdpram__1:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__1:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__2:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__2:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__3:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__3:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst    | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst    | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
++-------------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
+|Module Name                                      | RTL Object                       | Inference | Size (Depth x Width) | Primitives  | 
++-------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
+|xpm_fifo_base:/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
+|xpm_fifo_base:/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
++-------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 2685.824 ; gain = 824.742 ; free physical = 16703 ; free virtual = 30284
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2735.871 ; gain = 874.789 ; free physical = 18411 ; free virtual = 32027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++-------------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                | RTL Object                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|xpm_memory_tdpram__1:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__1:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__2:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__2:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__3:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram__3:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst    | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst    | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
++-------------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++-------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
+|Module Name                                      | RTL Object                       | Inference | Size (Depth x Width) | Primitives  | 
++-------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
+|xpm_fifo_base:/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
+|xpm_fifo_base:/\gen_sdpram.xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
++-------------------------------------------------+----------------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2743.879 ; gain = 882.797 ; free physical = 18391 ; free virtual = 32021
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2913.691 ; gain = 1052.609 ; free physical = 18284 ; free virtual = 31878
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2913.691 ; gain = 1052.609 ; free physical = 18284 ; free virtual = 31878
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2913.691 ; gain = 1052.609 ; free physical = 18284 ; free virtual = 31878
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2913.691 ; gain = 1052.609 ; free physical = 18284 ; free virtual = 31878
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 2916.660 ; gain = 1055.578 ; free physical = 18284 ; free virtual = 31878
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 2916.660 ; gain = 1055.578 ; free physical = 18284 ; free virtual = 31878
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |    12|
+|3     |LUT1     |    27|
+|4     |LUT2     |   118|
+|5     |LUT3     |   102|
+|6     |LUT4     |   122|
+|7     |LUT5     |   120|
+|8     |LUT6     |   227|
+|9     |MULT_AND |    17|
+|10    |MUXCY    |    25|
+|11    |RAM16X1S |     4|
+|12    |RAM32M   |     2|
+|13    |RAMB18E1 |     8|
+|14    |XORCY    |    20|
+|15    |FDR      |    48|
+|16    |FDRE     |   613|
+|17    |FDS      |     2|
+|18    |FDSE     |    57|
+|19    |IBUF     |     2|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 2916.660 ; gain = 1055.578 ; free physical = 18284 ; free virtual = 31878
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2916.660 ; gain = 944.773 ; free physical = 18284 ; free virtual = 31878
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 2916.668 ; gain = 1055.578 ; free physical = 18284 ; free virtual = 31878
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2916.668 ; gain = 0.000 ; free physical = 18440 ; free virtual = 32034
+INFO: [Netlist 29-17] Analyzing 138 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2972.688 ; gain = 0.000 ; free physical = 18446 ; free virtual = 32040
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 82 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 9 instances
+  FDR => FDRE: 48 instances
+  FDS => FDSE: 2 instances
+  MULT_AND => LUT2: 17 instances
+  RAM16X1S => RAM32X1S (RAMS32): 4 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+
+Synth Design complete | Checksum: 938492b8
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+391 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:44 . Memory (MB): peak = 2972.723 ; gain = 1255.820 ; free physical = 18456 ; free virtual = 32050
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2046.762; main = 1843.028; forked = 227.624
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3952.637; main = 2972.691; forked = 1038.941
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2996.699 ; gain = 0.000 ; free physical = 18458 ; free virtual = 32052
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_ethernetlite_1_0_synth_1/System_axi_ethernetlite_1_0.dcp' has been generated.
+INFO: [Ipptcl 7-1612] Added synthesis output to IP cache for IP System_axi_ethernetlite_1_0, cache-ID = 587941fe5e5773fa
+INFO: [Coretcl 2-1174] Renamed 88 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2996.699 ; gain = 0.000 ; free physical = 18451 ; free virtual = 32048
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_axi_ethernetlite_1_0_synth_1/System_axi_ethernetlite_1_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file System_axi_ethernetlite_1_0_utilization_synth.rpt -pb System_axi_ethernetlite_1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  9 20:32:13 2026...

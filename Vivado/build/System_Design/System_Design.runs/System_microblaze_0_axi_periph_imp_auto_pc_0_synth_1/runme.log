@@ -1,0 +1,40 @@
+
+*** Running vivado
+    with args -log System_microblaze_0_axi_periph_imp_auto_pc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_microblaze_0_axi_periph_imp_auto_pc_0.tcl
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 08-aug-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Aug  9 20:30:18 2026
+# Process ID         : 16770
+# Current directory  : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_auto_pc_0_synth_1
+# Command line       : vivado -log System_microblaze_0_axi_periph_imp_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_microblaze_0_axi_periph_imp_auto_pc_0.tcl
+# Log file           : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_auto_pc_0_synth_1/System_microblaze_0_axi_periph_imp_auto_pc_0.vds
+# Journal file       : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_axi_periph_imp_auto_pc_0_synth_1/vivado.jou
+# Running On         : alexander-armitage-XPS-9320
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency      : 2200.022 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 32703 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41293 MB
+# Available Virtual  : 32033 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Aug  9 20:30:18 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source System_microblaze_0_axi_periph_imp_auto_pc_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP System_microblaze_0_axi_periph_imp_auto_pc_0, cache-ID = 8f277f5d48d9e4ba.
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  9 20:30:28 2026...

@@ -1,0 +1,972 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 08-aug-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Aug  9 22:12:03 2026
+# Process ID         : 11280
+# Current directory  : /home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1
+# Command line       : vivado -log System_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source System_wrapper.tcl -notrace
+# Log file           : /home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1/System_wrapper.vdi
+# Journal file       : /home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1/vivado.jou
+# Running On         : alexander-armitage-XPS-9320
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency      : 902.515 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 32703 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41293 MB
+# Available Virtual  : 37677 MB
+#-----------------------------------------------------------
+source System_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Vivado/2026.1/data/ip'.
+Command: link_design -top System_wrapper -part xc7a35tftg256-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tftg256-2
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_0_0/System_axi_ethernetlite_0_0.dcp' for cell 'System_i/axi_ethernetlite_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0.dcp' for cell 'System_i/axi_ethernetlite_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0.dcp' for cell 'System_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_quad_spi_0_0/System_axi_quad_spi_0_0.dcp' for cell 'System_i/axi_quad_spi_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_timer_0_0/System_axi_timer_0_0.dcp' for cell 'System_i/axi_timer_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_uartlite_0_0/System_axi_uartlite_0_0.dcp' for cell 'System_i/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_clk_wiz_0_0/System_clk_wiz_0_0.dcp' for cell 'System_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_mdm_1_0/System_mdm_1_0.dcp' for cell 'System_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.dcp' for cell 'System_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_intc_0/System_microblaze_0_axi_intc_0.dcp' for cell 'System_i/microblaze_0_axi_intc'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_mig_7series_0_0/System_mig_7series_0_0.dcp' for cell 'System_i/mig_7series_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_rst_clk_wiz_0_100M_0/System_rst_clk_wiz_0_100M_0.dcp' for cell 'System_i/rst_clk_wiz_0_100M'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_rst_mig_7series_0_100M_0/System_rst_mig_7series_0_100M_0.dcp' for cell 'System_i/rst_mig_7series_0_100M'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_xbar_0/System_microblaze_0_axi_periph_imp_xbar_0.dcp' for cell 'System_i/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_auto_pc_0/System_microblaze_0_axi_periph_imp_auto_pc_0.dcp' for cell 'System_i/microblaze_0_axi_periph/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_auto_pc_1/System_microblaze_0_axi_periph_imp_auto_pc_1.dcp' for cell 'System_i/microblaze_0_axi_periph/m04_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_auto_pc_2/System_microblaze_0_axi_periph_imp_auto_pc_2.dcp' for cell 'System_i/microblaze_0_axi_periph/m05_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_auto_pc_3/System_microblaze_0_axi_periph_imp_auto_pc_3.dcp' for cell 'System_i/microblaze_0_axi_periph/m06_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_auto_pc_4/System_microblaze_0_axi_periph_imp_auto_pc_4.dcp' for cell 'System_i/microblaze_0_axi_periph/m07_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_periph_imp_auto_pc_5/System_microblaze_0_axi_periph_imp_auto_pc_5.dcp' for cell 'System_i/microblaze_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_dlmb_bram_if_cntlr_0/System_dlmb_bram_if_cntlr_0.dcp' for cell 'System_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_dlmb_v10_0/System_dlmb_v10_0.dcp' for cell 'System_i/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_ilmb_bram_if_cntlr_0/System_ilmb_bram_if_cntlr_0.dcp' for cell 'System_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_ilmb_v10_0/System_ilmb_v10_0.dcp' for cell 'System_i/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_lmb_bram_0/System_lmb_bram_0.dcp' for cell 'System_i/microblaze_0_local_memory/lmb_bram'
+Netlist sorting complete. Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1997.746 ; gain = 0.000 ; free physical = 23111 ; free virtual = 35169
+INFO: [Netlist 29-17] Analyzing 1602 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2026.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_clk_wiz_0_0/System_clk_wiz_0_0_board.xdc] for cell 'System_i/clk_wiz_0/inst'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_clk_wiz_0_0/System_clk_wiz_0_0_board.xdc] for cell 'System_i/clk_wiz_0/inst'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_clk_wiz_0_0/System_clk_wiz_0_0.xdc] for cell 'System_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_clk_wiz_0_0/System_clk_wiz_0_0.xdc:54]
+INFO: [Timing 38-2] Deriving generated clocks [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_clk_wiz_0_0/System_clk_wiz_0_0.xdc:54]
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_clk_wiz_0_0/System_clk_wiz_0_0.xdc] for cell 'System_i/clk_wiz_0/inst'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_mig_7series_0_0/System_mig_7series_0_0/user_design/constraints/System_mig_7series_0_0.xdc] for cell 'System_i/mig_7series_0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_mig_7series_0_0/System_mig_7series_0_0/user_design/constraints/System_mig_7series_0_0.xdc] for cell 'System_i/mig_7series_0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc] for cell 'System_i/microblaze_0/U0'
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:4]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:4]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:4]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:4]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:7]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:7]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:7]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:7]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:10]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:10]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:10]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:10]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:13]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:13]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:13]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPIP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:13]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:16]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:16]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:16]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-1' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:16]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:19]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:19]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:19]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-2' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:19]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:22]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:22]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:22]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:22]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:25]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:25]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:25]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:25]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:28]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:28]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:28]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-3' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:28]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:31]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:31]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:31]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:31]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:34]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:34]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:34]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:34]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I2/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:37]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:37]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.Doing_mul64.Virtex_MUL64.dsp_module_I4/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:37]
+WARNING: [Vivado_Tcl 4-2057] Waiver ID 'DPOP-4' object list specifies likely unusable hierarchical instance 'System_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.dsp_module_I1/Using_DSP48E1.DSP48E1_I1'. [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc:37]
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc] for cell 'System_i/microblaze_0/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_intc_0/System_microblaze_0_axi_intc_0.xdc] for cell 'System_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_intc_0/System_microblaze_0_axi_intc_0.xdc] for cell 'System_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_rst_mig_7series_0_100M_0/System_rst_mig_7series_0_100M_0_board.xdc] for cell 'System_i/rst_mig_7series_0_100M/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_rst_mig_7series_0_100M_0/System_rst_mig_7series_0_100M_0_board.xdc] for cell 'System_i/rst_mig_7series_0_100M/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_board.xdc] for cell 'System_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_board.xdc] for cell 'System_i/axi_gpio_0/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_uartlite_0_0/System_axi_uartlite_0_0_board.xdc] for cell 'System_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_uartlite_0_0/System_axi_uartlite_0_0_board.xdc] for cell 'System_i/axi_uartlite_0/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_quad_spi_0_0/System_axi_quad_spi_0_0_board.xdc] for cell 'System_i/axi_quad_spi_0/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_quad_spi_0_0/System_axi_quad_spi_0_0_board.xdc] for cell 'System_i/axi_quad_spi_0/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_quad_spi_0_0/System_axi_quad_spi_0_0.xdc] for cell 'System_i/axi_quad_spi_0/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_quad_spi_0_0/System_axi_quad_spi_0_0.xdc] for cell 'System_i/axi_quad_spi_0/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_rst_clk_wiz_0_100M_0/System_rst_clk_wiz_0_100M_0_board.xdc] for cell 'System_i/rst_clk_wiz_0_100M/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_rst_clk_wiz_0_100M_0/System_rst_clk_wiz_0_100M_0_board.xdc] for cell 'System_i/rst_clk_wiz_0_100M/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_0_0/System_axi_ethernetlite_0_0_board.xdc] for cell 'System_i/axi_ethernetlite_0/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_0_0/System_axi_ethernetlite_0_0_board.xdc] for cell 'System_i/axi_ethernetlite_0/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_0_0/System_axi_ethernetlite_0_0.xdc] for cell 'System_i/axi_ethernetlite_0/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_0_0/System_axi_ethernetlite_0_0.xdc] for cell 'System_i/axi_ethernetlite_0/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_board.xdc] for cell 'System_i/axi_ethernetlite_1/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_board.xdc] for cell 'System_i/axi_ethernetlite_1/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0.xdc] for cell 'System_i/axi_ethernetlite_1/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0.xdc] for cell 'System_i/axi_ethernetlite_1/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/constraints/System.xdc]
+WARNING: [Constraints 18-619] A clock with name 'sys_clk' already exists, overwriting the previous clock with the same name. [/home/alexander-armitage/AURA-FPGA/Vivado/constraints/System.xdc:24]
+WARNING: [Constraints 18-619] A clock with name 'MII_0_rx_clk' already exists, overwriting the previous clock with the same name. [/home/alexander-armitage/AURA-FPGA/Vivado/constraints/System.xdc:115]
+WARNING: [Constraints 18-619] A clock with name 'MII_0_tx_clk' already exists, overwriting the previous clock with the same name. [/home/alexander-armitage/AURA-FPGA/Vivado/constraints/System.xdc:139]
+WARNING: [Constraints 18-619] A clock with name 'MII_1_rx_clk' already exists, overwriting the previous clock with the same name. [/home/alexander-armitage/AURA-FPGA/Vivado/constraints/System.xdc:176]
+WARNING: [Constraints 18-619] A clock with name 'MII_1_tx_clk' already exists, overwriting the previous clock with the same name. [/home/alexander-armitage/AURA-FPGA/Vivado/constraints/System.xdc:200]
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/constraints/System.xdc]
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_intc_0/System_microblaze_0_axi_intc_0_clocks.xdc] for cell 'System_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_axi_intc_0/System_microblaze_0_axi_intc_0_clocks.xdc] for cell 'System_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_mdm_1_0/System_mdm_1_0.xdc] for cell 'System_i/mdm_1/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_mdm_1_0/System_mdm_1_0.xdc] for cell 'System_i/mdm_1/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_quad_spi_0_0/System_axi_quad_spi_0_0_clocks.xdc] for cell 'System_i/axi_quad_spi_0/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_quad_spi_0_0/System_axi_quad_spi_0_0_clocks.xdc] for cell 'System_i/axi_quad_spi_0/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_0_0/System_axi_ethernetlite_0_0_clocks.xdc] for cell 'System_i/axi_ethernetlite_0/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_0_0/System_axi_ethernetlite_0_0_clocks.xdc] for cell 'System_i/axi_ethernetlite_0/U0'
+Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_clocks.xdc] for cell 'System_i/axi_ethernetlite_1/U0'
+Finished Parsing XDC File [/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_axi_ethernetlite_1_0/System_axi_ethernetlite_1_0_clocks.xdc] for cell 'System_i/axi_ethernetlite_1/U0'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: System_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: AMD recommends that you remove these modules. 
+ 2) AMD IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: System_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: AMD recommends that you remove these modules. 
+ 2) AMD IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: System_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: AMD recommends that you remove these modules. 
+ 2) AMD IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: System_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: AMD recommends that you remove these modules. 
+ 2) AMD IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: System_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: AMD recommends that you remove these modules. 
+ 2) AMD IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: System_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: AMD recommends that you remove these modules. 
+ 2) AMD IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: System_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: AMD recommends that you remove these modules. 
+ 2) AMD IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: System_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: AMD recommends that you remove these modules. 
+ 2) AMD IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [/home/Vivado/2026.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+INFO: [Project 1-1714] 87 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'System_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: /home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/data/mb_bootloop_le.elf 
+INFO: [Project 1-1687] 4 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2745.188 ; gain = 0.000 ; free physical = 22514 ; free virtual = 34578
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 330 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 6 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 104 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
+  OBUFTDS => OBUFTDS_DUAL_BUF (INV, OBUFTDS(x2)): 2 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM16X1S => RAM32X1S (RAMS32): 8 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 110 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 38 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 11 instances
+
+41 Infos, 61 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 2745.223 ; gain = 1003.469 ; free physical = 22514 ; free virtual = 34578
+Command: opt_design
+Attempting to get a license for feature 'Vivado_Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.64 . Memory (MB): peak = 2745.223 ; gain = 0.000 ; free physical = 22497 ; free virtual = 34562
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 2598debe4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.46 . Memory (MB): peak = 2745.223 ; gain = 0.000 ; free physical = 22493 ; free virtual = 34557
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 2598debe4
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22101 ; free virtual = 34165
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 2598debe4
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22101 ; free virtual = 34165
+Phase 1 Initialization | Checksum: 2598debe4
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22101 ; free virtual = 34165
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Detect if minReqCache needed
+Phase 2.1 Detect if minReqCache needed | Checksum: 2598debe4
+
+Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22085 ; free virtual = 34150
+
+Phase 2.2 Timer Update
+Phase 2.2 Timer Update | Checksum: 2598debe4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.34 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22082 ; free virtual = 34149
+
+Phase 2.3 Timing Data Collection
+Phase 2.3 Timing Data Collection | Checksum: 2598debe4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.36 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22082 ; free virtual = 34149
+Phase 2 Timer Update And Timing Data Collection | Checksum: 2598debe4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.36 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22082 ; free virtual = 34149
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-1566] Pulled 38 inverters resulting in an inversion of 348 pins
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 5 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 24ce25545
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.95 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22082 ; free virtual = 34149
+Retarget | Checksum: 24ce25545
+INFO: [Opt 31-389] Phase Retarget created 1027 cells and removed 1151 cells
+INFO: [Opt 31-1021] In phase Retarget, 23 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 22 inverter(s) to 49 load pin(s).
+Phase 4 Constant propagation | Checksum: 271e4fb67
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22082 ; free virtual = 34149
+Constant propagation | Checksum: 271e4fb67
+INFO: [Opt 31-389] Phase Constant propagation created 949 cells and removed 3283 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22088 ; free virtual = 34153
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22087 ; free virtual = 34152
+Phase 5 Sweep | Checksum: 201fd2057
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3135.078 ; gain = 0.000 ; free physical = 22087 ; free virtual = 34152
+Sweep | Checksum: 201fd2057
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 2422 cells
+INFO: [Opt 31-1021] In phase Sweep, 6 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG System_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 40 load(s) on clock net System_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 6 BUFG optimization | Checksum: 1e7d7ac93
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 3167.094 ; gain = 32.016 ; free physical = 22087 ; free virtual = 34152
+BUFG optimization | Checksum: 1e7d7ac93
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1e7d7ac93
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 3167.094 ; gain = 32.016 ; free physical = 22087 ; free virtual = 34152
+Shift Register Optimization | Checksum: 1e7d7ac93
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 2042f1452
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3167.094 ; gain = 32.016 ; free physical = 22087 ; free virtual = 34152
+Post Processing Netlist | Checksum: 2042f1452
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 17bbdf6ee
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3167.094 ; gain = 32.016 ; free physical = 22096 ; free virtual = 34156
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3167.094 ; gain = 0.000 ; free physical = 22096 ; free virtual = 34156
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 17bbdf6ee
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3167.094 ; gain = 32.016 ; free physical = 22096 ; free virtual = 34156
+Phase 9 Finalization | Checksum: 17bbdf6ee
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3167.094 ; gain = 32.016 ; free physical = 22096 ; free virtual = 34156
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |            1027  |            1151  |                                             23  |
+|  Constant propagation         |             949  |            3283  |                                              1  |
+|  Sweep                        |               1  |            2422  |                                              6  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              1  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 17bbdf6ee
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3167.094 ; gain = 32.016 ; free physical = 22096 ; free virtual = 34156
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 43 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 12 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 16 Total Ports: 86
+Ending PowerOpt Patch Enables Task | Checksum: 1a23f9eef
+
+Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.14 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21995 ; free virtual = 34060
+Ending Power Optimization Task | Checksum: 1a23f9eef
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:04 . Memory (MB): peak = 3335.145 ; gain = 168.051 ; free physical = 21995 ; free virtual = 34060
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 1d808a057
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21993 ; free virtual = 34058
+Ending Final Cleanup Task | Checksum: 1d808a057
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21993 ; free virtual = 34058
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21993 ; free virtual = 34058
+INFO: [Common 17-83] Releasing license: Vivado_Implementation
+75 Infos, 61 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 3335.145 ; gain = 589.922 ; free physical = 21993 ; free virtual = 34058
+INFO: [Vivado 12-24828] Executing command : report_drc -file System_wrapper_drc_opted.rpt -pb System_wrapper_drc_opted.pb -rpx System_wrapper_drc_opted.rpx
+Command: report_drc -file System_wrapper_drc_opted.rpt -pb System_wrapper_drc_opted.pb -rpx System_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1/System_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21990 ; free virtual = 34056
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21990 ; free virtual = 34056
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21988 ; free virtual = 34057
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21988 ; free virtual = 34057
+Wrote PlaceStorage: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21988 ; free virtual = 34057
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21988 ; free virtual = 34056
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21988 ; free virtual = 34057
+Write Physdb Complete: Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3335.145 ; gain = 0.000 ; free physical = 21988 ; free virtual = 34057
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1/System_wrapper_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Vivado_Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-83] Releasing license: Vivado_Implementation
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21964 ; free virtual = 34037
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 135a39c85
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21964 ; free virtual = 34037
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21964 ; free virtual = 34037
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: cea8f11d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21959 ; free virtual = 34038
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 13303a1dc
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21975 ; free virtual = 34054
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 13303a1dc
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21975 ; free virtual = 34053
+Phase 1 Placer Initialization | Checksum: 13303a1dc
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21975 ; free virtual = 34053
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 124f0c85f
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21999 ; free virtual = 34077
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 16dfb8f83
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21995 ; free virtual = 34073
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 16dfb8f83
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21995 ; free virtual = 34073
+
+Phase 2.4 Global Place Phase1
+Phase 2.4 Global Place Phase1 | Checksum: 20a9c6712
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:14 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21849 ; free virtual = 33926
+
+Phase 2.5 Global Place Phase2
+
+Phase 2.5.1 UpdateTiming Before Physical Synthesis
+Phase 2.5.1 UpdateTiming Before Physical Synthesis | Checksum: 1e9f8f737
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:15 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21855 ; free virtual = 33933
+
+Phase 2.5.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 1460 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 640 nets or LUTs. Breaked 0 LUT, combined 640 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21854 ; free virtual = 33933
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            640  |                   640  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |            640  |                   640  |           0  |           4  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.5.2 Physical Synthesis In Placer | Checksum: 1f6887ffc
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:16 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21860 ; free virtual = 33939
+Phase 2.5 Global Place Phase2 | Checksum: 153f56793
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:17 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21868 ; free virtual = 33947
+Phase 2 Global Placement | Checksum: 153f56793
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:17 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21867 ; free virtual = 33947
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 153abc2ec
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21876 ; free virtual = 33956
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 21c570e72
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:19 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21888 ; free virtual = 33968
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1f5abc541
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:19 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21888 ; free virtual = 33968
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 2224114e1
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:19 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21888 ; free virtual = 33968
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 1fc2c24c2
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:21 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21907 ; free virtual = 33987
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 1f36f3f7a
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:25 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21904 ; free virtual = 34005
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 129c51f08
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:26 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21909 ; free virtual = 34011
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 2013b9332
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:26 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21909 ; free virtual = 34011
+Phase 3 Detail Placement | Checksum: 2013b9332
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:26 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21909 ; free virtual = 34011
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 229cbbdfa
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.414 | TNS=-10.769 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1952cc3f8
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.24 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21923 ; free virtual = 34021
+INFO: [Place 46-33] Processed net System_i/microblaze_0/U0/MicroBlaze_Core_I/sync_reset, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 1, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 228b856da
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.42 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21925 ; free virtual = 34023
+Phase 4.1.1.1 BUFG Insertion | Checksum: 229cbbdfa
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:00:29 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21925 ; free virtual = 34023
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.623. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 1fd5177fb
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:30 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21950 ; free virtual = 34035
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:30 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21950 ; free virtual = 34035
+Phase 4.1 Post Commit Optimization | Checksum: 1fd5177fb
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21950 ; free virtual = 34036
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1fd5177fb
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21953 ; free virtual = 34039
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                2x2|
+|___________|___________________|___________________|
+|      South|                1x1|                4x4|
+|___________|___________________|___________________|
+|       East|                2x2|                4x4|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1fd5177fb
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21953 ; free virtual = 34039
+Phase 4.3 Placer Reporting | Checksum: 1fd5177fb
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21954 ; free virtual = 34039
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21954 ; free virtual = 34039
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21954 ; free virtual = 34039
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1ae9ee980
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21954 ; free virtual = 34039
+Ending Placer Task | Checksum: 19dd58890
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21954 ; free virtual = 34039
+108 Infos, 61 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:36 ; elapsed = 00:00:33 . Memory (MB): peak = 3558.172 ; gain = 223.027 ; free physical = 21954 ; free virtual = 34040
+INFO: [Vivado 12-24838] Running report commands "report_control_sets, report_io, report_utilization" in parallel.
+Running report generation with 3 threads.
+INFO: [Vivado 12-24828] Executing command : report_io -file System_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.1 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21954 ; free virtual = 34040
+INFO: [Vivado 12-24828] Executing command : report_control_sets -verbose -file System_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.27 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21944 ; free virtual = 34030
+INFO: [Vivado 12-24828] Executing command : report_utilization -file System_wrapper_utilization_placed.rpt -pb System_wrapper_utilization_placed.pb
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21934 ; free virtual = 34021
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21934 ; free virtual = 34021
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21934 ; free virtual = 34022
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.35 ; elapsed = 00:00:00.07 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21934 ; free virtual = 34028
+Wrote PlaceStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.43 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21926 ; free virtual = 34039
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21922 ; free virtual = 34039
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21918 ; free virtual = 34035
+Write Physdb Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.51 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21918 ; free virtual = 34035
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1/System_wrapper_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Vivado_Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Implementation' and/or device 'xc7a35t'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:02 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21945 ; free virtual = 34043
+INFO: [Vivado_Tcl 4-2279] Estimated Timing Summary | WNS= 0.623 | TNS= 0.000 | 
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. All physical synthesis setup optimizations will be skipped.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Vivado_Implementation
+119 Infos, 61 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21944 ; free virtual = 34042
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21944 ; free virtual = 34042
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21937 ; free virtual = 34040
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.27 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21937 ; free virtual = 34040
+Wrote PlaceStorage: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.58 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21910 ; free virtual = 34035
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21910 ; free virtual = 34038
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21910 ; free virtual = 34038
+Write Physdb Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.67 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21910 ; free virtual = 34038
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1/System_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Vivado_Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Implementation' and/or device 'xc7a35t'
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 42042732 ConstDB: 0 ShapeSum: bb500507 RouteDB: a0815c57
+Post Restoration Checksum: NetGraph: c903eee8 | NumContArr: 552c0daa | Constraints: c2a8fa9d | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 2a381f1cc
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21936 ; free virtual = 34047
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 2a381f1cc
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21936 ; free virtual = 34047
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 2a381f1cc
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21936 ; free virtual = 34047
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 2c5c67844
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:14 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21942 ; free virtual = 34054
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.991  | TNS=0.000  | WHS=-1.328 | THS=-733.061|
+
+
+Phase 2.4 Update Timing for Bus Skew
+
+Phase 2.4.1 Update Timing
+Phase 2.4.1 Update Timing | Checksum: 2c5a44e98
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:16 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21944 ; free virtual = 34056
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.991  | TNS=0.000  | WHS=-1.935 | THS=-29.412|
+
+Phase 2.4 Update Timing for Bus Skew | Checksum: 239dbb172
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:16 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21942 ; free virtual = 34057
+
+Phase 2.5 Soft Constraint Pins - Fast Budgeting
+Phase 2.5 Soft Constraint Pins - Fast Budgeting | Checksum: 239dbb172
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:16 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21941 ; free virtual = 34056
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00334848 %
+  Global Horizontal Routing Utilization  = 0.000650703 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 25072
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 25071
+  Number of Partially Routed Nets     = 1
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 1db93171b
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:16 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21941 ; free virtual = 34056
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 1db93171b
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:16 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21941 ; free virtual = 34056
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+Phase 4.1 Initial Net Routing Pass | Checksum: 1ebad9952
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:18 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21936 ; free virtual = 34051
+Phase 4 Initial Routing | Checksum: 1ebad9952
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:18 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21937 ; free virtual = 34052
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+ Number of Nodes with overlaps = 2914
+ Number of Nodes with overlaps = 287
+ Number of Nodes with overlaps = 86
+ Number of Nodes with overlaps = 28
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.608  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Global Iteration 0 | Checksum: 211ac3acc
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:29 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21953 ; free virtual = 34062
+Phase 5 Rip-up And Reroute | Checksum: 211ac3acc
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:29 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21953 ; free virtual = 34062
+
+Phase 6 Delay and Skew Optimization
+
+Phase 6.1 Delay CleanUp
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 209a7c936
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:29 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.675  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 6.1 Delay CleanUp | Checksum: 1f6739cc8
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:29 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+
+Phase 6.2 Clock Skew Optimization
+Phase 6.2 Clock Skew Optimization | Checksum: 1f6739cc8
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:29 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+Phase 6 Delay and Skew Optimization | Checksum: 1f6739cc8
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:29 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.675  | TNS=0.000  | WHS=0.048  | THS=0.000  |
+
+Phase 7.1 Hold Fix Iter | Checksum: 24236c807
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:30 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+Phase 7 Post Hold Fix | Checksum: 24236c807
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:30 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 8.92617 %
+  Global Horizontal Routing Utilization  = 10.9524 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 24236c807
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:30 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 24236c807
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:30 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 2fb32f6bf
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+
+Phase 11 Post Process Routing
+Phase 11 Post Process Routing | Checksum: 2fb32f6bf
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+
+Phase 12 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.675  | TNS=0.000  | WHS=0.048  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 12 Post Router Timing | Checksum: 2fb32f6bf
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+Total Elapsed time in route_design: 30.89 secs
+
+Phase 13 Post-Route Event Processing
+Phase 13 Post-Route Event Processing | Checksum: 1d267d980
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: 1d267d980
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Vivado_Implementation
+132 Infos, 61 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:18 ; elapsed = 00:00:31 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21952 ; free virtual = 34062
+INFO: [Vivado 12-24828] Executing command : report_drc -file System_wrapper_drc_routed.rpt -pb System_wrapper_drc_routed.pb -rpx System_wrapper_drc_routed.rpx
+Command: report_drc -file System_wrapper_drc_routed.rpt -pb System_wrapper_drc_routed.pb -rpx System_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1/System_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [Vivado 12-24828] Executing command : report_methodology -file System_wrapper_methodology_drc_routed.rpt -pb System_wrapper_methodology_drc_routed.pb -rpx System_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file System_wrapper_methodology_drc_routed.rpt -pb System_wrapper_methodology_drc_routed.pb -rpx System_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1/System_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [Vivado 12-24828] Executing command : report_timing_summary -max_paths 10 -routable_nets -report_unconstrained -file System_wrapper_timing_summary_routed.rpt -pb System_wrapper_timing_summary_routed.pb -rpx System_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [Vivado 12-24838] Running report commands "report_bus_skew, report_incremental_reuse, report_route_status" in parallel.
+Running report generation with 3 threads.
+INFO: [Vivado 12-24828] Executing command : report_incremental_reuse -file System_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [Vivado 12-24828] Executing command : report_bus_skew -warn_on_violation -file System_wrapper_bus_skew_routed.rpt -pb System_wrapper_bus_skew_routed.pb -rpx System_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Vivado 12-24828] Executing command : report_route_status -file System_wrapper_route_status.rpt -pb System_wrapper_route_status.pb
+INFO: [Vivado 12-24828] Executing command : report_power -file System_wrapper_power_routed.rpt -pb System_wrapper_power_summary_routed.pb -rpx System_wrapper_power_routed.rpx
+Command: report_power -file System_wrapper_power_routed.rpt -pb System_wrapper_power_summary_routed.pb -rpx System_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+152 Infos, 63 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [Vivado 12-24828] Executing command : report_clock_utilization -file System_wrapper_clock_utilization_routed.rpt
+generate_parallel_reports: Time (s): cpu = 00:00:51 ; elapsed = 00:00:14 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21909 ; free virtual = 34046
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21908 ; free virtual = 34045
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21908 ; free virtual = 34045
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21903 ; free virtual = 34045
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.92 ; elapsed = 00:00:00.19 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21896 ; free virtual = 34047
+Wrote PlaceStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.43 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21870 ; free virtual = 34039
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21862 ; free virtual = 34034
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21862 ; free virtual = 34034
+Write Physdb Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.64 . Memory (MB): peak = 3558.172 ; gain = 0.000 ; free physical = 21862 ; free virtual = 34034
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/impl_1/System_wrapper_routed.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  9 22:14:01 2026...

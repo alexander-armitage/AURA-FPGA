@@ -99,10 +99,10 @@ set_property IOSTANDARD LVCMOS33 [get_ports {MDIO_0_mdio_io}]
 ###############################################################################
 
 # Collision and carrier sense from PHY
-set_property PACKAGE_PIN J4 [get_ports {MII_0_col}]
+set_property PACKAGE_PIN K5 [get_ports {MII_0_col}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_col}]
 
-set_property PACKAGE_PIN J5 [get_ports {MII_0_crs}]
+set_property PACKAGE_PIN K3 [get_ports {MII_0_crs}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_crs}]
 
 # PHY reset output, active low
@@ -115,22 +115,22 @@ set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rx_clk}]
 create_clock -period 40.000 -name MII_0_rx_clk [get_ports {MII_0_rx_clk}]
 
 # RX data/control from PHY
-set_property PACKAGE_PIN J1 [get_ports {MII_0_rx_dv}]
+set_property PACKAGE_PIN J3 [get_ports {MII_0_rx_dv}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rx_dv}]
 
-set_property PACKAGE_PIN K1 [get_ports {MII_0_rx_er}]
+set_property PACKAGE_PIN J5 [get_ports {MII_0_rx_er}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rx_er}]
 
-set_property PACKAGE_PIN H2 [get_ports {MII_0_rxd[0]}]
+set_property PACKAGE_PIN J4 [get_ports {MII_0_rxd[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rxd[0]}]
 
-set_property PACKAGE_PIN H1 [get_ports {MII_0_rxd[1]}]
+set_property PACKAGE_PIN L3 [get_ports {MII_0_rxd[1]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rxd[1]}]
 
-set_property PACKAGE_PIN J3 [get_ports {MII_0_rxd[2]}]
+set_property PACKAGE_PIN L2 [get_ports {MII_0_rxd[2]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rxd[2]}]
 
-set_property PACKAGE_PIN H3 [get_ports {MII_0_rxd[3]}]
+set_property PACKAGE_PIN K2 [get_ports {MII_0_rxd[3]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_rxd[3]}]
 
 # TX clock from PHY
@@ -139,19 +139,19 @@ set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_tx_clk}]
 create_clock -period 40.000 -name MII_0_tx_clk [get_ports {MII_0_tx_clk}]
 
 # TX data/control to PHY
-set_property PACKAGE_PIN K5 [get_ports {MII_0_tx_en}]
+set_property PACKAGE_PIN K1 [get_ports {MII_0_tx_en}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_tx_en}]
 
-set_property PACKAGE_PIN L3 [get_ports {MII_0_txd[0]}]
+set_property PACKAGE_PIN J1 [get_ports {MII_0_txd[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_txd[0]}]
 
-set_property PACKAGE_PIN L2 [get_ports {MII_0_txd[1]}]
+set_property PACKAGE_PIN H3 [get_ports {MII_0_txd[1]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_txd[1]}]
 
-set_property PACKAGE_PIN K3 [get_ports {MII_0_txd[2]}]
+set_property PACKAGE_PIN H2 [get_ports {MII_0_txd[2]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_txd[2]}]
 
-set_property PACKAGE_PIN K2 [get_ports {MII_0_txd[3]}]
+set_property PACKAGE_PIN H1 [get_ports {MII_0_txd[3]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_txd[3]}]
 
 
@@ -160,10 +160,10 @@ set_property IOSTANDARD LVCMOS33 [get_ports {MII_0_txd[3]}]
 ###############################################################################
 
 # Collision and carrier sense from PHY
-set_property PACKAGE_PIN F2 [get_ports {MII_1_col}]
+set_property PACKAGE_PIN G4 [get_ports {MII_1_col}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_col}]
 
-set_property PACKAGE_PIN F3 [get_ports {MII_1_crs}]
+set_property PACKAGE_PIN H5 [get_ports {MII_1_crs}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_crs}]
 
 # PHY reset output, active low
@@ -176,22 +176,22 @@ set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_rx_clk}]
 create_clock -period 40.000 -name MII_1_rx_clk [get_ports {MII_1_rx_clk}]
 
 # RX data/control from PHY
-set_property PACKAGE_PIN H5 [get_ports {MII_1_rx_dv}]
+set_property PACKAGE_PIN G5 [get_ports {MII_1_rx_dv}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_rx_dv}]
 
-set_property PACKAGE_PIN G1 [get_ports {MII_1_rx_er}]
+set_property PACKAGE_PIN E2 [get_ports {MII_1_rx_er}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_rx_er}]
 
-set_property PACKAGE_PIN E1 [get_ports {MII_1_rxd[0]}]
+set_property PACKAGE_PIN F3 [get_ports {MII_1_rxd[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_rxd[0]}]
 
-set_property PACKAGE_PIN G5 [get_ports {MII_1_rxd[1]}]
+set_property PACKAGE_PIN F2 [get_ports {MII_1_rxd[1]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_rxd[1]}]
 
-set_property PACKAGE_PIN G4 [get_ports {MII_1_rxd[2]}]
+set_property PACKAGE_PIN G2 [get_ports {MII_1_rxd[2]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_rxd[2]}]
 
-set_property PACKAGE_PIN G2 [get_ports {MII_1_rxd[3]}]
+set_property PACKAGE_PIN G1 [get_ports {MII_1_rxd[3]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_rxd[3]}]
 
 # TX clock from PHY
@@ -200,19 +200,19 @@ set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_tx_clk}]
 create_clock -period 40.000 -name MII_1_tx_clk [get_ports {MII_1_tx_clk}]
 
 # TX data/control to PHY
-set_property PACKAGE_PIN A2 [get_ports {MII_1_tx_en}]
+set_property PACKAGE_PIN E1 [get_ports {MII_1_tx_en}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_tx_en}]
 
-set_property PACKAGE_PIN C1 [get_ports {MII_1_txd[0]}]
+set_property PACKAGE_PIN D1 [get_ports {MII_1_txd[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_txd[0]}]
 
-set_property PACKAGE_PIN B1 [get_ports {MII_1_txd[1]}]
+set_property PACKAGE_PIN C1 [get_ports {MII_1_txd[1]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_txd[1]}]
 
-set_property PACKAGE_PIN E2 [get_ports {MII_1_txd[2]}]
+set_property PACKAGE_PIN B1 [get_ports {MII_1_txd[2]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_txd[2]}]
 
-set_property PACKAGE_PIN D1 [get_ports {MII_1_txd[3]}]
+set_property PACKAGE_PIN A2 [get_ports {MII_1_txd[3]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {MII_1_txd[3]}]
 
 

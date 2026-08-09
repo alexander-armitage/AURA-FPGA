@@ -1,0 +1,621 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 08-aug-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Aug  9 20:28:57 2026
+# Process ID         : 13465
+# Current directory  : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_0_synth_1
+# Command line       : vivado -log System_microblaze_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_microblaze_0_0.tcl
+# Log file           : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_0_synth_1/System_microblaze_0_0.vds
+# Journal file       : /home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_0_synth_1/vivado.jou
+# Running On         : alexander-armitage-XPS-9320
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency      : 2200.100 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 32703 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41293 MB
+# Available Virtual  : 36663 MB
+#-----------------------------------------------------------
+source System_microblaze_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 1717.055 ; gain = 275.059 ; free physical = 17784 ; free virtual = 31136
+Command: synth_design -top System_microblaze_0_0 -part xc7a35tftg256-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tftg256-2
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14053
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2380.328 ; gain = 516.062 ; free physical = 10294 ; free virtual = 23628
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'System_microblaze_0_0' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/synth/System_microblaze_0_0.vhd:190]
+	Parameter C_SCO bound to: 0 - type: integer 
+	Parameter C_FREQ bound to: 100000000 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_NUM_SYNC_FF_CLK bound to: 2 - type: integer 
+	Parameter C_NUM_SYNC_FF_CLK_IRQ bound to: 1 - type: integer 
+	Parameter C_NUM_SYNC_FF_CLK_DEBUG bound to: 2 - type: integer 
+	Parameter C_NUM_SYNC_FF_DBG_CLK bound to: 1 - type: integer 
+	Parameter C_NUM_SYNC_FF_DBG_TRACE_CLK bound to: 2 - type: integer 
+	Parameter C_FAULT_TOLERANT bound to: 0 - type: integer 
+	Parameter C_ECC_USE_CE_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_LOCKSTEP_SLAVE bound to: 0 - type: integer 
+	Parameter C_LOCKSTEP_MASTER bound to: 0 - type: integer 
+	Parameter C_TEMPORAL_DEPTH bound to: 0 - type: integer 
+	Parameter C_ENDIANNESS bound to: 1 - type: integer 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_PART bound to: xc7a35tftg256-2 - type: string 
+	Parameter C_DATA_SIZE bound to: 32 - type: integer 
+	Parameter C_LMB_DATA_SIZE bound to: 32 - type: integer 
+	Parameter C_INSTR_SIZE bound to: 32 - type: integer 
+	Parameter C_IADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_PIADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_DADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_INSTANCE bound to: System_microblaze_0_0 - type: string 
+	Parameter C_AVOID_PRIMITIVES bound to: 0 - type: integer 
+	Parameter C_AREA_OPTIMIZED bound to: 0 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 0 - type: integer 
+	Parameter C_INTERCONNECT bound to: 2 - type: integer 
+	Parameter C_BASE_VECTORS bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_M_AXI_DP_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DP_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DP_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DP_EXCLUSIVE_ACCESS bound to: 0 - type: integer 
+	Parameter C_M_AXI_D_BUS_EXCEPTION bound to: 1 - type: integer 
+	Parameter C_M_AXI_IP_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_IP_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_IP_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_I_BUS_EXCEPTION bound to: 1 - type: integer 
+	Parameter C_D_LMB bound to: 1 - type: integer 
+	Parameter C_D_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_D_LMB_HAS_PROT bound to: 0 - type: integer 
+	Parameter C_D_AXI bound to: 1 - type: integer 
+	Parameter C_I_LMB bound to: 1 - type: integer 
+	Parameter C_I_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_I_LMB_HAS_PROT bound to: 0 - type: integer 
+	Parameter C_I_AXI bound to: 0 - type: integer 
+	Parameter G_TEMPLATE_LIST bound to: 4 - type: integer 
+	Parameter C_USE_MSR_INSTR bound to: 1 - type: integer 
+	Parameter C_USE_PCMP_INSTR bound to: 1 - type: integer 
+	Parameter C_USE_BARREL bound to: 1 - type: integer 
+	Parameter C_USE_DIV bound to: 1 - type: integer 
+	Parameter C_USE_HW_MUL bound to: 2 - type: integer 
+	Parameter C_USE_FPU bound to: 0 - type: integer 
+	Parameter C_USE_REORDER_INSTR bound to: 1 - type: integer 
+	Parameter C_UNALIGNED_EXCEPTIONS bound to: 1 - type: integer 
+	Parameter C_ILL_OPCODE_EXCEPTION bound to: 1 - type: integer 
+	Parameter C_DIV_ZERO_EXCEPTION bound to: 1 - type: integer 
+	Parameter C_FPU_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_FSL_LINKS bound to: 0 - type: integer 
+	Parameter C_USE_EXTENDED_FSL_INSTR bound to: 0 - type: integer 
+	Parameter C_FSL_EXCEPTION bound to: 0 - type: integer 
+	Parameter C_USE_STACK_PROTECTION bound to: 0 - type: integer 
+	Parameter C_IMPRECISE_EXCEPTIONS bound to: 0 - type: integer 
+	Parameter C_USE_INTERRUPT bound to: 2 - type: integer 
+	Parameter C_USE_EXT_BRK bound to: 0 - type: integer 
+	Parameter C_USE_EXT_NM_BRK bound to: 0 - type: integer 
+	Parameter C_USE_NON_SECURE bound to: 0 - type: integer 
+	Parameter C_USE_MMU bound to: 3 - type: integer 
+	Parameter C_MMU_DTLB_SIZE bound to: 4 - type: integer 
+	Parameter C_MMU_ITLB_SIZE bound to: 2 - type: integer 
+	Parameter C_MMU_TLB_ACCESS bound to: 3 - type: integer 
+	Parameter C_MMU_ZONES bound to: 2 - type: integer 
+	Parameter C_MMU_PRIVILEGED_INSTR bound to: 0 - type: integer 
+	Parameter C_USE_BRANCH_TARGET_CACHE bound to: 0 - type: integer 
+	Parameter C_BRANCH_TARGET_CACHE_SIZE bound to: 0 - type: integer 
+	Parameter C_PC_WIDTH bound to: 32 - type: integer 
+	Parameter C_PVR bound to: 2 - type: integer 
+	Parameter C_PVR_USER1 bound to: 8'b00000000 
+	Parameter C_PVR_USER2 bound to: 32'b00000000000000000000000000000000 
+	Parameter C_DYNAMIC_BUS_SIZING bound to: 0 - type: integer 
+	Parameter C_RESET_MSR bound to: 32'b00000000000000000000000000000000 
+	Parameter C_OPCODE_0x0_ILLEGAL bound to: 1 - type: integer 
+	Parameter C_DEBUG_ENABLED bound to: 1 - type: integer 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_NUMBER_OF_PC_BRK bound to: 1 - type: integer 
+	Parameter C_NUMBER_OF_RD_ADDR_BRK bound to: 0 - type: integer 
+	Parameter C_NUMBER_OF_WR_ADDR_BRK bound to: 0 - type: integer 
+	Parameter C_DEBUG_EVENT_COUNTERS bound to: 5 - type: integer 
+	Parameter C_DEBUG_LATENCY_COUNTERS bound to: 1 - type: integer 
+	Parameter C_DEBUG_COUNTER_WIDTH bound to: 32 - type: integer 
+	Parameter C_DEBUG_TRACE_SIZE bound to: 8192 - type: integer 
+	Parameter C_DEBUG_EXTERNAL_TRACE bound to: 0 - type: integer 
+	Parameter C_DEBUG_TRACE_ASYNC_RESET bound to: 0 - type: integer 
+	Parameter C_DEBUG_PROFILE_SIZE bound to: 0 - type: integer 
+	Parameter C_INTERRUPT_IS_EDGE bound to: 0 - type: integer 
+	Parameter C_EDGE_IS_POSITIVE bound to: 1 - type: integer 
+	Parameter C_ASYNC_INTERRUPT bound to: 1 - type: integer 
+	Parameter C_ASYNC_WAKEUP bound to: 3 - type: integer 
+	Parameter C_M0_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S0_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M1_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S1_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M2_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S2_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M3_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S3_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M4_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S4_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M5_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S5_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M6_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S6_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M7_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S7_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M8_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S8_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M9_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S9_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M10_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S10_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M11_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S11_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M12_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S12_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M13_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S13_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M14_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S14_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M15_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S15_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_ICACHE_BASEADDR bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+	Parameter C_ICACHE_HIGHADDR bound to: 64'b0000000000000000000000000000000010001111111111111111111111111111 
+	Parameter C_USE_ICACHE bound to: 1 - type: integer 
+	Parameter C_ALLOW_ICACHE_WR bound to: 1 - type: integer 
+	Parameter C_ADDR_TAG_BITS bound to: 14 - type: integer 
+	Parameter C_CACHE_BYTE_SIZE bound to: 16384 - type: integer 
+	Parameter C_ICACHE_LINE_LEN bound to: 8 - type: integer 
+	Parameter C_ICACHE_ALWAYS_USED bound to: 1 - type: integer 
+	Parameter C_ICACHE_STREAMS bound to: 1 - type: integer 
+	Parameter C_ICACHE_VICTIMS bound to: 8 - type: integer 
+	Parameter C_ICACHE_FORCE_TAG_LUTRAM bound to: 0 - type: integer 
+	Parameter C_ICACHE_DATA_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_IC_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_IC_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_IC_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_IC_USER_VALUE bound to: 31 - type: integer 
+	Parameter C_M_AXI_IC_AWUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_M_AXI_IC_ARUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_M_AXI_IC_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_IC_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_IC_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_DCACHE_BASEADDR bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+	Parameter C_DCACHE_HIGHADDR bound to: 64'b0000000000000000000000000000000010001111111111111111111111111111 
+	Parameter C_USE_DCACHE bound to: 1 - type: integer 
+	Parameter C_ALLOW_DCACHE_WR bound to: 1 - type: integer 
+	Parameter C_DCACHE_ADDR_TAG bound to: 14 - type: integer 
+	Parameter C_DCACHE_BYTE_SIZE bound to: 16384 - type: integer 
+	Parameter C_DCACHE_LINE_LEN bound to: 4 - type: integer 
+	Parameter C_DCACHE_ALWAYS_USED bound to: 0 - type: integer 
+	Parameter C_DCACHE_USE_WRITEBACK bound to: 0 - type: integer 
+	Parameter C_DCACHE_VICTIMS bound to: 8 - type: integer 
+	Parameter C_DCACHE_FORCE_TAG_LUTRAM bound to: 0 - type: integer 
+	Parameter C_DCACHE_DATA_WIDTH bound to: 0 - type: integer 
+	Parameter C_M_AXI_DC_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DC_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DC_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DC_EXCLUSIVE_ACCESS bound to: 0 - type: integer 
+	Parameter C_M_AXI_DC_USER_VALUE bound to: 31 - type: integer 
+	Parameter C_M_AXI_DC_AWUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_M_AXI_DC_ARUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_M_AXI_DC_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DC_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DC_BUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'MicroBlaze' declared at '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ipshared/959b/hdl/microblaze_v11_0_rfs.vhd:165155' bound to instance 'U0' of component 'MicroBlaze' [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/synth/System_microblaze_0_0.vhd:987]
+INFO: [Synth 8-256] done synthesizing module 'System_microblaze_0_0' (0#1) [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/synth/System_microblaze_0_0.vhd:190]
+INFO: [Synth 8-7129] Port TLBLO_IN[22] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[24] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[25] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[26] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[28] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[30] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[31] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[27] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[28] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[29] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[30] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[31] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[32] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[33] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[22] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[23] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[24] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[25] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[26] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[27] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[28] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[29] in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port PIPE_RUN in module MMU_TLB__parameterized1 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[24] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[25] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[26] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[28] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[30] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBLO_IN[31] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[26] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[27] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[28] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[29] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[30] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[31] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[32] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port TLBHI_IN[33] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[22] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[23] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[24] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[25] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[26] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[27] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[28] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port DATA_ADDR[29] in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port PIPE_RUN in module MMU_TLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port RegRdEA in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port RegWrEA in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Invalidate in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[0] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[1] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[2] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[3] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[4] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[5] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[6] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[7] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[8] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[9] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[10] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[11] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[12] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[13] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[14] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[15] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[16] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[17] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[18] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[19] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[20] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[21] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[22] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[23] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[24] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[25] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[26] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[27] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[28] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[29] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[30] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_Addr[31] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_PID[0] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_PID[1] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_PID[2] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_PID[3] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_PID[4] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_PID[5] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_PID[6] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_TLB_PID[7] in module MMU_UTLB is either unconnected or has no load
+INFO: [Synth 8-7129] Port EX_Unmask_EA in module MMU is either unconnected or has no load
+INFO: [Synth 8-7129] Port MEM_Sel_SPR_EA in module MMU is either unconnected or has no load
+INFO: [Synth 8-7129] Port Snoop_Req_TLB_Done in module MMU is either unconnected or has no load
+INFO: [Synth 8-7129] Port Scan_Reset_Sel in module mb_sync_bit__parameterized5 is either unconnected or has no load
+INFO: [Synth 8-7129] Port Scan_Reset in module mb_sync_bit__parameterized5 is either unconnected or has no load
+INFO: [Synth 8-7129] Port Scan_En in module mb_sync_bit__parameterized5 is either unconnected or has no load
+INFO: [Synth 8-7129] Port Config_Reset in module MB_SRLC16E is either unconnected or has no load
+INFO: [Synth 8-7129] Port TDI[7] in module address_hit is either unconnected or has no load
+INFO: [Synth 8-7129] Port TDI[6] in module address_hit is either unconnected or has no load
+INFO: [Synth 8-7129] Port TDI[5] in module address_hit is either unconnected or has no load
+INFO: [Synth 8-7129] Port TDI[4] in module address_hit is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 2768.836 ; gain = 904.570 ; free physical = 8937 ; free virtual = 22384
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 2768.836 ; gain = 904.570 ; free physical = 8936 ; free virtual = 22382
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 2768.836 ; gain = 904.570 ; free physical = 8936 ; free virtual = 22382
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.37 . Memory (MB): peak = 2768.836 ; gain = 0.000 ; free physical = 8925 ; free virtual = 22365
+INFO: [Netlist 29-17] Analyzing 1121 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0_ooc_debug.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0_ooc_debug.xdc] for cell 'U0'
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.gen/sources_1/bd/System/ip/System_microblaze_0_0/System_microblaze_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/System_microblaze_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/System_microblaze_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2808.855 ; gain = 0.000 ; free physical = 8855 ; free virtual = 22353
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 757 instances were transformed.
+  FDR => FDRE: 162 instances
+  FDS => FDSE: 1 instance 
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 80 instances
+  MULT_AND => LUT2: 1 instance 
+  MUXCY_L => MUXCY: 465 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 32 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.17 . Memory (MB): peak = 2808.891 ; gain = 0.000 ; free physical = 8845 ; free virtual = 22343
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2808.891 ; gain = 944.625 ; free physical = 9825 ; free virtual = 23207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2816.859 ; gain = 952.594 ; free physical = 9825 ; free virtual = 23207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 2816.859 ; gain = 952.594 ; free physical = 9825 ; free virtual = 23207
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'cache_state_reg' in module 'Icache'
+INFO: [Synth 8-802] inferred FSM for state register 'Using_Victim_Cache.victim_state_reg' in module 'Icache'
+INFO: [Synth 8-802] inferred FSM for state register 'State_reg' in module 'MMU_UTLB'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                             0000
+     stream_wait_on_idle |                              001 |                             0001
+        read_from_stream |                              010 |                             0010
+     victim_wait_on_idle |                              011 |                             0011
+       handle_victim_hit |                              100 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cache_state_reg' using encoding 'sequential' in module 'Icache'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+            wait_on_idle |                               01 |                               01
+         write_to_victim |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Using_Victim_Cache.victim_state_reg' using encoding 'sequential' in module 'Icache'
+INFO: [Synth 8-3971] The signal "MMU_UTLB_RAM:/RAM_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+           directcompare |               000000000000000010 |                            00000
+             searchstart |               000000010000000000 |                            00010
+                  search |               000000000000100000 |                            00011
+                   found |               000000000001000000 |                            00101
+               founddone |               000000000010000000 |                            00110
+                notfound |               000000000100000000 |                            00111
+                 writelo |               000000000000000001 |                            01110
+            writehicheck |               000100000000000000 |                            01000
+                 writehi |               001000000000000000 |                            01001
+           writehiinvala |               000010000000000000 |                            01011
+           writehiinvalb |               000000000000001000 |                            01100
+          writehidirecta |               000000000000010000 |                            01010
+          writehidirectb |               000000000000000100 |                            01101
+                  readhi |               000000100000000000 |                            10000
+                  readlo |               000000001000000000 |                            10001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_reg' using encoding 'one-hot' in module 'MMU_UTLB'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 2816.859 ; gain = 952.594 ; free physical = 16453 ; free virtual = 29835
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3971] The signal "U0/\MicroBlaze_Core_I/Performance.Core /MMU_I/\Using_TLBS.UTLB_I /MMU_UTLB_RAM_I/RAM_reg" was recognized as a true dual port RAM template.
+WARNING: [Synth 8-3332] Sequential element (MEM_MSR_Bits[21].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (MEM_MSR_Bits[27].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (MEM_MSR_Bits[31].Using_FDR.MSR_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[17].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[18].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[19].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[20].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[21].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[21].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[23].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[24].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[25].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[26].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[27].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[27].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[29].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[31].Using_FDR.MSR_ex_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (OF_EX_MSR_Bits[31].Using_FDR.MSR_of_I/Using_FPGA.Native) is unused and will be removed from module msr_reg_gti.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_State_reg[17]) is unused and will be removed from module MMU_UTLB.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_State_reg[16]) is unused and will be removed from module MMU_UTLB.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_State_reg[12]) is unused and will be removed from module MMU_UTLB.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:52 ; elapsed = 00:01:59 . Memory (MB): peak = 2816.859 ; gain = 952.594 ; free physical = 11765 ; free virtual = 25383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:08 ; elapsed = 00:02:15 . Memory (MB): peak = 2816.859 ; gain = 952.594 ; free physical = 13477 ; free virtual = 27096
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:02:27 . Memory (MB): peak = 2833.883 ; gain = 969.617 ; free physical = 11484 ; free virtual = 25106
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance U0/MicroBlaze_Core_I/Performance.Core/MMU_I/Using_TLBS.UTLB_I/MMU_UTLB_RAM_I/RAM_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/MicroBlaze_Core_I/Performance.Core/MMU_I/Using_TLBS.UTLB_I/MMU_UTLB_RAM_I/RAM_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:28 ; elapsed = 00:02:36 . Memory (MB): peak = 2865.906 ; gain = 1001.641 ; free physical = 10315 ; free virtual = 23941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:36 ; elapsed = 00:02:43 . Memory (MB): peak = 3008.719 ; gain = 1144.453 ; free physical = 13153 ; free virtual = 26744
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:36 ; elapsed = 00:02:43 . Memory (MB): peak = 3008.719 ; gain = 1144.453 ; free physical = 13151 ; free virtual = 26742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:36 ; elapsed = 00:02:44 . Memory (MB): peak = 3008.719 ; gain = 1144.453 ; free physical = 13107 ; free virtual = 26707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:36 ; elapsed = 00:02:44 . Memory (MB): peak = 3008.719 ; gain = 1144.453 ; free physical = 13098 ; free virtual = 26704
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:37 ; elapsed = 00:02:44 . Memory (MB): peak = 3008.719 ; gain = 1144.453 ; free physical = 13074 ; free virtual = 26681
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:37 ; elapsed = 00:02:44 . Memory (MB): peak = 3008.719 ; gain = 1144.453 ; free physical = 13074 ; free virtual = 26681
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++--------------------------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                     | DSP Mapping        | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MB_DSP48E1__parameterized1_1211 | PCIN>>17+(A*B)'    | 30     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|MB_DSP48E1__parameterized1      | PCIN+(A*B)'        | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|MB_DSP48E1__parameterized3      | (PCIN>>17+(A*B)')' | 30     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 1    | 1    | 
+|MB_DSP48E1                      | (A*B)'             | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++--------------------------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |AND2B1L  |     4|
+|2     |CARRY4   |    45|
+|3     |DSP48E1  |     4|
+|6     |LUT1     |    33|
+|7     |LUT2     |   188|
+|8     |LUT3     |   626|
+|9     |LUT4     |   438|
+|10    |LUT5     |   770|
+|11    |LUT6     |  1371|
+|13    |MULT_AND |     1|
+|14    |MUXCY_L  |   458|
+|15    |MUXF7    |   149|
+|16    |MUXF8    |     1|
+|17    |RAM32M   |    16|
+|18    |RAM32X1D |    32|
+|19    |RAM64M   |    11|
+|20    |RAMB36E1 |    11|
+|23    |SRL16E   |   176|
+|24    |SRLC16E  |     8|
+|25    |SRLC32E  |    33|
+|26    |XORCY    |   213|
+|27    |FDCE     |     7|
+|28    |FDR      |   144|
+|29    |FDRE     |  2898|
+|30    |FDS      |     1|
+|31    |FDSE     |    98|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:37 ; elapsed = 00:02:44 . Memory (MB): peak = 3008.719 ; gain = 1144.453 ; free physical = 13074 ; free virtual = 26681
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:30 ; elapsed = 00:02:38 . Memory (MB): peak = 3008.719 ; gain = 1104.398 ; free physical = 13066 ; free virtual = 26663
+Synthesis Optimization Complete : Time (s): cpu = 00:02:37 ; elapsed = 00:02:44 . Memory (MB): peak = 3008.727 ; gain = 1144.453 ; free physical = 13066 ; free virtual = 26663
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3008.727 ; gain = 0.000 ; free physical = 13373 ; free virtual = 26972
+INFO: [Netlist 29-17] Analyzing 1166 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3064.746 ; gain = 0.000 ; free physical = 15143 ; free virtual = 28706
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 409 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 124 instances
+  FDR => FDRE: 144 instances
+  FDS => FDSE: 1 instance 
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 80 instances
+  MULT_AND => LUT2: 1 instance 
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 11 instances
+
+Synth Design complete | Checksum: 59e1ff00
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+133 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:48 ; elapsed = 00:02:50 . Memory (MB): peak = 3064.781 ; gain = 1347.727 ; free physical = 15658 ; free virtual = 29220
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1949.579; main = 1861.022; forked = 214.775
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3972.852; main = 3064.750; forked = 1038.941
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3088.758 ; gain = 0.000 ; free physical = 16759 ; free virtual = 30322
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_0_synth_1/System_microblaze_0_0.dcp' has been generated.
+INFO: [Ipptcl 7-1612] Added synthesis output to IP cache for IP System_microblaze_0_0, cache-ID = 3ac010d597a89bf9
+INFO: [Coretcl 2-1174] Renamed 1487 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3088.758 ; gain = 0.000 ; free physical = 16737 ; free virtual = 30318
+INFO: [Common 17-1381] The checkpoint '/home/alexander-armitage/Documents/GitHub/AURA-FPGA/Vivado/build/System_Design/System_Design.runs/System_microblaze_0_0_synth_1/System_microblaze_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file System_microblaze_0_0_utilization_synth.rpt -pb System_microblaze_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  9 20:32:07 2026...

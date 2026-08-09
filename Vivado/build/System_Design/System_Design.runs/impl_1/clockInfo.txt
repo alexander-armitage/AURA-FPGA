@@ -1,0 +1,10 @@
+-------------------------------------
+| Tool Version : Vivado v.2026.1
+| Date         : Sun Aug  9 22:12:41 2026
+| Host         : alexander-armitage-XPS-9320
+| Design       : design_1
+| Device       : xc7a35t-ftg256-2--
+-------------------------------------
+
+For more information on clockInfo.txt clock routing debug file see https://support.xilinx.com/s/article/000035660?language=en_US
+
