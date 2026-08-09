@@ -43,3 +43,4 @@ fp-info-cache
 *.kicad_prl
 
 ./FPGA_AURA/.history_trim/
+/build
