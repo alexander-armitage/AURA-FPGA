@@ -12038,7 +12038,7 @@
 	)
 	(global_label "UART_1V8_0_TX"
 		(shape output)
-		(at 240.03 113.03 0)
+		(at 240.03 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12048,7 +12048,7 @@
 		)
 		(uuid "38b69c41-1910-4668-b096-d5e2d6fa255c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.4689 113.03 0)
+			(at 257.4689 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12062,7 +12062,7 @@
 	)
 	(global_label "SPI_1V8_CS_1"
 		(shape output)
-		(at 240.03 87.63 0)
+		(at 240.03 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12072,7 +12072,7 @@
 		)
 		(uuid "38fad7d1-12fd-4483-ac49-6af89d789ee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.1989 87.63 0)
+			(at 256.1989 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12134,7 +12134,7 @@
 	)
 	(global_label "SPI_1V8_MOSI"
 		(shape output)
-		(at 240.03 97.79 0)
+		(at 240.03 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12144,7 +12144,7 @@
 		)
 		(uuid "44c3bb3e-e189-4d22-8d7a-3b6bd2f46d68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.1385 97.79 0)
+			(at 256.1385 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12158,7 +12158,7 @@
 	)
 	(global_label "UART_1V8_0_RX"
 		(shape input)
-		(at 240.03 115.57 0)
+		(at 240.03 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12168,7 +12168,7 @@
 		)
 		(uuid "48ede015-18a6-43c5-837c-c3c2f9e9df29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.7713 115.57 0)
+			(at 257.7713 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12230,7 +12230,7 @@
 	)
 	(global_label "UART_1V8_1_TX"
 		(shape output)
-		(at 240.03 120.65 0)
+		(at 240.03 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12240,7 +12240,7 @@
 		)
 		(uuid "647e0926-c509-4087-836c-7cfdb533264d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.4689 120.65 0)
+			(at 257.4689 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12254,7 +12254,7 @@
 	)
 	(global_label "UART_1V8_1_RX"
 		(shape input)
-		(at 240.03 123.19 0)
+		(at 240.03 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12264,7 +12264,7 @@
 		)
 		(uuid "694dac3d-ca5a-4580-87c4-f5ce4a7e59af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.7713 123.19 0)
+			(at 257.7713 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12350,7 +12350,7 @@
 	)
 	(global_label "SCL_1V8"
 		(shape bidirectional)
-		(at 240.03 107.95 0)
+		(at 240.03 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12360,7 +12360,7 @@
 		)
 		(uuid "72c58fb6-1876-4466-b87d-f12bb3b81cac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.1093 107.95 0)
+			(at 252.1093 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12422,7 +12422,7 @@
 	)
 	(global_label "SPI_1V8_CS_2"
 		(shape output)
-		(at 240.03 85.09 0)
+		(at 240.03 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12432,7 +12432,7 @@
 		)
 		(uuid "8d1e4794-27d7-4376-99da-0d0c38261073")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.1989 85.09 0)
+			(at 256.1989 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12542,7 +12542,7 @@
 	)
 	(global_label "SPI_1V8_CS_3"
 		(shape output)
-		(at 240.03 82.55 0)
+		(at 240.03 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12552,7 +12552,7 @@
 		)
 		(uuid "a7d83497-473f-4ad7-ae82-2ca261ca2251")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.1989 82.55 0)
+			(at 256.1989 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12638,7 +12638,7 @@
 	)
 	(global_label "SPI_1V8_SCK"
 		(shape output)
-		(at 240.03 95.25 0)
+		(at 240.03 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12648,7 +12648,7 @@
 		)
 		(uuid "c0ecc83f-d97b-4919-a2f3-69669951ba3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.2918 95.25 0)
+			(at 255.2918 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +12782,7 @@
 	)
 	(global_label "SPI_1V8_CS_0"
 		(shape output)
-		(at 240.03 90.17 0)
+		(at 240.03 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12792,7 +12792,7 @@
 		)
 		(uuid "de920b2b-549f-4c40-8498-5d904236032a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.1989 90.17 0)
+			(at 256.1989 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12806,7 +12806,7 @@
 	)
 	(global_label "SDA_1V8"
 		(shape bidirectional)
-		(at 240.03 105.41 0)
+		(at 240.03 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12816,7 +12816,7 @@
 		)
 		(uuid "e5fc84e8-6ffc-49f2-8371-be559ee336a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.1698 105.41 0)
+			(at 252.1698 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,7 +12854,7 @@
 	)
 	(global_label "SPI_1V8_MISO"
 		(shape input)
-		(at 240.03 100.33 0)
+		(at 240.03 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12864,7 +12864,7 @@
 		)
 		(uuid "eaa38cff-ff81-4d6c-bc75-19f5aa8fe175")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.1385 100.33 0)
+			(at 256.1385 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

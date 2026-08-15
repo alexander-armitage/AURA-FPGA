@@ -11275,10 +11275,6 @@
 		(uuid "877feee5-a40d-4196-82f0-068a6dfaaff9")
 	)
 	(no_connect
-		(at 222.25 106.68)
-		(uuid "a46b6da0-1b64-410c-a2de-834d1b5be9c4")
-	)
-	(no_connect
 		(at 222.25 48.26)
 		(uuid "a6fc87b0-c5e2-4c9e-800d-40e37b8eae12")
 	)
@@ -11321,6 +11317,10 @@
 	(no_connect
 		(at 222.25 149.86)
 		(uuid "ea5189ae-4598-4e24-8523-4c2b71975040")
+	)
+	(no_connect
+		(at 222.25 96.52)
+		(uuid "fe1e2274-9d24-4952-b3a0-29274ad59899")
 	)
 	(wire
 		(pts
@@ -11831,6 +11831,16 @@
 			(type default)
 		)
 		(uuid "4a8781de-1946-4340-9bda-7e23dcf4c1ae")
+	)
+	(wire
+		(pts
+			(xy 222.25 106.68) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b724721-5d0c-40f7-bdbe-999af7f2f7c9")
 	)
 	(wire
 		(pts
@@ -12824,16 +12834,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 96.52) (xy 222.25 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6122f0-c0e5-4b65-a866-08b3912206d9")
-	)
-	(wire
-		(pts
 			(xy 40.64 86.36) (xy 36.83 86.36)
 		)
 		(stroke
@@ -13006,7 +13006,7 @@
 	)
 	(global_label "SDA_3V3"
 		(shape bidirectional)
-		(at 226.06 129.54 0)
+		(at 226.06 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13016,7 +13016,7 @@
 		)
 		(uuid "1e2b17c7-d247-4739-b46a-892b5cd0e2da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.1998 129.54 0)
+			(at 238.1998 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13054,7 +13054,7 @@
 	)
 	(global_label "SPI_3V3_SCK"
 		(shape output)
-		(at 226.06 119.38 0)
+		(at 226.06 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13064,7 +13064,7 @@
 		)
 		(uuid "2b97cb91-216f-4ca9-94bb-182be578a77d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3218 119.38 0)
+			(at 241.3218 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13126,7 +13126,7 @@
 	)
 	(global_label "UART_3V3_0_TX"
 		(shape output)
-		(at 226.06 137.16 0)
+		(at 226.06 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13136,7 +13136,7 @@
 		)
 		(uuid "3cf8726e-29a3-4250-981a-14f5c23b304c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.4989 137.16 0)
+			(at 243.4989 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13150,7 +13150,7 @@
 	)
 	(global_label "SPI_3V3_MISO"
 		(shape input)
-		(at 226.06 124.46 0)
+		(at 226.06 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13160,7 +13160,7 @@
 		)
 		(uuid "41748781-8cfd-4d79-b112-da180b0b916d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.1685 124.46 0)
+			(at 242.1685 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13246,7 +13246,7 @@
 	)
 	(global_label "UART_3V3_0_RX"
 		(shape input)
-		(at 226.06 139.7 0)
+		(at 226.06 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13256,7 +13256,7 @@
 		)
 		(uuid "4da7c904-2968-423b-8729-bed772555e48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.8013 139.7 0)
+			(at 243.8013 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13294,7 +13294,7 @@
 	)
 	(global_label "SPI_3V3_CS_0"
 		(shape output)
-		(at 226.06 114.3 0)
+		(at 226.06 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13304,7 +13304,7 @@
 		)
 		(uuid "61a4780e-7dd6-4384-9fa9-16cae0264fa2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.2289 114.3 0)
+			(at 242.2289 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13630,7 +13630,7 @@
 	)
 	(global_label "SCL_3V3"
 		(shape bidirectional)
-		(at 226.06 132.08 0)
+		(at 226.06 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13640,7 +13640,7 @@
 		)
 		(uuid "8db25a9e-8ae4-46a8-9e5b-3a67f3f6613b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.1393 132.08 0)
+			(at 238.1393 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13726,7 +13726,7 @@
 	)
 	(global_label "SPI_3V3_MOSI"
 		(shape output)
-		(at 226.06 121.92 0)
+		(at 226.06 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13736,7 +13736,7 @@
 		)
 		(uuid "97154060-ee48-4875-80cd-fd7b48bfdace")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.1685 121.92 0)
+			(at 242.1685 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14206,7 +14206,7 @@
 	)
 	(global_label "UART_3V3_1_TX"
 		(shape output)
-		(at 226.06 144.78 0)
+		(at 226.06 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14216,7 +14216,7 @@
 		)
 		(uuid "df4bf9eb-3047-44c6-a6a7-0224a54c3243")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.4989 144.78 0)
+			(at 243.4989 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,7 +14230,7 @@
 	)
 	(global_label "CAN_RX"
 		(shape input)
-		(at 226.06 99.06 0)
+		(at 226.06 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14240,7 +14240,7 @@
 		)
 		(uuid "e19dd972-ace1-4801-9891-e494b54ed11f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.1814 99.06 0)
+			(at 236.1814 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14350,7 +14350,7 @@
 	)
 	(global_label "SPI_3V3_CS_1"
 		(shape output)
-		(at 226.06 111.76 0)
+		(at 226.06 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14360,7 +14360,7 @@
 		)
 		(uuid "eb1b55f3-4a9f-4494-8b4f-efa45fcef571")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.2289 111.76 0)
+			(at 242.2289 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14398,7 +14398,7 @@
 	)
 	(global_label "SPI_3V3_CS_2"
 		(shape output)
-		(at 226.06 109.22 0)
+		(at 226.06 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14408,7 +14408,7 @@
 		)
 		(uuid "f0b505a8-9160-49db-b9e6-162e5a0d7d48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.2289 109.22 0)
+			(at 242.2289 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14470,7 +14470,7 @@
 	)
 	(global_label "CAN_TX"
 		(shape output)
-		(at 226.06 96.52 0)
+		(at 226.06 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14480,7 +14480,7 @@
 		)
 		(uuid "f7d15bae-a734-4d4e-834f-ed5a2def5fe7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.879 96.52 0)
+			(at 235.879 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14542,7 +14542,7 @@
 	)
 	(global_label "UART_3V3_1_RX"
 		(shape input)
-		(at 226.06 147.32 0)
+		(at 226.06 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14552,7 +14552,7 @@
 		)
 		(uuid "ff5db096-1710-49ac-a372-b1aa52d60da1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.8013 147.32 0)
+			(at 243.8013 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

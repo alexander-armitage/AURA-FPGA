@@ -6896,8 +6896,8 @@
 		)
 		(uuid "90ff7d0d-77b0-4106-9d15-62ee82be497f")
 	)
-	(label "TDO"
-		(at 105.41 87.63 0)
+	(label "TDO_R"
+		(at 102.87 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)

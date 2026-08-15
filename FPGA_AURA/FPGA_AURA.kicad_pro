@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.1,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -551,10 +551,17 @@
         "wire_width": 6
       },
       {
+        "name": "3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.1,
         "name": "DDR_ADDR",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2281,
         "tuning_profile": "DDR_ADDR_CMD",
@@ -567,7 +574,7 @@
         "diff_pair_width": 0.1572,
         "name": "DDR_CLK",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "DDR_CLK",
         "via_diameter": 0.48,
@@ -577,7 +584,7 @@
         "clearance": 0.1,
         "name": "DDR_CMD",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2281,
         "tuning_profile": "DDR_ADDR_CMD",
@@ -588,7 +595,7 @@
         "clearance": 0.1,
         "name": "DDR_DQ0",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.146,
         "tuning_profile": "DDR_DQ_0_1",
@@ -599,7 +606,7 @@
         "clearance": 0.1,
         "name": "DDR_DQ1",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1161,
         "tuning_profile": "DDR_DQ_0_1",
@@ -612,7 +619,7 @@
         "diff_pair_width": 0.1031,
         "name": "DDR_DQS0",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "DDR_DQS_0_1",
         "via_diameter": 0.48,
@@ -624,7 +631,7 @@
         "diff_pair_width": 0.1031,
         "name": "DDR_DQS1",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "DDR_DQS_0_1",
         "via_diameter": 0.48,
@@ -633,7 +640,7 @@
       {
         "name": "ETH_0",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "",
         "via_diameter": 0.4,
@@ -642,11 +649,18 @@
       {
         "name": "ETH_1",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.4
+      },
+      {
+        "name": "Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -710,6 +724,14 @@
       {
         "netclass": "ETH_0",
         "pattern": "ETH_0_*"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3V3"
       }
     ]
   },
