@@ -7820,14 +7820,15 @@
 				)
 			)
 		)
-		(property "Value" "+VREF"
-			(at 257.81 63.5 0)
+		(property "Value" "+VREF_DDR"
+			(at 260.35 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

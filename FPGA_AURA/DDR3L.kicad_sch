@@ -11919,14 +11919,15 @@
 				)
 			)
 		)
-		(property "Value" "+VREF"
-			(at 123.19 52.07 0)
+		(property "Value" "+VREF_DDR"
+			(at 125.73 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
