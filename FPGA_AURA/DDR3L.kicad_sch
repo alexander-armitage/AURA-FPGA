@@ -7391,7 +7391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 208.534 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,7 +7633,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 223.774 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7715,8 +7715,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "40R2"
 			(at 229.87 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7897,7 +7898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 185.674 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8389,7 +8390,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 231.394 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8553,8 +8554,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "40R2"
 			(at 130.81 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8817,8 +8819,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "40R2"
 			(at 208.28 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9567,7 +9570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 200.914 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9810,7 +9813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 193.294 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10374,7 +10377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 178.054 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10456,8 +10459,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "40R2"
 			(at 187.96 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10798,8 +10802,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "40R2"
 			(at 149.86 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11058,7 +11063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 216.154 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12156,8 +12161,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "40R2"
 			(at 168.91 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

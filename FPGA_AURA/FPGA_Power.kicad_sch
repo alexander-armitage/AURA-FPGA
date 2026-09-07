@@ -7437,7 +7437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47u"
 			(at 154.94 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8389,7 +8389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47u"
 			(at 142.24 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
