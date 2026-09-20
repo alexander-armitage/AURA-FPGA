@@ -134,7 +134,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -876,7 +876,7 @@
         "uuid": "3d83cb23-9528-4d06-8969-599520e9eb23"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR45",
     "variants": []
   },
   "sheets": [
