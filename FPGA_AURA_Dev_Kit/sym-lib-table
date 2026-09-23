@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ST5-20-1.50-L-D-P-TR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/ST5-20-3.50-X-D-K-XX/ST5-20-1.50-L-D-P-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "ST5-40-1.50-L-D-P-TR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/ST5-40-3.50-X-D-K-XX/ST5-40-1.50-L-D-P-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "AURA_FPGA") (type "KiCad") (uri "${KIPRJMOD}/Libraries/AURA_FPGA/AURA_FPGA.kicad_sym") (options "") (descr ""))
+)
