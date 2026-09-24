@@ -237,7 +237,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -633,7 +633,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "AURA FPGA Dev Kit",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -645,7 +645,7 @@
         "uuid": "7f6d275f-6627-46bd-920b-426c89d6795f"
       }
     ],
-    "used_designators": "#PWR1-5,#PWR7-21,J1-6,H1-4",
+    "used_designators": "SW1,#PWR22-30,J7-8",
     "variants": []
   },
   "sheets": [
