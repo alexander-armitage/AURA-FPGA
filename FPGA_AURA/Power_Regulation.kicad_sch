@@ -5208,7 +5208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "FXL0530-R68-M"
+		(property "Datasheet" "0530CDMCCDS-1R0MC"
 			(at 146.05 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9513,7 +9513,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "IHHP1008ABER1R5M01"
+		(property "Datasheet" "BDHE002520121R5MQ1"
 			(at 143.51 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10541,7 +10541,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MDA4020-2R2M"
+		(property "Datasheet" "BDCD002520122R2MS1"
 			(at 143.51 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -13735,7 +13735,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "FXL0530-R68-M"
+		(property "Datasheet" "0530CDMCCDS-R68MC"
 			(at 146.05 58.42 0)
 			(hide yes)
 			(show_name no)

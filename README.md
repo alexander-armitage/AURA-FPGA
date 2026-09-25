@@ -4,7 +4,7 @@
 
 This repository is a project currently under development to make an Artix-7 FPGA based System on Module (SOM).
 
-<img src="./.github/aura_fpga.png" width=500px>
+<img src="./.github/aura_fpga_final.png" width=500px>
 
 </div>
 
